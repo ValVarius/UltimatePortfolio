@@ -5,7 +5,6 @@ const app = express()
 const path = require('path');
 const PORT = process.env.PORT || 3001
 require('dotenv').config()
-console.log(process.env);
 
 
 app.use(bodyParser.json())
