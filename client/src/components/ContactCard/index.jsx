@@ -54,7 +54,7 @@ export default function ContactCard() {
   return (
     <div>
       {/* <div className="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="valerio-varani-635ba31a1"><a className="LI-simple-link" href='https://www.linkedin.com/in/valerio-varani-635ba31a1?trk=profile-badge'>Valerio Varani</a></div> */}
-      <div
+      {/* <div
         className="LI-profile-badge"
         data-version="v1"
         data-size="medium"
@@ -69,13 +69,14 @@ export default function ContactCard() {
         >
           Valerio Varani
         </a>
-      </div>
-      <iframe
+      </div> */}
+
+      {/* <iframe
         title="My GitHub Badge"
         id="gitbadge"
         src="https://githubbadge.appspot.com/valvarius"
         frameBorder="0"
-      ></iframe>
+      ></iframe> */}
       <br />
 
       <form>
