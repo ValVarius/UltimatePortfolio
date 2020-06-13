@@ -10,7 +10,7 @@ export default function HomeCard() {
         <div className="row">
           {/*  fIRST OF TWO COLUMNS  */}
           <div className="col-6">
-            <h5 className="card-title">About Me</h5>
+            <h5 className="card-title">About Me:</h5>
           </div>
           {/* SECOND OF TWO COLUMNS  */}
           <div className="col-6"></div>
