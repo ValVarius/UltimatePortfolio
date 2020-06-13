@@ -13,56 +13,57 @@ app.use(bodyParser.urlencoded({ extended: false}))
 
 app.post('/api/form', (req,res) => {
     console.log(req.body.mailState);
+    res.send(req.body.mailState)
 
-    nodemailer.createTestAccount((err, account) => {
-        const htmlEmail = `
-        <h3>Contact Details</h3>
-        <ul>
-        <li>Name: ${req.body.mailState.name}
-        <li>Email: ${req.body.mailState.email}
-        </ul>
-        <h3>Message</h3>
-        <p>${req.body.mailState.message}</p>
-        `
+    // nodemailer.createTestAccount((err, account) => {
+    //     const htmlEmail = `
+    //     <h3>Contact Details</h3>
+    //     <ul>
+    //     <li>Name: ${req.body.mailState.name}
+    //     <li>Email: ${req.body.mailState.email}
+    //     </ul>
+    //     <h3>Message</h3>
+    //     <p>${req.body.mailState.message}</p>
+    //     `
 
-        var transporter = nodemailer.createTransport({
-            service: 'gmail',
-            host: 'smtp.gmail.com',
-            auth: {
-              user:'valvarius1@gmail.com',
-              pass: process.env.PASSWORD
-            }
-          });
+    //     var transporter = nodemailer.createTransport({
+    //         service: 'gmail',
+    //         host: 'smtp.gmail.com',
+    //         auth: {
+    //           user:'valvarius1@gmail.com',
+    //           pass: process.env.PASSWORD
+    //         }
+    //       });
 
-          var mailOptions = {
-            from: 'valvarius1@gmail.com',
-            to: 'notitiami@gmail.com',
-            subject: 'Sending Email using Node.js[nodemailer]',
-            html: htmlEmail
-          };
+    //       var mailOptions = {
+    //         from: 'valvarius1@gmail.com',
+    //         to: 'notitiami@gmail.com',
+    //         subject: 'Sending Email using Node.js[nodemailer]',
+    //         html: htmlEmail
+    //       };
 
-        // const mailOptions = {
-        //     from: 'test@testaccount.com',
-        //     to:'carole.nicolas@ethereal.email',
-        //     replyTo: 'test@testaccount.com',
-        //     subject: 'New Message',
-        //     html: htmlEmail
-        // }
+    //     // const mailOptions = {
+    //     //     from: 'test@testaccount.com',
+    //     //     to:'carole.nicolas@ethereal.email',
+    //     //     replyTo: 'test@testaccount.com',
+    //     //     subject: 'New Message',
+    //     //     html: htmlEmail
+    //     // }
 
-        transporter.sendMail(mailOptions, (err, info) => {
-            if (err) {
-                return console.log(err);
+    //     transporter.sendMail(mailOptions, (err, info) => {
+    //         if (err) {
+    //             return console.log(err);
                 
-            }
+    //         }
 
-            console.log('Message sent: %s', info.accepted);
-            console.log('Message URL: %s', nodemailer.getTestMessageUrl(info));
+    //         console.log('Message sent: %s', info.accepted);
+    //         console.log('Message URL: %s', nodemailer.getTestMessageUrl(info));
             
-            res.send(info)
-        })
+    //         res.send(info)
+    //     })
 
 
-    })
+    // })
     
 })
 
