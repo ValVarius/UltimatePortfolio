@@ -4,6 +4,9 @@ const nodemailer = require('nodemailer')
 const app = express()
 const path = require('path');
 const PORT = process.env.PORT || 3001
+require('dotenv').config()
+console.log(process.env);
+
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false}))
@@ -27,7 +30,7 @@ app.post('/api/form', (req,res) => {
             host: 'smtp.gmail.com',
             auth: {
               user:'valvarius1@gmail.com',
-              pass: 'vrnvlr83e14h501u'
+              pass: process.env.PASSWORD
             }
           });
 
