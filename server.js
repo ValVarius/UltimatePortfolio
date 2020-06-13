@@ -12,7 +12,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.post("/api/form", (req, res) => {
   console.log(req.body.mailState);
-  res.send(err);
 
   nodemailer.createTestAccount((err, account) => {
     const htmlEmail = `
