@@ -31,7 +31,8 @@ app.post("/api/form", (req, res) => {
       secure: true,
       auth: {
         user: "valvarius1@gmail.com",
-        pass: process.env.PASSWORD,
+        pass: 'vrnvlr83e14h501u',
+        // pass: process.env.PASSWORD,
       },
     });
 
