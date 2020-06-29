@@ -1,4 +1,6 @@
 import React from "react";
+import Zoom from 'react-reveal/Zoom';
+import Rotate from 'react-reveal/Rotate';
 import "./style.css"
 
 
@@ -6,26 +8,21 @@ export default function HomeCard() {
   return (
     <div className="card">
       <div className="card-body">
-        {/*  first of two rows  */}
-        <div className="row">
-          {/*  fIRST OF TWO COLUMNS  */}
-          <div className="col-6">
-            <h5 className="card-title">About Me:</h5>
-          </div>
-          {/* SECOND OF TWO COLUMNS  */}
-          <div className="col-6"></div>
-        </div>
+      <br />
 
-        <hr />
-
-        {/* SECOND OF TWO ROWS */}
-        <div className="row ">
-          {/* FIRST OF TWO COLUMNS  */}
-          <div className="col-4" id="profile">
+       
+          <div  id="profile">
+          <Zoom left>
             <img className = "img-fluid " src={require("../../public/prof.jpg")} alt="valerio varani" id = 'profilePicture' />
+            </Zoom>
           </div>
-          {/* SECOND OF TWO COLUMNS  */}
-          <div className="col-8" id="myStory">
+
+          <br />
+          <br />
+          <br />
+
+          <Rotate top right cascade>
+          <div  id="myStory">
             <p className="card-text">Hello! </p>
             <p className="card-text">
               Born in Italy but spent most of my adult life abroad, I made the
@@ -46,7 +43,8 @@ export default function HomeCard() {
             <br />
             <br />
           </div>
-        </div>
+          </Rotate>
+        
       </div>
     </div>
   );

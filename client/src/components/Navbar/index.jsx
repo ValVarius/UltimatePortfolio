@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Fade from 'react-reveal/Fade';
 import "./style.css";
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light ">
+      <Fade left>
       <Link className="navbar-brand" to="/">
         Valerio Varani
       </Link>
+      </Fade>
       <button
         className="navbar-toggler"
         type="button"
@@ -21,6 +24,7 @@ export default function Navbar() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
+        <Fade right cascade>
           <li className="nav-item">
             <Link className="nav-link" to="/">
               About
@@ -36,6 +40,7 @@ export default function Navbar() {
               Contact
             </Link>
           </li>
+          </Fade>
           {/* <li className="nav-item">
             <a
               className="nav-link"

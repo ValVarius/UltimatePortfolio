@@ -37,18 +37,11 @@ app.post("/api/form", (req, res) => {
 
     var mailOptions = {
       from: "valvarius1@gmail.com",
-      to: "notitiami@gmail.com",
+      to: "notitiami@gmail.com, notitiami@yahoo.com",
       subject: "Sending Email using Node.js[nodemailer]",
       html: htmlEmail,
     };
 
-    // const mailOptions = {
-    //     from: 'test@testaccount.com',
-    //     to:'carole.nicolas@ethereal.email',
-    //     replyTo: 'test@testaccount.com',
-    //     subject: 'New Message',
-    //     html: htmlEmail
-    // }
 
     transporter.sendMail(mailOptions, (err, info) => {
       if (err) {
