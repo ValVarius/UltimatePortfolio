@@ -13,7 +13,7 @@ export default function MobileHome() {
         <div className="row">
           {/*  SINGLE COLUMN  */}
           <div className="col-12">
-            <h5 className="card-title" id = "mobile-card-title">About Me Mobile:</h5>
+            <h5 className="card-title" id = "mobile-card-title">About Me:</h5>
           </div>
           
         </div>
