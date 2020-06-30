@@ -13,7 +13,7 @@ export default function HomeCard() {
         <div className="row">
           {/*  SINGLE COLUMN  */}
           <div className="col-12">
-            <h5 className="card-title" id = "mobile-card-title">About Me:</h5>
+            <h5 className="card-title">About Me:</h5>
           </div>
           
         </div>
