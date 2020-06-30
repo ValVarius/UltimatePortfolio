@@ -3,17 +3,17 @@ import Zoom from 'react-reveal/Zoom';
 import Rotate from 'react-reveal/Rotate';
 import "./style.css"
 
+export default function MobileHome() {
 
-export default function HomeCard() {
-  
-  return (
-    <div className="card">
+    
+    return (
+        <div className="card">
       <div className="card-body">
         {/*  first of two rows  */}
         <div className="row">
           {/*  SINGLE COLUMN  */}
           <div className="col-12">
-            <h5 className="card-title" id = "mobile-card-title">About Me:</h5>
+            <h5 className="card-title" id = "mobile-card-title">About Me Mobile:</h5>
           </div>
           
         </div>
@@ -22,15 +22,12 @@ export default function HomeCard() {
 
         {/* SECOND OF TWO ROWS */}
         <div className="row ">
-          {/* FIRST OF TWO COLUMNS  */}
-          <div className="col-4" id="profile">
           <Zoom left>
             <img className = "img-fluid " src={require("../../public/prof.jpg")} alt="valerio varani" id = 'profilePicture' />
             </Zoom>
-          </div>
-          {/* SECOND OF TWO COLUMNS  */}
+          
+          
           <Rotate top right cascade>
-          <div className="col-8" id="myStory">
             <p className="card-text">Hello! </p>
             <p className="card-text">
               Born in Italy but spent most of my adult life abroad, I made the
@@ -50,10 +47,10 @@ export default function HomeCard() {
             </p>
             <br />
             <br />
-          </div>
+          
           </Rotate>
         </div>
       </div>
     </div>
-  );
+    )
 }
