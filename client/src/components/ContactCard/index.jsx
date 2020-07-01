@@ -12,7 +12,7 @@ export default function ContactCard() {
 
   const [isloading, setIsLoading] = useState({
     status: false,
-    messageSent:false
+    messageSent: false,
   });
 
   const handleInputChange = (event) => {
@@ -44,7 +44,7 @@ export default function ContactCard() {
         });
         setIsLoading({
           status: false,
-          messageSent:true
+          messageSent: true,
         });
       })
       .catch((err) => {
@@ -124,12 +124,19 @@ export default function ContactCard() {
           Submit
         </button> */}
         {/* isloading.status */}
-        <button className="btn btn-primary" type="submit" onClick={handleFormSubmit} disabled={isloading.status}>
-          {isloading.status && ( <Spinner/>)}
+        <button
+          className="btn btn-primary"
+          type="submit"
+          onClick={handleFormSubmit}
+          disabled={isloading.status}
+        >
+          {isloading.status && <Spinner />}
           {isloading.status && <span>Sending</span>}
           {!isloading.status && <span>Submit</span>}
         </button>
-        <h1>{isloading.messageSent && <span>Thank you for your message!</span>}</h1>
+        <h1>
+          {isloading.messageSent && <span>Thank you for your message!</span>}
+        </h1>
       </form>
 
       <a href="tel:+1-206-650-8647">Call Me</a>

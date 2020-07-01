@@ -1,94 +1,44 @@
+body {
+  background-color: burlywood;
+  font-weight: bold;
+  /* font-family: 'Rock Salt', cursive; */
+  font-family: "Merienda", cursive;
+  /* font-family: 'italic'; */
 
-body{
-    background-color: burlywood;
-    font-weight: bold;
-    /* font-family: 'Rock Salt', cursive; */
-    font-family: 'Merienda', cursive;
-    /* font-family: 'italic'; */
-
-    color: black;
+  color: black;
 }
 
 .container-fluid {
-    margin-top: 1%;
-    /* background-color: #A22E37; */
-    /* box-shadow: 1px 5px 5px black; */
-    
-    width: 90%;
-    height: 90%;
+  margin-top: 1%;
+  /* background-color: #A22E37; */
+  /* box-shadow: 1px 5px 5px black; */
+
+  width: 90%;
 }
 .card {
-    /* height:70vh; */
-    background-color: #A22E37;
-    border-radius: 25px;
-    box-shadow: 1px 5px 5px black;
+  background-color: #a22e37;
+  border-radius: 25px;
+  box-shadow: 1px 5px 5px black;
 }
-.card-title{
-    
-    font-size: 35px;
-    text-align: center;
-    
-    
-}
-/* #myStory {
-    /* background-color: burlywood; */
-    /* color: burlywood; */
-    /* font-size: large; */
-/* } */ 
-.card-text{
-    color: burlywood;
-    font-size: large;
+.card-title {
+  font-size: 35px;
+  text-align: center;
+  margin: -40px;
 }
 
-/* .col-4 {
-    
-    background-repeat: no-repeat;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-/* img {
-    height: 100%;
-    width: 100%;
-} */
-
-/* .button{
-    
-        background-color: blue;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 100px 2px;
-        cursor: pointer;
-    
-} */
+.card-text {
+  color: burlywood;
+  font-size: large;
+}
 
 #profilePicture {
-    /* border-color: darkblue;
-    border-width: 10px; */
-    box-shadow: 1px 5px 5px black;
+  box-shadow: 1px 5px 5px black;
 }
 
-
- form {
-     width: 60%;
-     /* margin: 10%; */
-     background-color: #A22E37;
-     border-radius: 25px;
-     padding: 5%;
-     
- }
-.firstTitle{
-    display: inline;
-    font-size: 30px;
-    text-align: center;
-    color: #3e8e41;
-    
+form {
+  width: 60%;
+  /* margin: 10%; */
+  background-color: #a22e37;
+  border-radius: 25px;
+  padding: 5%;
 }
-
- 

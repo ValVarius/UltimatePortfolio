@@ -42,7 +42,6 @@ app.post("/api/form", (req, res) => {
       html: htmlEmail,
     };
 
-
     transporter.sendMail(mailOptions, (err, info) => {
       if (err) {
         return res.send(err);
