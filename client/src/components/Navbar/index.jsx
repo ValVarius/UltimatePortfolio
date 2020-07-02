@@ -35,18 +35,18 @@ export default function Navbar() {
                 Portfolio
               </Link>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <Link className="nav-link" to="/contacts">
                 Contact
               </Link>
-            </li> */}
+            </li>
             
             {/* <li className="nav-item">
               <a className="nav-link" href="http://localhost:3000/contacts">Contact</a>
             </li> */}
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="https://portafoglio.herokuapp.com/contacts">Contact</a>
-            </li>
+            </li> */}
 
           </Fade>
         </ul>

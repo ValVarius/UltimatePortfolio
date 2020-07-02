@@ -1,0 +1,78 @@
+
+  #gitBottom {
+    /* background-color: rgb(88, 182, 245); */
+    /* background-color: #0072b1 ; */
+    /* background-color: rgb(128, 181, 216); */
+    background-color:rgb(244, 247, 248);
+
+    
+  
+    margin-top: -60px;
+    /* margin-left: -1%; */
+    width: 100%;
+    height: 75%; 
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  
+  .btn {
+    width: fit-content;
+  }
+  #gitDot {
+    height: 125px;
+    width: 125px;
+    border-width: 4px;
+    border-style: solid;
+    
+    border-color: rgb(244, 247, 248);
+  
+    
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 15%;
+    background-image: url("../../public/prof.jpg");
+    background-size: cover;
+    
+  }
+  #general {
+    background-image: url("../../public/connecting-dots-black.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    /* text-align: unset; */
+    /* text-align: left; */
+    font-size: larger;
+    
+    
+  }
+  
+  #logoGit{
+      width: 20%;
+      /* position: absolute; */
+      /* bottom: 10%; */
+      /* margin-left: -15%; */
+      
+  }
+  #logoGit2{
+    width: 20%;
+    /* position: absolute; */
+    /* bottom: 10%; */
+    /* margin-left: -15%; */
+}
+#phonelogo{
+    width: 20%;
+
+}
+#maillogo{
+    width: 18%;
+}
+#gitName{
+    color: black;
+}
+/* .line{
+    display: inline
+} */
