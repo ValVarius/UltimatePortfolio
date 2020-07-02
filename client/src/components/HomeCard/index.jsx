@@ -5,13 +5,13 @@ import "./style.css";
 
 export default function HomeCard() {
   return (
-    <div className="card">
+    <div className="card homecard">
       <div className="card-body">
         {/*  first of two rows  */}
         <div className="row">
           {/*  SINGLE COLUMN  */}
           <div className="col-12">
-            <h5 className="card-title">~ About Me ~</h5>
+            <h5 className="card-title homeCardTitle">~ About Me ~</h5>
           </div>
         </div>
 

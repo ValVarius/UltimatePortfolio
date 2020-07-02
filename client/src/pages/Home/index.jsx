@@ -4,6 +4,7 @@ import MobileHome from "../../components/MobileHome";
 import PortfolioCard from "../../components/PortfolioCard";
 import MobilePortfolio from "../../components/MobilePortfolio";
 import ContactCard from "../../components/ContactCard";
+import MobileContactCard from "../../components/MobileContactCard";
 import { useLocation } from "react-router-dom";
 
 export default function Home() {
@@ -32,7 +33,8 @@ export default function Home() {
       ) : (
         ""
       )}
-      {location.pathname === "/contacts" ? <ContactCard /> : ""}
+      {location.pathname === "/contacts" && width >= 870 ? <ContactCard /> : ""}
+      {location.pathname === "/contacts" && width < 870 ? <MobileContactCard /> : ""}
     </div>
   );
 }

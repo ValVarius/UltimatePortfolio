@@ -5,41 +5,8 @@ body {
   font-family: "Merienda", cursive;
   /* font-family: 'italic'; */
 
-  color: black;
+  /* color: black; */
 }
 
-.container-fluid {
-  margin-top: 1%;
-  /* background-color: #A22E37; */
-  /* box-shadow: 1px 5px 5px black; */
 
-  width: 90%;
-}
-.card {
-  background-color: #a22e37;
-  border-radius: 25px;
-  box-shadow: 1px 5px 5px black;
-}
-.card-title {
-  font-size: 35px;
-  text-align: center;
-  margin: -40px;
-}
 
-.card-text {
-  color: burlywood;
-  font-size: large;
-}
-
-#profilePicture {
-  box-shadow: 1px 5px 5px black;
-}
-
-form {
-  width: 60%;
-  /* margin: 10%; */
-  background-color: #a22e37;
-  border-radius: 25px;
-  padding: 5%;
-  box-shadow: 1px 5px 5px black;
-}
