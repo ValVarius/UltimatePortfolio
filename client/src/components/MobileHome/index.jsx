@@ -5,11 +5,11 @@ import "./style.css";
 
 export default function MobileHome() {
   return (
-    <div className="card">
+    <div className="card homecard">
       <div className="card-body">
         {/*  SINGLE COLUMN  */}
         <div className="col-12" id="title-column">
-          <h5 className="card-title" id="mobile-card-title">
+          <h5 className="card-title homeCardTitle" id="mobile-card-title">
             ~ About Me ~
           </h5>
           <hr />

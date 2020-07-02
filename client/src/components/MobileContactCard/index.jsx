@@ -6,9 +6,6 @@ export default function MobileContactCard() {
   return (
     <div>
       <div className="row">
-        <MailForm />
-      </div>
-      <div className="row">
         <LinkedInBadge />
       </div>
 
@@ -31,6 +28,9 @@ export default function MobileContactCard() {
         </div>
       </div>
 
+      <div className="row">
+        <MailForm />
+      </div>
       {/* <a href="tel:+1-206-650-8647">Call Me</a> */}
     </div>
   );

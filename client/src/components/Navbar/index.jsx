@@ -41,8 +41,11 @@ export default function Navbar() {
               </Link>
             </li> */}
             
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link" href="http://localhost:3000/contacts">Contact</a>
+            </li> */}
+            <li className="nav-item">
+              <a className="nav-link" href="https://portafoglio.herokuapp.com/contacts">Contact</a>
             </li>
 
           </Fade>
