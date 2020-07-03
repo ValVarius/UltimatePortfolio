@@ -1,9 +1,9 @@
-form {
-    /* width: 60%; */
-    /* margin: 10%; */
-    background-color: #a22e37;
-    border-radius: 25px;
-    padding: 5%;
-    box-shadow: 1px 5px 5px black;
-  }
-  
+#form {
+  background-color: #a22e37;
+}
+#mailBadge {
+  background-image: url("../../public/connecting-dots-red.jpg");
+}
+#mailDot {
+  background-image: url("../../public/gmailicon.png");
+}
