@@ -52,9 +52,23 @@ export default function MailForm() {
       });
   };
   return (
+    <div className = "container badge" id = "mailBadge">
+   
+    <div className = "top">
+    <div className="dot" id = "mailDot"></div>
+      
+    </div>
+  
+
     <form>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
       <div className="form-group">
-        <label htmlFor="name">Name</label>
+        <label htmlFor="name">Leave Your Name</label>
         <input
           value={mailState.name}
           type="text"
@@ -65,7 +79,7 @@ export default function MailForm() {
       </div>
 
       <div className="form-group">
-        <label htmlFor="email">Email address</label>
+        <label htmlFor="email">Your Email address</label>
         <input
           value={mailState.email}
           type="email"
@@ -78,7 +92,7 @@ export default function MailForm() {
       </div>
 
       <div className="form-group">
-        <label htmlFor="message">Message</label>
+        <label htmlFor="message">A Message For Me</label>
         <textarea
           value={mailState.message}
           className="form-control"
@@ -96,11 +110,13 @@ export default function MailForm() {
       >
         {isloading.status && <Spinner />}
         {isloading.status && <span>Sending</span>}
-        {!isloading.status && <span>Submit</span>}
+        {!isloading.status && <span>Send</span>}
       </button>
       <h1>
         {isloading.messageSent && <span>Thank you for your message!</span>}
       </h1>
     </form>
+
+    </div>
   );
 }

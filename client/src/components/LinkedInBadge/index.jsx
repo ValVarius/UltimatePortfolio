@@ -13,18 +13,13 @@ export default function LinkedInBadge() {
     <br/>
     <br/>
     <br/>
-      <h1 className="space">Valerio Varani</h1>
+      <h1 className="space" id = "linkediname">Valerio Varani</h1>
       <h2 className="space">Full Stack Web Developer</h2>
-      <p id = "uw"> University of Washington</p>
-      <br/>
-      <br/>
-      <a href="https://www.linkedin.com/in/valerio-varani-635ba31a1/" className="btn btn-primary btn-lg active" id = "viewBtn" role="button" aria-pressed="true">View Profile</a>
+      <p className="space" id = "uw"> University of Washington</p>
       
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <a href="https://www.linkedin.com/in/valerio-varani-635ba31a1/" className="btn btn-primary btn-lg active space" id = "viewBtn" role="button" aria-pressed="true">View Profile</a>
+      
+      
       <div>
       
 

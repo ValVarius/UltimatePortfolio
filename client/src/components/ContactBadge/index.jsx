@@ -16,7 +16,7 @@ export default function ContactBadge() {
     <br/>
     <br/>
       
-      <a href="https://github.com/ValVarius" >
+      <a class = "space" href="https://github.com/ValVarius" >
     
     <div>
     <p id = "gitName">
@@ -38,7 +38,7 @@ export default function ContactBadge() {
     </a>
     
 
-    <a href="tel:+1-206-650-8647">
+    <a class = "space" href="tel:+1-206-650-8647">
     <p id = "phone">
     
               +1 206 650 8647
@@ -52,7 +52,7 @@ export default function ContactBadge() {
     </a>
     
     
-    <p id = "mail">notitiami
+    <p class = "space" id = "mail">notitiami
     <img
                 className="card-img img-fluid "
                 src={require("../../public/emailicon.png")}

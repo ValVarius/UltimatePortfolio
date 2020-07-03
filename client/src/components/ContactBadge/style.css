@@ -10,18 +10,18 @@
     margin-top: -60px;
     /* margin-left: -1%; */
     width: 100%;
-    height: 75%; 
+    height: 80%; 
   }
-  h1 {
+  /* h1 {
     font-size: 20px;
   }
   h2 {
     font-size: 15px;
-  }
+  } */
   
-  .btn {
+  /* .btn {
     width: fit-content;
-  }
+  } */
   #gitDot {
     height: 125px;
     width: 125px;
@@ -58,7 +58,7 @@
       
   }
   #logoGit2{
-    width: 20%;
+    width: 30%;
     /* position: absolute; */
     /* bottom: 10%; */
     /* margin-left: -15%; */
@@ -72,6 +72,8 @@
 }
 #gitName{
     color: black;
+    font-size: 30px;
+  
 }
 /* .line{
     display: inline
