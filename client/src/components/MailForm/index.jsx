@@ -52,71 +52,68 @@ export default function MailForm() {
       });
   };
   return (
-    <div className = "container badge" id = "mailBadge">
-   
-    <div className = "top">
-    <div className="dot" id = "mailDot"></div>
-      
-    </div>
-  
-
-    <form>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-      <div className="form-group">
-        <label htmlFor="name">Leave Your Name</label>
-        <input
-          value={mailState.name}
-          type="text"
-          name="name"
-          className="form-control"
-          onChange={handleInputChange}
-        />
+    <div className="container badge" id="mailBadge">
+      <div className="top">
+        <div className="dot" id="mailDot"></div>
       </div>
 
-      <div className="form-group">
-        <label htmlFor="email">Your Email address</label>
-        <input
-          value={mailState.email}
-          type="email"
-          name="email"
-          className="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-          onChange={handleInputChange}
-        />
-      </div>
+      <form className="bottom" id="form">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div className="form-group">
+          <label htmlFor="name">Leave Your Name</label>
+          <input
+            value={mailState.name}
+            type="text"
+            name="name"
+            className="form-control"
+            onChange={handleInputChange}
+          />
+        </div>
 
-      <div className="form-group">
-        <label htmlFor="message">A Message For Me</label>
-        <textarea
-          value={mailState.message}
-          className="form-control"
-          name="message"
-          rows="4"
-          onChange={handleInputChange}
-        ></textarea>
-      </div>
+        <div className="form-group">
+          <label htmlFor="email">Your Email address</label>
+          <input
+            value={mailState.email}
+            type="email"
+            name="email"
+            className="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            onChange={handleInputChange}
+          />
+        </div>
 
-      <button
-        className="btn btn-primary"
-        type="submit"
-        onClick={handleFormSubmit}
-        disabled={isloading.status}
-      >
-        {isloading.status && <Spinner />}
-        {isloading.status && <span>Sending</span>}
-        {!isloading.status && <span>Send</span>}
-      </button>
-      <h1>
-        {isloading.messageSent && <span>Thank you for your message!</span>}
-      </h1>
-    </form>
+        <div className="form-group">
+          <label htmlFor="message">A Message For Me</label>
+          <textarea
+            value={mailState.message}
+            className="form-control"
+            name="message"
+            rows="4"
+            onChange={handleInputChange}
+          ></textarea>
+        </div>
 
+        <button
+          className="btn btn-primary"
+          type="submit"
+          onClick={handleFormSubmit}
+          disabled={isloading.status}
+        >
+          {isloading.status && <Spinner />}
+          {isloading.status && <span>Sending</span>}
+          {!isloading.status && <span>Send</span>}
+        </button>
+        <h1>
+          {isloading.messageSent && <span>Thank you for your message!</span>}
+        </h1>
+        <br />
+      </form>
     </div>
   );
 }
