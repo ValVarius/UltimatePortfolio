@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light ">
       <Fade left>
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/" id="myName">
           Valerio Varani
         </Link>
       </Fade>

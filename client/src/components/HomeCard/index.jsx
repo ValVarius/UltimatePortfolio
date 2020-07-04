@@ -21,7 +21,7 @@ export default function HomeCard() {
         <div className="row ">
           {/* FIRST OF TWO COLUMNS  */}
           <div className="col-4" id="profile">
-            <Zoom left>
+            <Zoom>
               <img
                 className="img-fluid "
                 src={require("../../public/prof.jpg")}

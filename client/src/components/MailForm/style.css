@@ -1,9 +1,14 @@
 #form {
   background-color: #a22e37;
+  text-shadow: 2px 2px 4px #000000;
+
 }
 #mailBadge {
   background-image: url("../../public/connecting-dots-red.jpg");
 }
 #mailDot {
   background-image: url("../../public/gmailicon.png");
+}
+label{
+  font-size: medium;
 }

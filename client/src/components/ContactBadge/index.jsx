@@ -14,7 +14,12 @@ export default function ContactBadge() {
         <br />
         <br />
 
-        <a class="space" href="https://github.com/ValVarius">
+        <a
+          className="space"
+          href="https://github.com/ValVarius"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div>
             <p id="gitName">
               <img
@@ -34,7 +39,7 @@ export default function ContactBadge() {
           </div>
         </a>
 
-        <a class="space" href="tel:+1-206-650-8647">
+        <a className="space" href="tel:+1-206-650-8647">
           <p id="phone">
             +1 206 650 8647
             <img

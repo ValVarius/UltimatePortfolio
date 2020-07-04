@@ -109,9 +109,11 @@ export default function MailForm() {
           {isloading.status && <span>Sending</span>}
           {!isloading.status && <span>Send</span>}
         </button>
-        <h1>
+
+        <p>
+          {isloading.messageSent && <br />}
           {isloading.messageSent && <span>Thank you for your message!</span>}
-        </h1>
+        </p>
         <br />
       </form>
     </div>

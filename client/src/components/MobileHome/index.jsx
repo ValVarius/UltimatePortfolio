@@ -13,7 +13,7 @@ export default function MobileHome() {
             ~ About Me ~
           </h5>
           <hr />
-          <Zoom left>
+          <Zoom>
             <img
               className="img-fluid "
               src={require("../../public/prof.jpg")}
