@@ -29,7 +29,7 @@ export default function PortfolioCard() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Fade top>
+            <Fade bottom>
               <img
                 className="img-fluid"
                 alt="Screenshot of findr app"
@@ -59,7 +59,7 @@ export default function PortfolioCard() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Fade top>
+            <Fade bottom>
               <img
                 className="img-fluid"
                 alt="Screenshot of weather app"
@@ -90,7 +90,7 @@ export default function PortfolioCard() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Fade top>
+            <Fade bottom>
               <img
                 className="img-fluid"
                 alt="Screenshot of password app"
@@ -125,7 +125,7 @@ export default function PortfolioCard() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Fade top>
+            <Fade bottom>
               <img
                 className="img-fluid"
                 alt="Screenshot of mapleValley app"

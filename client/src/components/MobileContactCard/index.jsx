@@ -2,9 +2,12 @@ import React from "react";
 import MailForm from "../MailForm";
 import LinkedInBadge from "../LinkedInBadge";
 import ContactBadge from "../ContactBadge";
+import Slide from 'react-reveal/Slide';
+
 
 export default function MobileContactCard() {
   return (
+    <Slide bottom cascade>
     <div>
       <div className="row">
         <LinkedInBadge />
@@ -16,5 +19,6 @@ export default function MobileContactCard() {
         <MailForm />
       </div>
     </div>
+    </Slide>
   );
 }

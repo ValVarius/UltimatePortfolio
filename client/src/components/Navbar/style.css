@@ -16,3 +16,9 @@
   font-size: 20px;
   color: burlywood;
 }
+#navbarNav {
+  text-shadow: 2px 2px 4px #000000;
+}
+#myName {
+  text-shadow: 2px 2px 4px #a86969;
+}

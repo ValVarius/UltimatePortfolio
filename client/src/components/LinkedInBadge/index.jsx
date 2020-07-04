@@ -3,7 +3,7 @@ import "./style.css";
 
 export default function LinkedInBadge() {
   return (
-    <div className="container badge">
+    <div className="container badge" id = "LinkedInBadge">
       <div className="top">
         <div className="dot"></div>
       </div>
@@ -16,13 +16,14 @@ export default function LinkedInBadge() {
         </h1>
         <h2 className="space">Full Stack Web Developer</h2>
         <p className="space" id="uw">
-          {" "}
           University of Washington
         </p>
 
         <a
           href="https://www.linkedin.com/in/valerio-varani-635ba31a1/"
           className="btn btn-primary btn-lg active space"
+          target="_blank"
+          rel="noopener noreferrer"
           id="viewBtn"
           role="button"
           aria-pressed="true"
