@@ -41,7 +41,7 @@ export default function ContactBadge() {
 
         <a className="space" href="tel:+1-206-650-8647">
           <p id="phone">
-            +1 206 650 8647
+            +1 206 650 8647 &nbsp;
             <img
               className="card-img img-fluid "
               src={require("../../public/CirclePhone.png")}
