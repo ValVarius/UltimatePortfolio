@@ -17,20 +17,19 @@ body {
 .homecard {
   background-color: #a22e37;
   border-radius: 25px;
-  /* box-shadow: 1px 5px 5px black; */
+  box-shadow: 1px 5px 5px black;
 }
 .homeCardTitle {
   font-size: 35px;
   text-align: center;
   margin: -40px;
-  /* text-shadow: 2px 2px 4px #a86969; */
-
+  text-shadow: 2px 2px 4px #a86969;
 }
 
 .card-text {
   color: burlywood;
   font-size: large;
-  /* text-shadow: 2px 2px 4px #000000; */
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #profilePicture {

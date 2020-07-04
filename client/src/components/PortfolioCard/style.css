@@ -1,3 +1,8 @@
+
+.panel{
+  text-shadow: 1px 1px 2px #000000;
+  /* text-align: center; */
+}
 .row {
   margin-bottom: 40px;
 }
@@ -61,7 +66,7 @@
 }
 
 .dropdown {
-  position: relative;
+  /* position: relative; */
   display: inline-block;
 }
 
