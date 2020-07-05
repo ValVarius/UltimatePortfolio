@@ -3,11 +3,13 @@ import "./style.css";
 
 export default function LinkedInBadge() {
   return (
-    <div className="container badge" id = "LinkedInBadge">
+    <div className="container badge" id="LinkedInBadge">
       <div className="top">
         <div className="dot"></div>
       </div>
       <div className="bottom">
+        <br />
+        <br />
         <br />
         <br />
         <br />
