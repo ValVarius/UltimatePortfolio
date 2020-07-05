@@ -1,20 +1,19 @@
 .navbar.navbar-expand-lg.navbar-light {
   background-color: #a22e37;
-  /* alternativa color */
-  /* /* rgb(104, 6, 6);  */
+  /* alternativa color rgb(104, 6, 6);   */
   box-shadow: 1px 5px 5px black;
 }
 .navbar-brand {
-  /* font-size: 70px; */
   font-size: 5vw;
-
   font-style: italic;
 }
 
 .navbar.navbar-expand-lg.navbar-light li a {
-  /* color: rgb(184, 181, 46); */
   font-size: 20px;
   color: burlywood;
+}
+.navbar-toggler{
+  background-color: burlywood;
 }
 #navbarNav {
   text-shadow: 2px 2px 4px #000000;
