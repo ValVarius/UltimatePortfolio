@@ -1,13 +1,18 @@
-.navbar.navbar-expand-lg.navbar-light {
-  background-color: #a22e37;
+.navbar {
   /* alternativa color */
   /* /* rgb(104, 6, 6);  */
-  box-shadow: 1px 5px 5px black;
+  background-color: #a22e37;
 }
+.navbar.navbar-expand-lg.navbar-light li a:focus {
+  color: aliceblue;
+}
+.navbar.navbar-expand-lg.navbar-light li a:hover {
+  color: aliceblue;
+}
+
 .navbar-brand {
   /* font-size: 70px; */
   font-size: 5vw;
-
   font-style: italic;
 }
 
@@ -16,7 +21,8 @@
   font-size: 20px;
   color: burlywood;
 }
-.navbar-toggler{
+
+.navbar-toggler {
   background-color: burlywood;
 }
 #navbarNav {
