@@ -16,6 +16,23 @@ export default function ContactBadge() {
 
         <a
           className="space"
+          href={require("../../public/resume.pdf")}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p id="cv">
+            <img
+              className="card-img img-fluid logo"
+              src={require("../../public/resume-logo.png")}
+              alt="resume Logo"
+              id="cvlogo"
+            />
+            &nbsp; &nbsp; Résumé
+          </p>
+        </a>
+
+        <a
+          className="space"
           href="https://github.com/ValVarius"
           target="_blank"
           rel="noopener noreferrer"
@@ -23,44 +40,51 @@ export default function ContactBadge() {
           <div>
             <p id="gitName">
               <img
-                className="card-img img-fluid "
+                className="card-img img-fluid logo"
                 src={require("../../public/GitHub-Mark-120px-plus.png")}
                 alt="GitHub Logo"
                 id="logoGit"
               />
-              <img
-                className="card-img img-fluid "
+              {/* <img
+                className="card-img img-fluid logo"
                 src={require("../../public/GitHub_Logo.png")}
                 alt="GitHub Logo"
                 id="logoGit2"
-              />
-              ValVarius
+              /> */}
+              &nbsp;&nbsp; &nbsp;"ValVarius"
             </p>
           </div>
         </a>
 
-        <a className="space" href="tel:+1-206-650-8647">
-          <p id="phone">
-            +1 206 650 8647
+        <a
+          href="mailto:notitiami@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p class="space" id="mail">
             <img
-              className="card-img img-fluid "
-              src={require("../../public/CirclePhone.png")}
-              alt="GitHub Logo"
-              id="phonelogo"
+              className="card-img img-fluid logo"
+              // src={require("../../public/emailicon.png")}
+              src={require("../../public/maillogo.png")}
+              alt="mail Logo"
+              id="maillogo"
             />
+            &nbsp; notitiami@gmail.com
           </p>
         </a>
 
-        <p class="space" id="mail">
-          notitiami
-          <img
-            className="card-img img-fluid "
-            src={require("../../public/emailicon.png")}
-            alt="mail Logo"
-            id="maillogo"
-          />
-          gmail.com
-        </p>
+        <a className="space" href="tel:+1-206-650-8647">
+          <p id="phone">
+            <img
+              className="card-img img-fluid logo"
+              src={require("../../public/CirclePhone.png")}
+              alt="phone Logo"
+              id="phonelogo"
+            />
+            &nbsp; +1 206 650 8647
+          </p>
+        </a>
+
         <br />
       </div>
     </div>

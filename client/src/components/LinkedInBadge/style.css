@@ -32,9 +32,9 @@
   width: 100%;
   height: 100%;
   padding: 0%;
-  
+  box-shadow: 1px 5px 5px black;
 }
-#LinkedInBadge{
+#LinkedInBadge {
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -54,6 +54,9 @@
 #viewBtn {
   font-size: medium;
   background-color: #0072b1;
+}
+#viewBtn:hover {
+  background-color: #7ac1e2f8;
 }
 #linkediname {
   font-size: 25px;
