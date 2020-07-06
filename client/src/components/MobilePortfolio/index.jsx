@@ -9,7 +9,7 @@ export default function MobilePortfolio() {
       {/* FIRST PROJECT  */}
       <div className="row projects" id="first">
         <div className="dropdown">
-          <Slide left>
+          <Slide left duration={2000}>
             <div className="dropButton" id="dropbtn1">
               <div className="dropdown-content">
                 <a href="https://github.com/commiewalker/Findr">
@@ -19,7 +19,7 @@ export default function MobilePortfolio() {
             </div>
           </Slide>
         </div>
-        <Slide right>
+        <Slide right duration={2000}>
           <p id="firstTitle">FINDR</p>
         </Slide>
         <a
@@ -27,7 +27,7 @@ export default function MobilePortfolio() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Fade bottom>
+          <Fade bottom duration={2000}>
             <img
               className="img-fluid"
               alt="Screenshot of findr app"
@@ -39,7 +39,7 @@ export default function MobilePortfolio() {
       {/* SECOND PROJECT */}
       <div className="row projects" id="second">
         <div className="dropdown">
-          <Slide left>
+          <Slide left duration={2000}>
             <div className="dropButton" id="dropbtn2">
               <div className="dropdown-content">
                 <a href="https://github.com/ValVarius/weather-Chanel">
@@ -49,7 +49,7 @@ export default function MobilePortfolio() {
             </div>
           </Slide>
         </div>
-        <Slide right>
+        <Slide right duration={2000}>
           <p id="secondTitle">Weather App</p>
         </Slide>
         <a
@@ -57,7 +57,7 @@ export default function MobilePortfolio() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Fade bottom>
+          <Fade bottom duration={2000}>
             <img
               className="img-fluid"
               alt="Screenshot of weather app"
@@ -69,7 +69,7 @@ export default function MobilePortfolio() {
       {/* THIRD PROJECT */}
       <div className="row projects" id="third">
         <div className="dropdown">
-          <Slide left>
+          <Slide left duration={2000}>
             <div className="dropButton" id="dropbtn3">
               <div className="dropdown-content">
                 <a href="https://github.com/ValVarius/Password-Generator">
@@ -79,7 +79,7 @@ export default function MobilePortfolio() {
             </div>
           </Slide>
         </div>
-        <Slide right>
+        <Slide right duration={2000}>
           <p id="thirdTitle">Password Generator</p>
         </Slide>
 
@@ -88,7 +88,7 @@ export default function MobilePortfolio() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Fade bottom>
+          <Fade bottom duration={2000}>
             <img
               className="img-fluid"
               alt="Screenshot of password app"
@@ -101,7 +101,7 @@ export default function MobilePortfolio() {
       {/* FOURTH PROJECT */}
       <div className="row projects" id="fourth">
         <div className="dropdown">
-          <Slide left>
+          <Slide left duration={2000}>
             <div className="dropButton" id="dropbtn4">
               <div className="dropdown-content">
                 <a href="https://github.com/coleloui/MapleValley">
@@ -111,7 +111,7 @@ export default function MobilePortfolio() {
             </div>
           </Slide>
         </div>
-        <Slide right>
+        <Slide right duration={2000}>
           <p id="fourthTitle">Maple Valley</p>
         </Slide>
 
@@ -120,7 +120,7 @@ export default function MobilePortfolio() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Fade bottom>
+          <Fade bottom duration={2000}>
             <img
               className="img-fluid"
               alt="Screenshot of mapleValley app"

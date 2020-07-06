@@ -5,6 +5,7 @@ import "./style.css";
 
 export default function HomeCard() {
   return (
+    <Zoom duration={2000}>
     <div className="card homecard">
       <div className="card-body">
         {/*  first of two rows  */}
@@ -21,7 +22,8 @@ export default function HomeCard() {
         <div className="row ">
           {/* FIRST OF TWO COLUMNS  */}
           <div className="col-4" id="profile">
-            <Zoom>
+            <Zoom duration={3000}>
+              
               <img
                 className="img-fluid "
                 src={require("../../public/prof.jpg")}
@@ -31,7 +33,7 @@ export default function HomeCard() {
             </Zoom>
           </div>
           {/* SECOND OF TWO COLUMNS  */}
-          <Rotate top right cascade>
+          <Rotate top right cascade duration={3000}>
             <div className="col-8" id="myStory">
               <p className="card-text">Hello! </p>
               <p className="card-text">
@@ -55,5 +57,6 @@ export default function HomeCard() {
         </div>
       </div>
     </div>
+    </Zoom>
   );
 }
