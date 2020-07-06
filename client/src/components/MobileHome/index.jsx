@@ -5,6 +5,7 @@ import "./style.css";
 
 export default function MobileHome() {
   return (
+    <Zoom duration={2000}>
     <div className="card homecard">
       <div className="card-body">
         {/*  SINGLE COLUMN  */}
@@ -13,7 +14,7 @@ export default function MobileHome() {
             ~ About Me ~
           </h5>
           <hr />
-          <Zoom>
+          <Zoom duration={3000}>
             <img
               className="img-fluid "
               src={require("../../public/prof.jpg")}
@@ -44,5 +45,6 @@ export default function MobileHome() {
         </div>
       </div>
     </div>
+    </Zoom>
   );
 }

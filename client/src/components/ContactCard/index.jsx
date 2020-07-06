@@ -7,7 +7,7 @@ import "./style.css";
 
 export default function ContactCard() {
   return (
-    <Slide bottom cascade>
+    <Slide bottom cascade duration={2000}>
     <div className="row">
       <div className="col-4">
         <LinkedInBadge />

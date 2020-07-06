@@ -7,7 +7,7 @@ import Slide from 'react-reveal/Slide';
 
 export default function MobileContactCard() {
   return (
-    <Slide bottom cascade>
+    <Slide bottom cascade duration={2000}>
     <div>
       <div className="row">
         <LinkedInBadge />
