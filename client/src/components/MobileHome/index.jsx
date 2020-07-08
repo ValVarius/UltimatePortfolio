@@ -39,7 +39,7 @@ export default function MobileHome() {
               motivated by novelty and learning
             </p>
             <p className="card-text">
-              Currently, I am a full-stack developer in the making!
+              I am a full-stack web developer!
             </p>
           </Rotate>
         </div>
