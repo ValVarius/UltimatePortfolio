@@ -41,6 +41,7 @@ export default function LinkedInBadge() {
             id="logoLinkedIn"
           />
         </div>
+        <br />
       </div>
     </div>
   );

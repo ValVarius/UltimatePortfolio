@@ -6,6 +6,7 @@ import MobilePortfolio from "../../components/MobilePortfolio";
 import ContactCard from "../../components/ContactCard";
 import MobileContactCard from "../../components/MobileContactCard";
 import { useLocation } from "react-router-dom";
+// import "./style.css";
 
 export default function Home() {
   const location = useLocation();
@@ -20,7 +21,7 @@ export default function Home() {
   });
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" id = "homecontainer">
       {location.pathname === "/" && width >= 502 ? <HomeCard /> : ""}
       {location.pathname === "/" && width < 502 ? <MobileHome /> : ""}
       {location.pathname === "/portfolio" && width >= 1100 ? (
