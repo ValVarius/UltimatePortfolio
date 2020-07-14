@@ -8,7 +8,9 @@
 }
 #mailDot {
   background-image: url("../../public/gmailicon.png");
+  border-color:#a22e37
+
 }
-label{
+/* label{
   font-size: medium;
-}
+} */

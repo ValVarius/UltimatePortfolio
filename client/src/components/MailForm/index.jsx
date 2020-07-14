@@ -65,9 +65,10 @@ export default function MailForm() {
         <br />
         <br />
         <div className="form-group">
-          <label htmlFor="name">Leave Your Name</label>
+          {/* <label htmlFor="name">Leave Your Name</label> */}
           <input
             value={mailState.name}
+            placeholder="Leave Your Name"
             type="text"
             name="name"
             className="form-control"
@@ -76,9 +77,10 @@ export default function MailForm() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="email">Your Email address</label>
+          {/* <label htmlFor="email">Your Email address</label> */}
           <input
             value={mailState.email}
+            placeholder="Your Email address"
             type="email"
             name="email"
             className="form-control"
@@ -89,12 +91,13 @@ export default function MailForm() {
         </div>
 
         <div className="form-group">
-          <label htmlFor="message">A Message For Me</label>
+          {/* <label htmlFor="message">A Message For Me</label> */}
           <textarea
             value={mailState.message}
+            placeholder="A Message For Me"
             className="form-control"
             name="message"
-            rows="4"
+            rows="3"
             onChange={handleInputChange}
           ></textarea>
         </div>

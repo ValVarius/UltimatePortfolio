@@ -12,13 +12,13 @@ body {
   /* background-color: #A22E37; */
   /* box-shadow: 1px 5px 5px black; */
 
-  width: 90%;
+  width: 85%;
 }
 .homecard {
   color: burlywood;
   text-shadow: 2px 2px 4px #000000;
   background-color: #a22e37;
-  border-radius: 25px;
+  /* border-radius: 25px; */
   box-shadow: 1px 5px 5px black;
 }
 .homeCardTitle {
@@ -30,8 +30,9 @@ body {
 
 .card-text {
   /* color: burlywood; */
-  font-size: large;
+  /* font-size: large; */
   /* text-shadow: 2px 2px 4px #000000; */
+  font-size: 14px;
 }
 
 #profilePicture {

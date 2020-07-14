@@ -12,7 +12,25 @@ export default function ContactBadge() {
         <br />
         <br />
         <br />
-        <br />
+        
+
+
+        <a
+          href="mailto:notitiami@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p className="space" id="mail">
+            <img
+              className="card-img img-fluid logo"
+              // src={require("../../public/emailicon.png")}
+              src={require("../../public/maillogo.png")}
+              alt="mail Logo"
+              id="maillogo"
+            />
+            &nbsp; notitiami@gmail.com
+          </p>
+        </a>
 
         <a
           className="space"
@@ -51,27 +69,12 @@ export default function ContactBadge() {
                 alt="GitHub Logo"
                 id="logoGit2"
               /> */}
-              &nbsp;&nbsp; &nbsp;"ValVarius"
+              &nbsp;&nbsp;  ValVarius
             </p>
           </div>
         </a>
 
-        <a
-          href="mailto:notitiami@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <p class="space" id="mail">
-            <img
-              className="card-img img-fluid logo"
-              // src={require("../../public/emailicon.png")}
-              src={require("../../public/maillogo.png")}
-              alt="mail Logo"
-              id="maillogo"
-            />
-            &nbsp; notitiami@gmail.com
-          </p>
-        </a>
+        
 
         <a className="space" href="tel:+1-206-650-8647">
           <p id="phone">
@@ -85,8 +88,12 @@ export default function ContactBadge() {
           </p>
         </a>
 
+        
         <br />
       </div>
     </div>
   );
 }
+
+
+
