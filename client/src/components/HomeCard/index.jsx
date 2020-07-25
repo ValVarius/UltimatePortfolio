@@ -58,7 +58,7 @@ export default function HomeCard() {
                 </p>
                 <p className="card-text">
                   Fluid in multiple human and computer languages. Most motivated
-                  by novelty and learning
+                  by novelty and learning.
                 </p>
                 <p className="card-text">
                   Originally from Rome,Italy, excited to bring a fresh
