@@ -33,7 +33,7 @@ export default function PortfolioCard() {
               <img
                 className="img-fluid"
                 alt="Screenshot of findr app"
-                src={require("../../public/findr.png")}
+                src={require("../../public/findr_50.png")}
               />
             </Fade>
           </a>
@@ -129,7 +129,7 @@ export default function PortfolioCard() {
               <img
                 className="img-fluid"
                 alt="Screenshot of mapleValley app"
-                src={require("../../public/mapleValley.png")}
+                src={require("../../public/mapleValley_50.png")}
               />
             </Fade>
           </a>
