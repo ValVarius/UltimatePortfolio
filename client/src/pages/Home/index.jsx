@@ -3,8 +3,8 @@ import HomeCard from "../../components/HomeCard";
 import MobileHome from "../../components/MobileHome";
 import PortfolioCard from "../../components/PortfolioCard";
 import MobilePortfolio from "../../components/MobilePortfolio";
-import ContactCard from "../../components/ContactCard";
-import MobileContactCard from "../../components/MobileContactCard";
+import ContactCard from "../ContactCard";
+import MobileContactCard from "../MobileContactCard";
 import { useLocation } from "react-router-dom";
 // import "./style.css";
 
@@ -36,8 +36,8 @@ export default function Home() {
       )}
 
       {/* {location.pathname === "/contacts" ? <ContactCard /> : ""} */}
-      {location.pathname === "/contacts" && width >= 630 ? <ContactCard /> : ""}
-      {location.pathname === "/contacts" && width < 630 ? <MobileContactCard /> : ""}
+      {location.pathname === "/contacts" && width >= 520 ? <ContactCard /> : ""}
+      {location.pathname === "/contacts" && width < 520 ? <MobileContactCard /> : ""}
     </div>
   );
 }
