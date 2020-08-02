@@ -20,7 +20,7 @@ export default function ContactBadge() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p className="space" id="mail">
+          <p  id="mail">
             <img
               className="card-img img-fluid logo"
               // src={require("../../public/emailicon.png")}

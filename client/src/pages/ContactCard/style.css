@@ -1,0 +1,107 @@
+.top {
+  text-align: center;
+}
+.bottom {
+  background-color: rgb(128, 181, 216);
+  /* margin-top: -65px; */
+  margin-top: -8vmin;
+  height: 50vmin;
+  /* min-height: 350px; */
+}
+@media (min-width: 520px) {
+  .bottom {
+    min-height: 320px;
+  }
+}
+@media (max-width: 520px) {
+  .bottom {
+    min-height: 350px;
+  }
+}
+
+.dot {
+  /* min-height: 150px; */
+  /* min-width: 150px; */
+  height: 15vmin;
+  width: 15vmin;
+  border-width: 4px;
+  border-style: solid;
+  border-color: rgb(128, 181, 216);
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 15%;
+  background-image: url("../../public/profileLinkedIn.jpg");
+  background-size: cover;
+}
+@media (max-width: 520px) {
+  .dot {
+    height: 20vmin;
+    width: 20vmin;
+  }
+}
+.badge {
+  font-size: 2.1vmin;
+  color: aliceblue;
+  text-align: center;
+  background-image: url("../../public/connecting-dots.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0%;
+  box-shadow: 1px 5px 5px black;
+}
+#LinkedInBadge {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#logoLinkedIn {
+  width: 30%;
+  margin-top: 10%;
+  margin-bottom: 4%;
+}
+#uw {
+  color: rgb(51, 0, 111);
+  text-shadow: 1px 1px 2px #f5efef;
+  margin-top: 10px;
+  font-size: 70%;
+}
+@media (max-width: 520px) {
+  #uw {
+    
+    font-size: 3vmin;
+  }
+}
+
+
+.space {
+  margin-top: 4vmin;
+
+  font-size: 1.5vw;
+}
+@media (max-width: 520px) {
+  .space {
+    /* margin-top: 4vmin; */
+    margin-top: 5vmin;
+
+    font-size: 5vw;
+  }
+}
+#viewBtn {
+  font-size: 100%;
+  background-color: #0072b1;
+  transition: transform 0.5s ease;
+}
+#viewBtn:hover {
+  background-color: #7ac1e2f8;
+  transform: scale(1.2);
+}
+#linkediname {
+  font-size: 3vw;
+}
+@media (max-width: 520px) {
+  #linkediname {
+    /* margin-top: 4vmin; */
+  
+    font-size: 6vw;
+  }
+}

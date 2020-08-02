@@ -1,8 +1,10 @@
 import React from "react";
-import MailForm from "../MailForm";
-import LinkedInBadge from "../LinkedInBadge";
-import ContactBadge from "../ContactBadge";
+import MailForm from "../../components/MailForm";
+import LinkedInBadge from "../../components/LinkedInBadge";
+import ContactBadge from "../../components/ContactBadge";
 import Slide from 'react-reveal/Slide';
+import "./style.css";
+
 
 
 export default function MobileContactCard() {

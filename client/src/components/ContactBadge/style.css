@@ -4,6 +4,7 @@
 }
 p {
   margin-left: 6%;
+  font-size: 3vmin;
 }
 #gitDot {
   border-color: rgb(244, 247, 248);
@@ -45,6 +46,8 @@ p {
 }
 #mail {
   color: black;
+  font-size: 3vmin;
+
   /* font-size: 15px; */
 }
 .logo {
@@ -57,3 +60,12 @@ p {
 a:link {
   text-decoration: none;
 }
+@media (min-width: 520px) {
+  p {
+    font-size: 2vmin;
+  }
+  #mail {
+    font-size: 1.6vmin;
+  }
+}
+
