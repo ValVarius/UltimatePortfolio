@@ -12,15 +12,12 @@ p {
 #general {
   background-image: url("../../public/connecting-dots-black.jpg");
   color: black;
-  /* font-size: larger; */
 }
 
 #logoGit {
   width: 16%;
 }
-/* #logoGit2 {
-  width: 30%;
-} */
+
 #phonelogo {
   width: 17%;
 }
@@ -32,22 +29,23 @@ p {
 }
 #cv {
   color: black;
-  font-size: 15px;
+  /* font-size: 15px; */
   margin-left: 8%;
   
 }
 #gitName {
   color: black;
-  font-size: 15px;
+  /* font-size: 15px; */
+  
   /* font-family: Helvetica, Arial, sans-serif; */
 }
 #phone {
-  font-size: 15px;
+  /* font-size: 15px; */
   /* color: rgb(29, 209, 29); */
 }
 #mail {
   color: black;
-  font-size: 15px;
+  /* font-size: 15px; */
 }
 .logo {
   transition: transform 0.5s ease;

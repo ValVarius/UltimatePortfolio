@@ -12,7 +12,6 @@ export default function LinkedInBadge() {
         <br />
         <br />
         <br />
-        <br />
         <h1 className="space" id="linkediname">
           Valerio Varani
         </h1>
@@ -41,7 +40,6 @@ export default function LinkedInBadge() {
             id="logoLinkedIn"
           />
         </div>
-        <br />
       </div>
     </div>
   );
