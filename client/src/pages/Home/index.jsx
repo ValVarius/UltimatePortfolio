@@ -34,8 +34,10 @@ export default function Home() {
       ) : (
         ""
       )}
-      {location.pathname === "/contacts" && width >= 1100 ? <ContactCard /> : ""}
-      {location.pathname === "/contacts" && width < 1100 ? <MobileContactCard /> : ""}
+
+      {/* {location.pathname === "/contacts" ? <ContactCard /> : ""} */}
+      {location.pathname === "/contacts" && width >= 630 ? <ContactCard /> : ""}
+      {location.pathname === "/contacts" && width < 630 ? <MobileContactCard /> : ""}
     </div>
   );
 }

@@ -11,6 +11,24 @@
   border-color:#a22e37
 
 }
-/* label{
-  font-size: medium;
-} */
+input::-webkit-input-placeholder {
+  font-size: 2vmin;
+}
+textarea::-webkit-input-placeholder{
+  font-size: 2vmin;
+}
+#sendBtn {
+  font-size: 100%;
+  background-color: #0044b1;
+  transition: transform 0.5s ease;
+
+}
+#sendBtn:hover {
+  background-color: #7ac1e2f8;
+  transform: scale(1.2);
+}
+.form-group{
+  width: 90%;
+  margin-left: 5%;
+  /* margin-top: 20%; */
+}

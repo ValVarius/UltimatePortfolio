@@ -58,8 +58,8 @@ export default function MailForm() {
       </div>
 
       <form className="bottom" id="form">
-        <br />
-        <br />
+        
+      <br />
         <br />
         <br />
         <br />
@@ -84,7 +84,7 @@ export default function MailForm() {
             type="email"
             name="email"
             className="form-control"
-            id="exampleInputEmail1"
+            id="InputEmail1"
             aria-describedby="emailHelp"
             onChange={handleInputChange}
           />
@@ -105,6 +105,7 @@ export default function MailForm() {
         <button
           className="btn btn-primary"
           type="submit"
+          id="sendBtn"
           onClick={handleFormSubmit}
           disabled={isloading.status}
         >
