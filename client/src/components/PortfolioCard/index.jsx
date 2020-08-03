@@ -134,6 +134,36 @@ export default function PortfolioCard() {
             </Fade>
           </a>
         </div>
+        {/* Fifth Project */}
+        <div className="col-4" id="fifth">
+          <div className="dropdown">
+            <Slide left duration={2000}>
+              <div className="dropButton" id="dropbtn5">
+                <div className="dropdown-content">
+                  <a href="https://github.com/ValVarius/Note-Taking">
+                    GitHub Repository
+                  </a>
+                </div>
+              </div>
+            </Slide>
+          </div>
+          <Slide right duration={2000}>
+            <p id="fifthTitle">Note Taker</p>
+          </Slide>
+          <a
+            href= "https://notaking.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Fade bottom duration={2000}>
+              <img
+                className="img-fluid"
+                alt="Screenshot of findr app"
+                src={require("../../public/NoteTaker_50.png")}
+              />
+            </Fade>
+          </a>
+        </div>
       </div>
     </div>
   );

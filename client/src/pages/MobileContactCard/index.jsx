@@ -3,7 +3,6 @@ import MailForm from "../../components/MailForm";
 import LinkedInBadge from "../../components/LinkedInBadge";
 import ContactBadge from "../../components/ContactBadge";
 import Slide from 'react-reveal/Slide';
-import "./style.css";
 
 
 
