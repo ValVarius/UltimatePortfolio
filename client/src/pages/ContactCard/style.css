@@ -15,7 +15,10 @@
 }
 @media (max-width: 520px) {
   .bottom {
-    min-height: 350px;
+    /* min-height: 320px; */
+    /* height: 50vh; */
+    height: auto;
+
   }
 }
 
