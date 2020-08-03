@@ -15,25 +15,38 @@ body {
   width: 85%;
 }
 .homecard {
-  color: burlywood;
-  text-shadow: 2px 2px 4px #000000;
-  background-color: #a22e37;
+  /* color: burlywood; */
+  /* text-shadow: 2px 2px 4px #000000; */
+  /* background-color: #a22e37; */
   /* border-radius: 25px; */
   box-shadow: 1px 5px 5px black;
+  background-image: url("./public/connecting-dots-transparent.png");
+  
 }
-.homeCardTitle {
-  font-size: 35px;
-  text-align: center;
-  margin: -40px;
-  /* text-shadow: 2px 2px 4px #a86969; */
+/* #profile{
+  background-image: url("./public/connecting-dots-transparent.png");
+}*/
+#myStory{
+  /* background-image: url("./public/connecting-dots-transparent.png"); */
+  /* z-index: 1; */
+  background-color:rgb(236, 229, 229,0.7);
+  /* box-shadow: 1px 5px 5px black; */
+  /* margin-left: 10%; */
+  
+
+} 
+#homerow{
+  /* background-image: url("./public/connecting-dots-transparent.png"); */
+/* margin-right: 10%; */
 }
+
 
 .card-text {
   /* color: burlywood; */
   /* font-size: large; */
   /* text-shadow: 2px 2px 4px #000000; */
   /* font-size: 14px; */
-  font-size: 2vh;
+  font-size: 2.1vh;
   /* font-size: 1.1vw; */
 
 }

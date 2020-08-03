@@ -8,22 +8,7 @@ export default function HomeCard() {
     <Zoom duration={2000}>
       <div className="card homecard">
         <div className="card-body">
-          {/*  first of two rows  */}
-
-
-          {/* <div className="row"> */}
-
-            {/*  SINGLE COLUMN  */}
-
-            {/* <div className="col-12">
-              <h5 className="card-title homeCardTitle">~ About Me ~</h5>
-            </div>
-          </div> */}
-
-          {/* <hr /> */}
-
-          {/* SECOND OF TWO ROWS */}
-          <div className="row ">
+          <div className="row" id = "homerow">
             {/* FIRST OF TWO COLUMNS  */}
             <div className="col-4" id="profile">
               <Zoom duration={3000}>
