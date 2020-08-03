@@ -5,6 +5,7 @@
 p {
   margin-left: 6%;
   font-size: 3vmin;
+
 }
 #gitDot {
   border-color: rgb(244, 247, 248);
@@ -30,15 +31,12 @@ p {
 }
 #cv {
   color: black;
-  /* font-size: 15px; */
   margin-left: 8%;
   
 }
 #gitName {
   color: black;
-  /* font-size: 15px; */
   
-  /* font-family: Helvetica, Arial, sans-serif; */
 }
 #phone {
   /* font-size: 15px; */
@@ -47,8 +45,6 @@ p {
 #mail {
   color: black;
   font-size: 3vmin;
-
-  /* font-size: 15px; */
 }
 .logo {
   transition: transform 0.5s ease;
@@ -62,10 +58,12 @@ a:link {
 }
 @media (min-width: 520px) {
   p {
-    font-size: 2vmin;
+    /* font-size: 2vmin; */
+    font-size: 2vw;
   }
   #mail {
-    font-size: 1.6vmin;
+    font-size: 1.5vw;
+    /* font-size: 1.6vmin; */
   }
 }
 
