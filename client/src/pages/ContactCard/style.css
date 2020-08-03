@@ -52,6 +52,12 @@
   background-size: cover;
   padding: 0%;
   box-shadow: 1px 5px 5px black;
+  transition: transform 1s ease;
+
+}
+.badge:hover{
+  transform: scale(1.2);
+
 }
 #LinkedInBadge {
   text-shadow: 2px 2px 4px #000000;
