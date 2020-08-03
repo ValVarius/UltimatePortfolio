@@ -1,14 +1,18 @@
 .navbar {
   /* alternativa color */
   /* /* rgb(104, 6, 6);  */
-  background-color: #a22e37;
+  /* background-color: #a22e37; */
+  background-image: url("../../public/connecting-dots-white.jpg");
+  /* opacity: 0.5; */
   box-shadow: 1px 5px 5px black;
 }
 .navbar.navbar-expand-lg.navbar-light li a:focus {
-  color: aliceblue;
+  /* color: aliceblue; */
+  /* color: #a22e37; */
 }
 .navbar.navbar-expand-lg.navbar-light li a:hover {
   color: aliceblue;
+  color: #a22e37;
 }
 
 .navbar-brand {
@@ -18,17 +22,17 @@
 }
 
 .navbar.navbar-expand-lg.navbar-light li a {
-  /* color: rgb(184, 181, 46); */
-  font-size: 20px;
-  color: burlywood;
+  color: black;
+  font-size: 30px;
+  /* color: burlywood; */
 }
 
 .navbar-toggler {
   background-color: burlywood;
 }
 #navbarNav {
-  text-shadow: 2px 2px 4px #000000;
+  /* text-shadow: 2px 2px 4px #000000; */
 }
 #myName {
-  text-shadow: 2px 2px 4px #a86969;
+  /* text-shadow: 2px 2px 4px #a86969; */
 }
