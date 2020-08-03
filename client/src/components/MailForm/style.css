@@ -1,5 +1,6 @@
 #form {
-  background-color: #a22e37;
+  /* background-color: #a22e37; */
+  background-color: #B23121;
   text-shadow: 2px 2px 4px #000000;
 
 }
@@ -8,7 +9,8 @@
 }
 #mailDot {
   background-image: url("../../public/gmailicon.png");
-  border-color:#a22e37
+  /* border-color:#a22e37 */
+  border-color: #B23121;
 
 }
 input::-webkit-input-placeholder {
