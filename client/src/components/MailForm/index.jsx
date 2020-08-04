@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./style.css";
 import axios from "axios";
 import Spinner from "../Spinner";
+import Slide from "react-reveal/Slide";
+
 
 export default function MailForm() {
   const [mailState, setMailState] = useState({
@@ -53,10 +55,11 @@ export default function MailForm() {
   };
   return (
     <div className="container badge" id="mailBadge">
+      <Slide left duration={2000}>
       <div className="top">
         <div className="dot" id="mailDot"></div>
       </div>
-
+      </Slide>
       <form className="bottom" id="form">
         
       <br />
@@ -120,6 +123,7 @@ export default function MailForm() {
         </p>
         <br />
       </form>
+     
     </div>
   );
 }
