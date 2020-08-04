@@ -26,17 +26,16 @@ export default function Home() {
       {location.pathname === "/" && width >= 502 ? <HomeCard /> : ""}
       {location.pathname === "/" && width < 502 ? <MobileHome /> : ""}
       {location.pathname === "/portfolio" && width >= 1100 ? (
-        <PortfolioCard/>
+        <Portfolio/>
       ) : (
         ""
       )}
       {location.pathname === "/portfolio" && width < 1100 ? (
-        <MobilePortfolio />
+        <Portfolio />
       ) : (
         ""
       )}
 
-      {/* {location.pathname === "/contacts" ? <ContactCard /> : ""} */}
       {location.pathname === "/contacts" && width >= 520 ? <ContactCard /> : ""}
       {location.pathname === "/contacts" && width < 520 ? <MobileContactCard /> : ""}
     </div>

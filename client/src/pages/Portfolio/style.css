@@ -1,3 +1,36 @@
-.row {
-  margin-top: 40px;
+.project-container{
+  height: 70vmin;
+  box-shadow: 1px 5px 5px black;
+  color: white;
+
+}
+.projectTitle{
+  background-color:rgb(236, 229, 229,0.2);
+  text-align: center;
+  box-shadow: 1px 5px 5px black;
+  margin-bottom: 5%;
+
+  /* margin-top: 30px; */
+}
+.project-img{
+  width: 70%;
+  margin: auto;
+  box-shadow: 1px 5px 5px black;
+
+  /* height: 20%; */
+  /* background-image: url("../../public/findr_50.png"); */
+  /* background-size: cover; */
+
+}
+.info{
+  margin-top: 5%;
+  /* color: black; */
+  /* width: 100%; */
+  /* background-color:rgb(236, 229, 229,0.1); */
+  background-color:rgba(22, 20, 20, 0.5);
+  font-size: 1.8vmin;
+  text-align: center;
+  padding: 0%;
+  box-shadow: 1px 5px 5px black;
+  /* transition: transform 1s ease; */
 }
