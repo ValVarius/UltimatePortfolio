@@ -27,12 +27,20 @@ export default function Findr() {
         option is picked. Once the top choice is chosen, the restaurant
         information will be shown to get a user to their food as fast as
         possible.
+        <img
+                className="img-fluid codes"
+                src={require("../../public/js-html-css-logo.png")}
+                alt="JS HTML CSS Logo"
+                
+              />
       </div>
+      
 
       <a
           href="https://github.com/commiewalker/Findr"
           target="_blank"
           rel="noopener noreferrer"
+          // class = "col"
         >
       <img
                 className="img-fluid logit"
@@ -40,7 +48,15 @@ export default function Findr() {
                 alt="GitHub Logo"
                 
               />
+              <p class = "gittext">Repository</p>
               </a>
+
+              <div className="info-codes">
+        {/* <p>JavaScript</p>
+        <p>HTML</p>
+        <p>CSS</p> */}
+        
+      </div>
     </div>
   );
 }

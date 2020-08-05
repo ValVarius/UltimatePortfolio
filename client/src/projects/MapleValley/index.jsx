@@ -28,12 +28,18 @@ export default function MapleValley() {
         and facilitate camp planning by allowing registration details to be
         easily shared to camp planning committee.
       </div>
-      <img
-                className="img-fluid logit"
-                src={require("../../public/git-white.png")}
-                alt="GitHub Logo"
-                
-              />
+      <a
+        href="https://github.com/coleloui/MapleValley"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          className="img-fluid logit"
+          src={require("../../public/git-white.png")}
+          alt="GitHub Logo"
+        />
+      </a>
+      
     </div>
   );
 }
