@@ -6,7 +6,7 @@ export default function Password() {
         <div className="container project-container" id="password">
 
 
-      <div class =" projectTitle"><h1>~Note Takes~</h1></div>
+      <div class ="projectTitle"><h1>~Password~</h1></div>
 
 
       <div className = "project-img">

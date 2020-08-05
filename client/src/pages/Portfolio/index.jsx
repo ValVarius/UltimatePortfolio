@@ -13,6 +13,7 @@ export default function Portfolio() {
   return (
     //  {/* FIRST ROW */}
     <Pulse>
+      {/* First Row */}
     <div className="row">
       
       <div className="col-6">
@@ -28,7 +29,7 @@ export default function Portfolio() {
       </div>
       
     </div>
-
+{/* Second Row */}
     <div className="row">
       
       <div className="col-6">
@@ -40,6 +41,16 @@ export default function Portfolio() {
       <div className="col-6">
       <Slide left duration={2000}>
           <Password />
+        </Slide>
+      </div>
+      
+    </div>
+    {/* Third Row */}
+    <div className="row">
+      
+      <div className="col-6">
+        <Slide right duration={2000}>
+          <Weather/>
         </Slide>
       </div>
       

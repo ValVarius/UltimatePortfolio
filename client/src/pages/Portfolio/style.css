@@ -1,17 +1,26 @@
 .project-container{
-  height: 70vmin;
+  height: 75vmin;
   box-shadow: 1px 5px 5px black;
   color: white;
+  overflow: auto;
 
 }
 .projectTitle{
-  background-color:rgb(236, 229, 229,0.2);
+  background-color:rgba(22, 20, 20, 0.5);
+  /* background-color:rgb(236, 229, 229,0.2); */
   text-align: center;
   box-shadow: 1px 5px 5px black;
   margin-bottom: 5%;
+  margin-top: 5%;
 
   /* margin-top: 30px; */
 }
+.projectTitle h1{
+  font-size: 3vmin;
+    /* margin-top: 5%; */
+
+}
+
 .project-img{
   width: 70%;
   margin: auto;
