@@ -30,7 +30,7 @@ export default function Findr() {
       </div>
 
       <a
-          href="https://commiewalker.github.io/Findr/"
+          href="https://github.com/commiewalker/Findr"
           target="_blank"
           rel="noopener noreferrer"
         >

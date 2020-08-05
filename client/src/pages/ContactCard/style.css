@@ -2,7 +2,7 @@
   text-align: center;
 }
 .bottom {
-  background-color: rgb(128, 181, 216);
+  background-color: rgb(128, 181, 216, 0.8);
   /* margin-top: -65px; */
   margin-top: -8vmin;
   height: 50vmin;

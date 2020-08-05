@@ -1,5 +1,8 @@
 body {
   background-color: burlywood;
+  background-image: url("./public/newdots-picasso.png");
+  /* background-size: cover; */
+
   font-weight: bold;
   /* font-family: 'Rock Salt', cursive; */
   font-family: "Merienda", cursive;
@@ -21,25 +24,22 @@ body {
   /* border-radius: 25px; */
   box-shadow: 1px 5px 5px black;
   background-image: url("./public/connecting-dots-transparent.png");
-  
+  /* background-image: url("./public/newdots-picasso.png"); */
 }
 /* #profile{
   background-image: url("./public/connecting-dots-transparent.png");
 }*/
-#myStory{
+#myStory {
   /* background-image: url("./public/connecting-dots-transparent.png"); */
   /* z-index: 1; */
-  background-color:rgb(236, 229, 229,0.7);
+  background-color: rgb(236, 229, 229, 0.7);
   /* box-shadow: 1px 1px 1px black; */
   /* margin-left: 10%; */
-  
-
-} 
-#homerow{
-  /* background-image: url("./public/connecting-dots-transparent.png"); */
-/* margin-right: 10%; */
 }
-
+#homerow {
+  /* background-image: url("./public/connecting-dots-transparent.png"); */
+  /* margin-right: 10%; */
+}
 
 .card-text {
   /* color: burlywood; */
@@ -48,9 +48,11 @@ body {
   /* font-size: 14px; */
   font-size: 2.1vh;
   /* font-size: 1.1vw; */
-
 }
 
 #profilePicture {
   box-shadow: 1px 5px 5px black;
+  border-radius: 50%;
+  /* margin-top: 20%; */
+  max-width: 80%;
 }
