@@ -49,6 +49,7 @@ To-do list:
 * Finish the portfolio so tht it is clear which one is the link to git and deployed app
 * Check the mobile version of portfolio page
 * Homepage for mobile should be a badge perhaps...
+* Update ReadMe when design is done.
 
 
 
