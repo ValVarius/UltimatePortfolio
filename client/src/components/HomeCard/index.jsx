@@ -8,7 +8,7 @@ export default function HomeCard() {
     <Zoom duration={2000}>
       <div className="card homecard">
         <div className="card-body">
-          <div className="row" id = "homerow">
+          <div className="row">
             {/* FIRST OF TWO COLUMNS  */}
             <div className="col-4" id="profile">
               <Zoom duration={3000}>
@@ -20,6 +20,9 @@ export default function HomeCard() {
                 />
               </Zoom>
             </div>
+            <hr id="line"></hr>
+            <hr id="line2"></hr>
+
             {/* SECOND OF TWO COLUMNS  */}
             {/* <Rotate top left cascade duration={3000}> */}
             <Slide left duration={4000}>
