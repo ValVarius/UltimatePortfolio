@@ -4,7 +4,7 @@ import "./style.css";
 export default function Findr() {
   return (
     <div className="container project-container" id="findr">
-      <div class="projectTitle">
+      <div className="projectTitle">
         <h1>~Findr~</h1>
       </div>
 
@@ -27,35 +27,28 @@ export default function Findr() {
         option is picked. Once the top choice is chosen, the restaurant
         information will be shown to get a user to their food as fast as
         possible.
-        <img
-                className="img-fluid codes"
-                src={require("../../public/js-html-css-logo.png")}
-                alt="JS HTML CSS Logo"
-                
-              />
       </div>
-      
 
-      <a
+      <div className="row finale">
+        <a
           href="https://github.com/commiewalker/Findr"
           target="_blank"
           rel="noopener noreferrer"
           // class = "col"
         >
-      <img
-                className="img-fluid logit"
-                src={require("../../public/git-white.png")}
-                alt="GitHub Logo"
-                
-              />
-              <p class = "gittext">Repository</p>
-              </a>
+          <img
+            className="img-fluid logit"
+            src={require("../../public/git-white.png")}
+            alt="GitHub Logo"
+          />
+          <p className="gittext">Repository</p>
+        </a>
 
-              <div className="info-codes">
-        {/* <p>JavaScript</p>
-        <p>HTML</p>
-        <p>CSS</p> */}
-        
+        <img
+          className="img-fluid codes"
+          src={require("../../public/js-html-css-logo.png")}
+          alt="JS HTML CSS Logo"
+        />
       </div>
     </div>
   );

@@ -41,34 +41,42 @@
   /* color: black; */
   /* width: 100%; */
   /* background-color:rgb(236, 229, 229,0.1); */
-  /* background-color:rgba(22, 20, 20, 0.5); */
-  background-color: rgb(255, 235, 205,0.2);
+  background-color:rgba(22, 20, 20, 0.5);
+  /* background-color: rgb(255, 235, 205,0.2); */
   font-size: 1.8vmin;
   text-align: center;
   padding: 0%;
   box-shadow: 1px 5px 5px black;
   /* transition: transform 1s ease; */
 }
-.info img{
-  max-height: 10vmin;
-}
 
 .logit{
   /* position: absolute; */
-  bottom:0;
-  margin-bottom: 10px;
+  /* bottom:0; */
+  /* margin-bottom: 10px; */
   margin-top: 10px;
+  margin-left: 10px;
   /* right:0; */
   /* left:0; */
-  max-width: 30%;
-  max-height: 10%;
+  max-width: 7vw;
+  max-height: 15%;
   /* margin: auto; */
   /* margin-top: 4%; */
 }
 .gittext{
   font-size: 1.8vmin;
-  /* text-align: left; */
-  margin-left: 0em;
-  /* text-align: center; */
+  margin-left: 18px;
   color: white;
+}
+.codes{
+  max-height: 12vmin;
+  max-width: 17vw;
+  margin-left: 5%;
+  margin-right: 10px;
+  /* margin-right: 0em; */
+  /* float: right; */
+
+ } 
+.row .finale{
+
 }

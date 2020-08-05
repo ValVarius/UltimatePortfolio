@@ -4,7 +4,7 @@ import "./style.css";
 export default function MapleValley() {
   return (
     <div className="container project-container" id="maplevalley">
-      <div class=" projectTitle">
+      <div className=" projectTitle">
         <h1>~Maple Valley~</h1>
       </div>
       <div className="project-img">
