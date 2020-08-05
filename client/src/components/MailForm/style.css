@@ -10,7 +10,7 @@
 #mailDot {
   background-image: url("../../public/gmailicon.png");
   /* border-color:#a22e37 */
-  border-color: #B23121;
+  border-color: rgb(178, 49, 33,0.7);
 
 }
 input::-webkit-input-placeholder {
