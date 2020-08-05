@@ -43,3 +43,13 @@
   box-shadow: 1px 5px 5px black;
   /* transition: transform 1s ease; */
 }
+.logit{
+  position: absolute;
+  bottom:0;
+  margin-bottom: 10px;
+  /* right:0; */
+  /* left:0; */
+  max-width: 30%;
+  /* margin: auto; */
+  /* margin-top: 4%; */
+}

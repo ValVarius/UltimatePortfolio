@@ -5,7 +5,7 @@ export default function Findr() {
   return (
     <div className="container project-container" id="findr">
       <div class="projectTitle">
-        <h1 >~Findr~</h1>
+        <h1>~Findr~</h1>
       </div>
 
       <div className="project-img">
@@ -14,26 +14,33 @@ export default function Findr() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <Fade bottom duration={2000}> */}
           <img
             className="img-fluid"
             alt="Screenshot of findr app"
             src={require("../../public/findr_50.png")}
           />
-          {/* </Fade> */}
         </a>
       </div>
       <div className="info">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        FINDR is an application that simply and randomly displays an image from
+        a restaurant in a card that can be cycled through until an appealing
+        option is picked. Once the top choice is chosen, the restaurant
+        information will be shown to get a user to their food as fast as
+        possible.
       </div>
+
+      <a
+          href="https://commiewalker.github.io/Findr/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+      <img
+                className="img-fluid logit"
+                src={require("../../public/git-white.png")}
+                alt="GitHub Logo"
+                
+              />
+              </a>
     </div>
   );
 }
