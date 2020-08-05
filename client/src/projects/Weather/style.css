@@ -1,0 +1,7 @@
+#weather{
+    background-image: url("../../public/newdots-sun.jpg");
+    /* background-image: url("../../public/newdots.jpg"); */
+    background-size:cover;
+
+    /* padding: 0%; */
+}

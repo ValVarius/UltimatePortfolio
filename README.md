@@ -45,8 +45,11 @@ To view this portfolio you can click : [here](https://www.valeriovarani.com/)
 
 To-do list:
 
-* The contact page components resizes oddly when screen is particularly large.
-* Improoving the design such as finding better color palletes and the design of the portfolio page.
+* Resize the font of the contact component.
+* Finish the portfolio so tht it is clear which one is the link to git and deployed app
+* Check the mobile version of portfolio page
+* Homepage for mobile should be a badge perhaps...
+* Update ReadMe when design is done.
 
 
 
