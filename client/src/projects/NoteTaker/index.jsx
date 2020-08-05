@@ -4,7 +4,7 @@ import "./style.css";
 export default function NoteTaker() {
   return (
     <div className="container project-container" id="notes">
-      <div class=" projectTitle">
+      <div className=" projectTitle">
         <h1>~Note Takes~</h1>
       </div>
 

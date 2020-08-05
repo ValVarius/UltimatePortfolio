@@ -4,7 +4,7 @@ import "./style.css";
 export default function Findr() {
   return (
     <div className="container project-container" id="findr">
-      <div class="projectTitle">
+      <div className="projectTitle">
         <h1>~Findr~</h1>
       </div>
 
@@ -29,18 +29,27 @@ export default function Findr() {
         possible.
       </div>
 
-      <a
+      <div className="row finale">
+        <a
           href="https://github.com/commiewalker/Findr"
           target="_blank"
           rel="noopener noreferrer"
+          // class = "col"
         >
-      <img
-                className="img-fluid logit"
-                src={require("../../public/git-white.png")}
-                alt="GitHub Logo"
-                
-              />
-              </a>
+          <img
+            className="img-fluid logit"
+            src={require("../../public/git-white.png")}
+            alt="GitHub Logo"
+          />
+          <p className="gittext">Repository</p>
+        </a>
+
+        <img
+          className="img-fluid codes"
+          src={require("../../public/js-html-css-logo.png")}
+          alt="JS HTML CSS Logo"
+        />
+      </div>
     </div>
   );
 }

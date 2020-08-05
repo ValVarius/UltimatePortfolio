@@ -4,7 +4,7 @@ import "./style.css";
 export default function Weather() {
   return (
     <div className="container project-container" id="weather">
-      <div class=" projectTitle">
+      <div className=" projectTitle">
         <h1>~Weather App~</h1>
       </div>
 

@@ -4,7 +4,7 @@ import "./style.css";
 export default function MapleValley() {
   return (
     <div className="container project-container" id="maplevalley">
-      <div class=" projectTitle">
+      <div className=" projectTitle">
         <h1>~Maple Valley~</h1>
       </div>
       <div className="project-img">
@@ -28,12 +28,18 @@ export default function MapleValley() {
         and facilitate camp planning by allowing registration details to be
         easily shared to camp planning committee.
       </div>
-      <img
-                className="img-fluid logit"
-                src={require("../../public/git-white.png")}
-                alt="GitHub Logo"
-                
-              />
+      <a
+        href="https://github.com/coleloui/MapleValley"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          className="img-fluid logit"
+          src={require("../../public/git-white.png")}
+          alt="GitHub Logo"
+        />
+      </a>
+      
     </div>
   );
 }

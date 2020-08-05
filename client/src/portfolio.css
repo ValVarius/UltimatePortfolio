@@ -2,6 +2,7 @@ body {
   background-color: burlywood;
   background-image: url("./public/newdots-picasso.png");
   /* background-size: cover; */
+  /* background-repeat: no-repeat; */
 
   font-weight: bold;
   /* font-family: 'Rock Salt', cursive; */
