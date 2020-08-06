@@ -28,17 +28,50 @@ export default function MapleValley() {
         and facilitate camp planning by allowing registration details to be
         easily shared to camp planning committee.
       </div>
-      <a
-        href="https://github.com/coleloui/MapleValley"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      
+      <div className="row finale">
+        <a
+          href="https://github.com/coleloui/MapleValley"
+          target="_blank"
+          rel="noopener noreferrer"
+          // class = "col"
+        >
+          <img
+            className="img-fluid logit"
+            src={require("../../public/git-white.png")}
+            alt="GitHub Logo"
+          />
+          <p className="gittext">Repository</p>
+        </a>
+
         <img
-          className="img-fluid logit"
-          src={require("../../public/git-white.png")}
-          alt="GitHub Logo"
+          className="img-fluid codes"
+          src={require("../../public/js-html-css-logo.png")}
+          alt="JS HTML CSS Logo"
         />
-      </a>
+        <img
+          className="img-fluid codes"
+          src={require("../../public/handlebars-logo.png")}
+          alt="Handlebars Logo"
+        />
+        <img
+          className="img-fluid codes"
+          src={require("../../public/sql-logo.png")}
+          alt="SQL Logo"
+        />
+        <img
+          className="img-fluid codes"
+          src={require("../../public/node-logo.png")}
+          alt="Nodejs Logo"
+        />
+        <img
+          className="img-fluid codes"
+          src={require("../../public/sequelize-logo.png")}
+          alt="Sequelize Logo"
+        />
+
+
+      </div>
       
     </div>
   );
