@@ -21,50 +21,48 @@ export default function Findr() {
           src={require("../../public/findr_50.png")}
         />
         <div className="col-4">
-          <div classNAme = "row">
-          <a
-            href="https://github.com/commiewalker/Findr"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="img-fluid logit "
-              src={require("../../public/git-white.png")}
-              alt="GitHub Logo"
-            />
-            <p className="gittext">Repository</p>
-          </a>
-
+          <div classNAme="row">
+            <a
+              href="https://github.com/commiewalker/Findr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="img-fluid logos "
+                src={require("../../public/git-white.png")}
+                alt="GitHub Logo"
+              />
+              <p className="gittext">Repository</p>
+            </a>
           </div>
-          <div classNAme = "row">
-          <a
-            href="https://github.com/commiewalker/Findr"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="img-fluid backlogo"
-              src={require("../../public/back-end-white.png")}
-              alt="BackEnd Logo"
-            />
-            <p className="gittext">Back End Repository</p>
-          </a>
+          {/* <div classNAme="row">
+            <a
+              href="https://github.com/commiewalker/Findr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="img-fluid logos"
+                src={require("../../public/back-end-white.png")}
+                alt="BackEnd Logo"
+              />
+              <p className="gittext">Back End Repository</p>
+            </a>
+          </div> */}
+          <div classNAme="row">
+            <a
+              href="https://commiewalker.github.io/Findr/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="img-fluid logos"
+                src={require("../../public/deployed-logo-white.png")}
+                alt="BackEnd Logo"
+              />
+              <p className="gittext">Deployment</p>
+            </a>
           </div>
-          <div classNAme = "row">
-          <a
-            href="https://github.com/commiewalker/Findr"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="img-fluid backlogo"
-              src={require("../../public/deployed-logo-white.png")}
-              alt="BackEnd Logo"
-            />
-            <p className="gittext">Deployment</p>
-          </a>
-          </div>
-          
         </div>
       </div>
 
@@ -82,7 +80,10 @@ export default function Findr() {
           src={require("../../public/js-html-css-logo.png")}
           alt="JS HTML CSS Logo"
         />
+        
       </div>
+      
+      
     </div>
   );
 }
