@@ -69,6 +69,11 @@ export default function MapleValley() {
           src={require("../../public/sequelize-logo.png")}
           alt="Sequelize Logo"
         />
+        <img
+          className="img-fluid codes"
+          src={require("../../public/mysql-logo.png")}
+          alt="MySql Logo"
+        />
 
 
       </div>

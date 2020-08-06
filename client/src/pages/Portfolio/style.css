@@ -1,17 +1,15 @@
-.project-container{
+.project-container {
   height: 75vmin;
   box-shadow: 1px 5px 5px black;
   color: white;
   overflow: auto;
   transition: transform 1s ease;
-
 }
-.project-container:hover{
+.project-container:hover {
   transform: scale(1.1);
-
 }
-.projectTitle{
-  background-color:rgba(22, 20, 20, 0.5);
+.projectTitle {
+  background-color: rgba(22, 20, 20, 0.5);
   /* background-color:rgb(236, 229, 229,0.2); */
   text-align: center;
   box-shadow: 1px 5px 5px black;
@@ -20,64 +18,82 @@
 
   /* margin-top: 30px; */
 }
-.projectTitle h1{
+.projectTitle h1 {
   font-size: 3vmin;
-    /* margin-top: 5%; */
-
+  /* margin-top: 5%; */
 }
-
-.project-img{
-  width: 70%;
-  margin: auto;
+.firstRow {
+}
+.project-img {
+  /* width: 60%; */
+  /* margin: auto; */
+  /* max-height: 15vw; */
   box-shadow: 1px 5px 5px black;
 
   /* height: 20%; */
   /* background-image: url("../../public/findr_50.png"); */
   /* background-size: cover; */
-
 }
-.info{
+.logit {
+  /* margin-left: 30%; */
+  /* position: absolute; */
+  /* bottom:0; */
+  /* margin-bottom: 10px; */
+  /* margin-top: 10px; */
+  /* margin-left: 10px; */
+  /* right:0; */
+  /* left:0; */
+  /* max-width: 30%;
+  margin-right: 10px; */
+  /* max-height: 10%; */
+  /* margin: auto; */
+  /* margin-top: 4%; */
+  /* box-shadow: 1px 5px 5px black; */
+  /* margin: auto; */
+  /* text-align: center; */
+  /* margin-left: 25%; */
+  max-height: 6vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.backlogo {
+  /* margin-left: 25%; */
+  /* text-align: center; */
+  max-height: 6vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gittext {
+  font-size: 1.5vmin;
+  text-align: center;
+  /* margin-left: 25px; */
+  color: white;
+}
+.info {
   margin-top: 4%;
   /* color: black; */
   /* width: 100%; */
   /* background-color:rgb(236, 229, 229,0.1); */
-  background-color:rgba(22, 20, 20, 0.5);
+  background-color: rgba(22, 20, 20, 0.5);
   /* background-color: rgb(255, 235, 205,0.2); */
-  font-size: 1.8vmin;
+  font-size: 1.4vmin;
   text-align: center;
   padding: 0%;
   box-shadow: 1px 5px 5px black;
   /* transition: transform 1s ease; */
 }
 
-.logit{
-  /* position: absolute; */
-  /* bottom:0; */
-  /* margin-bottom: 10px; */
-  margin-top: 10px;
-  margin-left: 10px;
-  /* right:0; */
-  /* left:0; */
-  max-width: 6vw;
-  max-height: 10%;
-  /* margin: auto; */
-  /* margin-top: 4%; */
-}
-.gittext{
-  font-size: 1.5vmin;
-  margin-left: 18px;
-  color: white;
-}
-.codes{
+.codes {
   max-height: 11vmin;
   max-width: 17vw;
   margin-left: 5%;
   margin-right: 10px;
   /* margin-right: 0em; */
   /* float: right; */
-
- } 
-.row .finale{
+}
+/* .row .finale{
 margin-top: 10%;
 margin-bottom: 0;
-}
+} */
