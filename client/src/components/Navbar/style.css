@@ -11,7 +11,7 @@
   /* color: #a22e37; */
 }
 .navbar.navbar-expand-lg.navbar-light li a:hover {
-  color: aliceblue;
+  /* color: aliceblue; */
   color: #a22e37;
 }
 
@@ -23,7 +23,7 @@
 
 .navbar.navbar-expand-lg.navbar-light li a {
   color: black;
-  font-size: 30px;
+  font-size: 25px;
   /* color: burlywood; */
 }
 

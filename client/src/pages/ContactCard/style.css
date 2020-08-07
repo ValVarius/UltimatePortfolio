@@ -55,16 +55,16 @@
   transition: transform 1s ease;
 
 }
-.badge:hover{
+/* .badge:hover{
   transform: scale(1.2);
 
-}
+} */
 #LinkedInBadge {
   text-shadow: 2px 2px 4px #000000;
 }
 
 #logoLinkedIn {
-  width: 30%;
+  width: 25%;
   margin-top: 10%;
   margin-bottom: 4%;
 }
@@ -73,20 +73,19 @@
   text-shadow: 1px 1px 2px #f5efef;
   margin-top: 10px;
   /* font-size: 70%; */
-  font-size: 1.9vmin;
+  font-size: 1.5vmin;
 
 }
 @media (max-width: 520px) {
   #uw {
-    
     font-size: 3vmin;
   }
 }
 
 
 .space {
-  margin-top: 4vmin;
-
+  margin-top: 3.5vmin;
+  margin-bottom: auto;
   font-size: 1.5vw;
 }
 @media (max-width: 520px) {
@@ -107,7 +106,7 @@
   transform: scale(1.2);
 }
 #linkediname {
-  font-size: 3vw;
+  font-size: 2vw;
 }
 @media (max-width: 520px) {
   #linkediname {

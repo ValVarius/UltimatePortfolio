@@ -16,7 +16,7 @@ export default function MapleValley() {
         <div className="col-4">
           <div classNAme="row">
             <a
-              href="https://github.com/commiewalker/Findr"
+              href="https://github.com/coleloui/MapleValley"
               target="_blank"
               rel="noopener noreferrer"
             >

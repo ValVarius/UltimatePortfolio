@@ -20,6 +20,7 @@ textarea::-webkit-input-placeholder{
   font-size: 2vmin;
 }
 #sendBtn {
+  margin-top: 40px;
   font-size: 100%;
   background-color: #0044b1;
   transition: transform 0.5s ease;
@@ -32,6 +33,7 @@ textarea::-webkit-input-placeholder{
 .form-group{
   width: 90%;
   margin-left: 5%;
-  margin-top: 5%;
+  /* margin-top: 5%; */
+  height: 6vmin;
   
 }
