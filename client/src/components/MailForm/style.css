@@ -26,6 +26,12 @@ textarea::-webkit-input-placeholder{
   transition: transform 0.5s ease;
 
 }
+@media (max-width: 520px){
+  #sendBtn {
+    font-size: 200%; 
+    margin-top: 20%;   
+  }
+}
 #sendBtn:hover {
   background-color: #7ac1e2f8;
   transform: scale(1.2);
@@ -33,7 +39,11 @@ textarea::-webkit-input-placeholder{
 .form-group{
   width: 90%;
   margin-left: 5%;
-  /* margin-top: 5%; */
   height: 6vmin;
-  
+}
+@media (max-width: 520px){
+  .form-group{
+    margin-top: 5%;
+
+  }
 }

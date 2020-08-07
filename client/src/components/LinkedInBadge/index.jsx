@@ -32,7 +32,7 @@ export default function LinkedInBadge() {
           View Profile
         </a>
 
-        <div>
+        <div id = "linkedInWrapper">
           <img
             className="card-img img-fluid "
             src={require("../../public/LI-Logo-W.png")}
