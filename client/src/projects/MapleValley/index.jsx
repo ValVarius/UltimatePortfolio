@@ -28,7 +28,7 @@ export default function MapleValley() {
               <p className="gittext">Repository</p>
             </a>
           </div>
-          <div >
+          {/* <div >
             <a
               href="https://github.com/commiewalker/Findr"
               target="_blank"
@@ -41,7 +41,7 @@ export default function MapleValley() {
               />
               <p className="gittext">Back End Repository</p>
             </a>
-          </div>
+          </div> */}
           <div >
             <a
               href="https://protected-lowlands-08660.herokuapp.com/"

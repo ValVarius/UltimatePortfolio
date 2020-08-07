@@ -9,12 +9,6 @@ export default function Findr() {
       </div>
 
       <div className="row firstRow">
-        {/* <a
-          href="https://commiewalker.github.io/Findr/"
-          target="_blank"
-          rel="noopener noreferrer"
-        ></a> */}
-
         <img
           className="img-fluid project-img col-8"
           alt="Screenshot of findr app"
@@ -37,7 +31,7 @@ export default function Findr() {
           </div>
           {/* <div >
             <a
-              href="https://github.com/commiewalker/Findr"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >
