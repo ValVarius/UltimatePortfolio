@@ -58,12 +58,12 @@
     font-size: 5vw;
   }
 }
-@media (max-height: 520px){
+/* @media (max-height: 520px){
   .space {
     margin-top: 7vmin;
     /* font-size: 5vw; */
-  }
-}
+  /* }
+} */ 
 
 #linkediname {
   font-size: 2vw;
@@ -116,3 +116,18 @@
     margin-bottom: 4%;
   }
 }
+
+
+@media (max-height: 650px){
+  .bottom {
+    height: 400px;
+   }
+   .space {
+    margin-top: 7vmin;
+    font-size: 1vw;
+   }
+   #uw {
+    font-size: 1vw;
+  }
+  }
+  
