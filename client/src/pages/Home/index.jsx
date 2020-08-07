@@ -12,6 +12,25 @@ import { useLocation } from "react-router-dom";
 export default function Home() {
   const location = useLocation();
 
+  // const [size, setSize] = useState({
+  //   width: window.innerWidth,
+  //   height: window.innerHeight
+  // });
+  // const updateSize = (event) => {
+  //   const { name, value } = event.target;
+  //   setSize({
+  //     ...size,
+  //     [name]: value,
+  //   })
+    
+  // };
+  // useEffect(() => {
+  //   window.addEventListener("resize", updateSize);
+  //   console.log(size.width,size.height);
+  //   console.log(window.innerWidth,window.innerHeight);
+  //   return () => window.removeEventListener("resize", updateSize);
+  // });
+
   const [width, setWidth] = useState(window.innerWidth);
   const updateWidth = () => {
     setWidth(window.innerWidth);
@@ -20,6 +39,7 @@ export default function Home() {
     window.addEventListener("resize", updateWidth);
     return () => window.removeEventListener("resize", updateWidth);
   });
+
 
   return (
     <div className="container-fluid" id = "homecontainer">
@@ -38,6 +58,7 @@ export default function Home() {
 
       {location.pathname === "/contacts" && width >= 520 ? <ContactCard /> : ""}
       {location.pathname === "/contacts" && width < 520 ? <MobileContactCard /> : ""}
+      {/* {location.pathname === "/contacts" && size.heigth <= 620 ? <MobileContactCard /> : ""} */}
     </div>
   );
 }

@@ -14,7 +14,7 @@ export default function MapleValley() {
           src={require("../../public/mapleValley_50.png")}
         />
         <div className="col-4">
-          <div classNAme="row">
+          <div >
             <a
               href="https://github.com/coleloui/MapleValley"
               target="_blank"
@@ -28,7 +28,7 @@ export default function MapleValley() {
               <p className="gittext">Repository</p>
             </a>
           </div>
-          {/* <div classNAme="row">
+          <div >
             <a
               href="https://github.com/commiewalker/Findr"
               target="_blank"
@@ -41,8 +41,8 @@ export default function MapleValley() {
               />
               <p className="gittext">Back End Repository</p>
             </a>
-          </div> */}
-          <div classNAme="row">
+          </div>
+          <div >
             <a
               href="https://protected-lowlands-08660.herokuapp.com/"
               target="_blank"
@@ -51,7 +51,7 @@ export default function MapleValley() {
               <img
                 className="img-fluid logos"
                 src={require("../../public/deployed-logo-white.png")}
-                alt="BackEnd Logo"
+                alt="Deployment Logo"
               />
               <p className="gittext">Deployment</p>
             </a>
