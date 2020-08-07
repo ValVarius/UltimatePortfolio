@@ -29,7 +29,7 @@ textarea::-webkit-input-placeholder{
 @media (max-width: 520px){
   #sendBtn {
     font-size: 200%; 
-    margin-top: 20%;   
+    margin-top: 25%;   
   }
 }
 #sendBtn:hover {
@@ -40,11 +40,10 @@ textarea::-webkit-input-placeholder{
   width: 90%;
   margin-left: 5%;
   height: 5vmin;
-  /* margin-top: 0%; */
 }
 @media (max-width: 520px){
   .form-group{
-    margin-top: 5%;
+    margin-top: 10%;
 
   }
 }
