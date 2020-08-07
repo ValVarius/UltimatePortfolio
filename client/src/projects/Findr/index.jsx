@@ -21,7 +21,7 @@ export default function Findr() {
           src={require("../../public/findr_50.png")}
         />
         <div className="col-4">
-          <div classNAme="row">
+          <div >
             <a
               href="https://github.com/commiewalker/Findr"
               target="_blank"
@@ -35,7 +35,7 @@ export default function Findr() {
               <p className="gittext">Repository</p>
             </a>
           </div>
-          {/* <div classNAme="row">
+          {/* <div >
             <a
               href="https://github.com/commiewalker/Findr"
               target="_blank"
@@ -49,7 +49,7 @@ export default function Findr() {
               <p className="gittext">Back End Repository</p>
             </a>
           </div> */}
-          <div classNAme="row">
+          <div >
             <a
               href="https://commiewalker.github.io/Findr/"
               target="_blank"

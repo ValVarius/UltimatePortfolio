@@ -22,9 +22,11 @@
     height: auto;
   }
 }
+
+
 .dot {
-  /* min-height: 150px; */
-  /* min-width: 150px; */
+  min-height: 100px;
+  min-width: 100px;
   height: 15vmin;
   width: 15vmin;
   border-width: 4px;
@@ -54,6 +56,12 @@
   .space {
     margin-top: 5vmin;
     font-size: 5vw;
+  }
+}
+@media (max-height: 520px){
+  .space {
+    margin-top: 7vmin;
+    /* font-size: 5vw; */
   }
 }
 
