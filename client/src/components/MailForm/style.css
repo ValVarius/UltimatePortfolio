@@ -39,7 +39,8 @@ textarea::-webkit-input-placeholder{
 .form-group{
   width: 90%;
   margin-left: 5%;
-  height: 6vmin;
+  height: 5vmin;
+  /* margin-top: 0%; */
 }
 @media (max-width: 520px){
   .form-group{
