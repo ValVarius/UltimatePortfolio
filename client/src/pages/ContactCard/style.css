@@ -1,27 +1,27 @@
-.top {
+.badge {
+  font-size: 2.1vmin;
+  color: aliceblue;
   text-align: center;
+  background-image: url("../../public/connecting-dots.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0%;
+  box-shadow: 1px 5px 5px black;
+}
+#LinkedInBadge {
+  text-shadow: 2px 2px 4px #000000;
 }
 .bottom {
   background-color: rgb(128, 181, 216, 0.8);
-  /* margin-top: -65px; */
   margin-top: -8vmin;
   height: 50vmin;
-  /* min-height: 350px; */
+  min-height: 320px;
 }
-@media (min-width: 520px) {
-  .bottom {
-    min-height: 320px;
-  }
-}
-@media (max-width: 520px) {
-  .bottom {
-    /* min-height: 320px; */
-    /* height: 50vh; */
+@media (max-width: 520px){
+  .bottom{
     height: auto;
-
   }
 }
-
 .dot {
   /* min-height: 150px; */
   /* min-width: 150px; */
@@ -39,64 +39,46 @@
 }
 @media (max-width: 520px) {
   .dot {
-    height: 20vmin;
-    width: 20vmin;
+    height: 25vmin;
+    width: 25vmin;
+    margin-bottom: -4%;
   }
 }
-.badge {
-  font-size: 2.1vmin;
-  color: aliceblue;
-  text-align: center;
-  background-image: url("../../public/connecting-dots.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0%;
-  box-shadow: 1px 5px 5px black;
-  transition: transform 1s ease;
-
-}
-.badge:hover{
-  transform: scale(1.2);
-
-}
-#LinkedInBadge {
-  text-shadow: 2px 2px 4px #000000;
-}
-
-#logoLinkedIn {
-  width: 30%;
-  margin-top: 10%;
-  margin-bottom: 4%;
-}
-#uw {
-  color: rgb(51, 0, 111);
-  text-shadow: 1px 1px 2px #f5efef;
-  margin-top: 10px;
-  /* font-size: 70%; */
-  font-size: 1.9vmin;
-
-}
-@media (max-width: 520px) {
-  #uw {
-    
-    font-size: 3vmin;
-  }
-}
-
 
 .space {
-  margin-top: 4vmin;
-
+  margin-top: 3.5vmin;
+  margin-bottom: auto;
   font-size: 1.5vw;
 }
 @media (max-width: 520px) {
   .space {
-    /* margin-top: 4vmin; */
     margin-top: 5vmin;
-
     font-size: 5vw;
   }
 }
+
+#linkediname {
+  font-size: 2vw;
+}
+@media (max-width: 520px) {
+  #linkediname {
+    font-size: 6vw;
+  }
+}
+
+#uw {
+  color: rgb(51, 0, 111);
+  text-shadow: 1px 1px 2px #f5efef;
+  font-size: 1.5vmin;
+  margin: auto;
+  margin-top: 10px;
+}
+@media (max-width: 520px) {
+  #uw {
+    font-size: 3vmin;
+  }
+}
+
 #viewBtn {
   font-size: 100%;
   background-color: #0072b1;
@@ -106,13 +88,23 @@
   background-color: #7ac1e2f8;
   transform: scale(1.2);
 }
-#linkediname {
-  font-size: 3vw;
+
+
+/* #linkedInWrapper {
+  text-align: center;
+} */
+
+#logoLinkedIn {
+  width: 30%;
+  position: absolute;
+  bottom: 15px;
+  right: 35%;
 }
-@media (max-width: 520px) {
-  #linkediname {
-    /* margin-top: 4vmin; */
-  
-    font-size: 6vw;
+@media (max-width: 520px){
+  #logoLinkedIn {
+    position: relative;
+    margin-left: 70%;
+    margin-top: 30%;
+    margin-bottom: 4%;
   }
 }

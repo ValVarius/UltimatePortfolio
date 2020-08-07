@@ -49,6 +49,7 @@ To-do list:
 * Finish the portfolio so tht it is clear which one is the link to git and deployed app
 * Check the mobile version of portfolio page
 * Homepage for mobile should be a badge perhaps...
+* you can probably bypass the homepage...
 * Update ReadMe when design is done.
 <!-- * Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3699542">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3699542">Pixabay</a> -->
 

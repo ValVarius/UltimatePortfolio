@@ -12,15 +12,13 @@ export default function ContactBadge() {
         <br />
         <br />
         <br />
-        
-
 
         <a
           href="mailto:notitiami@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p  id="mail">
+          <p className = "logo" id="mail">
             <img
               className="card-img img-fluid logo"
               // src={require("../../public/emailicon.png")}
@@ -38,7 +36,7 @@ export default function ContactBadge() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p id="cv">
+          <p id="cv" className = "logo">
             <img
               className="card-img img-fluid logo"
               src={require("../../public/resume-logo.png")}
@@ -56,28 +54,20 @@ export default function ContactBadge() {
           rel="noopener noreferrer"
         >
           <div>
-            <p id="gitName">
+            <p id="gitName" className = "logo">
               <img
                 className="card-img img-fluid logo"
                 src={require("../../public/GitHub-Mark-120px-plus.png")}
                 alt="GitHub Logo"
                 id="logoGit"
               />
-              {/* <img
-                className="card-img img-fluid logo"
-                src={require("../../public/GitHub_Logo.png")}
-                alt="GitHub Logo"
-                id="logoGit2"
-              /> */}
-              &nbsp;&nbsp;  ValVarius
+              &nbsp;&nbsp; ValVarius
             </p>
           </div>
         </a>
 
-        
-
         <a className="space" href="tel:+1-206-650-8647">
-          <p id="phone">
+          <p id="phone" className = "logo">
             <img
               className="card-img img-fluid logo"
               src={require("../../public/CirclePhone.png")}
@@ -88,12 +78,8 @@ export default function ContactBadge() {
           </p>
         </a>
 
-        
         <br />
       </div>
     </div>
   );
 }
-
-
-

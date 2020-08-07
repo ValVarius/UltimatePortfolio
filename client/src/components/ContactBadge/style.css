@@ -3,9 +3,12 @@
   text-align: left;
 }
 p {
-  margin-left: 6%;
-  font-size: 3vmin;
-
+  margin-left: 16%;
+}
+@media (max-width: 520px){
+  p{
+    margin-left: 6%;
+  }
 }
 #gitDot {
   border-color: rgb(244, 247, 248,0.9);
@@ -31,39 +34,54 @@ p {
 }
 #cv {
   color: black;
-  margin-left: 8%;
+  margin-left: 18%;
+  font-size: 1.4vmin;
   
 }
+
 #gitName {
   color: black;
+  font-size: 1.4vmin;
   
 }
 #phone {
-  /* font-size: 15px; */
-  /* color: rgb(29, 209, 29); */
+  font-size: 1.4vmin;
 }
 #mail {
   color: black;
-  font-size: 3vmin;
+  font-size: 1.4vmin;
+  /* font-size: 0.1vmin; */
+  /* font-size: 2px; */
+}
+@media (max-width: 520px){
+  #cv {
+    margin-left: 8%; 
+    font-size: 2vmin;   
+  }
+  #gitName {
+    font-size: 2vmin;     
+  }
+  #phone {
+    font-size: 2vmin;
+  }
+  #mail{
+    font-size: 2vmin;
+  }
 }
 .logo {
   transition: transform 0.5s ease;
+  /* margin-left: 16%; */
 }
 .logo:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
+}
+@media (max-width: 520px){
+  .logo:hover {
+    transform: scale(1);
+  }
 }
 
 a:link {
   text-decoration: none;
-}
-@media (min-width: 520px) {
-  p {
-    /* font-size: 2vmin; */
-    font-size: 2vw;
-  }
-  #mail {
-    font-size: 1.5vw;
-    /* font-size: 1.6vmin; */
-  }
 }
 
