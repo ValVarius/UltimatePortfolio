@@ -29,21 +29,21 @@ export default function Navbar() {
             
             <li className="nav-item">
               <Link className="nav-link" to="/">
-                <Fade right big cascade duration={2000}>
+                <Fade right big cascade duration={1000}>
                   About
                 </Fade>
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/portfolio">
-                <Fade right big cascade duration={2000}>
+                <Fade right big cascade duration={1000}>
                   Portfolio
                 </Fade>
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/contacts">
-                <Fade right big cascade duration={2000}>
+                <Fade right big cascade duration={1000}>
                   Contact
                 </Fade>
               </Link>
