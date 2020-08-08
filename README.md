@@ -45,11 +45,9 @@ To view this portfolio you can click : [here](https://www.valeriovarani.com/)
 
 To-do list:
 
-* Resize the font of the contact component.
-* Finish the portfolio so tht it is clear which one is the link to git and deployed app
-* Check the mobile version of portfolio page
 * Homepage for mobile should be a badge perhaps...
-* you can probably bypass the homepage...
+* Add a section in homepage dedicated to the skills acquired...perhaps a new component matching the theme.
+* definetly bypass the homepage component, move it in the app.js file...
 * Update ReadMe when design is done.
 <!-- * Image by <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3699542">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3699542">Pixabay</a> -->
 
