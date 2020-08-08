@@ -13,9 +13,6 @@ body {
   background-image: url("./public/connecting-dots-transparent (2).png");
 }
 
-#myStory {
-}
-
 .card-text {
   font-size: 2.1vh;
 }
@@ -27,5 +24,10 @@ body {
   border-style: solid;
   max-width: 90%;
 }
+.row{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
 
 

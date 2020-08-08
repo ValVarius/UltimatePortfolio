@@ -47,12 +47,12 @@ textarea::-webkit-input-placeholder{
 
   }
 }
-@media (max-height: 600px){
+@media (max-height: 650px){
   .form-group{
-    margin-bottom: 20%;
+    margin-bottom: 20px;
 
   }
   #sendBtn {
-    margin-top: 40px;   
+    margin-top: 60px;   
   }
 }
