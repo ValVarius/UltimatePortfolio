@@ -10,13 +10,13 @@ export default function MobileContactCard() {
   return (
     <Slide bottom cascade duration={2000}>
     <div>
-      <div className="row">
+      <div className="row mobContact">
         <LinkedInBadge />
       </div>
-      <div className="row">
+      <div className="row mobContact">
         <ContactBadge />
       </div>
-      <div className="row">
+      <div className="row mobContact">
         <MailForm />
       </div>
     </div>

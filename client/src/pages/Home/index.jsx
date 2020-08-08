@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import HomeCard from "../../components/HomeCard";
 import MobileHome from "../../components/MobileHome";
 import Portfolio from "../Portfolio";
-import PortfolioCard from "../../components/PortfolioCard";
-import MobilePortfolio from "../../components/MobilePortfolio";
+import PortfolioMobile from "../PortfolioMobile";
 import ContactCard from "../ContactCard";
 import MobileContactCard from "../MobileContactCard";
 import { useLocation } from "react-router-dom";
@@ -45,13 +44,13 @@ export default function Home() {
     <div className="container-fluid" id="homecontainer">
       {location.pathname === "/" && size.width >= 502 ? <HomeCard /> : ""}
       {location.pathname === "/" && size.width < 502 ? <MobileHome /> : ""}
-      {location.pathname === "/portfolio" && size.width >= 1100 ? (
+      {location.pathname === "/portfolio" && size.width >= 520 ? (
         <Portfolio />
       ) : (
         ""
       )}
-      {location.pathname === "/portfolio" && size.width < 1100 ? (
-        <Portfolio />
+      {location.pathname === "/portfolio" && size.width < 520 ? (
+        <PortfolioMobile />
       ) : (
         ""
       )}
@@ -66,11 +65,7 @@ export default function Home() {
       ) : (
         ""
       )}
-      {/* {location.pathname === "/contacts" && size.heigth <= 620 ? (
-        <Portfolio />
-      ) : (
-        ""
-      )} */}
+     
     </div>
   );
 }
