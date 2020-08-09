@@ -15,48 +15,47 @@ export default function Portfolio() {
     <Pulse>
       {/* First Row */}
       <div className="card homecard">
-    <div className="row portRow">
-      
-      <div className="col-6">
-        <Slide right duration={2000}>
-          <Findr />
-        </Slide>
-      </div>
+        <div className="row portRow">
+          <div className="col-1"></div>
+          <div className="col-5">
+            <Slide right duration={2000}>
+              <Findr />
+            </Slide>
+          </div>
 
-      <div className="col-6">
-      <Slide left duration={2000}>
-          <MapleValley />
-        </Slide>
-      </div>
-      
-    </div>
-{/* Second Row */}
-    <div className="row portRow">
-      
-      <div className="col-6">
-        <Slide right duration={2000}>
-          <NoteTaker />
-        </Slide>
-      </div>
+          <div className="col-5">
+            <Slide left duration={2000}>
+              <MapleValley />
+            </Slide>
+          </div>
+          <div className="col-1"></div>
+        </div>
+        {/* Second Row */}
+        <div className="row portRow">
+        <div className="col-1"></div>
+          <div className="col-5">
+            <Slide right duration={2000}>
+              <NoteTaker />
+            </Slide>
+          </div>
 
-      <div className="col-6">
-      <Slide left duration={2000}>
-          <Password />
-        </Slide>
+          <div className="col-5">
+            <Slide left duration={2000}>
+              <Password />
+            </Slide>
+          </div>
+          <div className="col-1"></div>
+        </div>
+        {/* Third Row */}
+        <div className="row portRow">
+        <div className="col-1"></div>
+          <div className="col-5">
+            <Slide right duration={2000}>
+              <Weather />
+            </Slide>
+          </div>
+        </div>
       </div>
-      
-    </div>
-    {/* Third Row */}
-    <div className="row portRow">
-      
-      <div className="col-6">
-        <Slide right duration={2000}>
-          <Weather/>
-        </Slide>
-      </div>
-      
-    </div>
-    </div>
     </Pulse>
   );
 }
