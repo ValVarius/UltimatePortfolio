@@ -100,6 +100,11 @@ export default function MapleValley() {
           src={require("../../public/mysql-logo.png")}
           alt="MySql Logo"
         />
+        <img
+              className="img-fluid codes"
+              src={require("../../public/nodemailer-logo.png")}
+              alt="Nodemailer Logo"
+            />
       </div>
       
     </div>

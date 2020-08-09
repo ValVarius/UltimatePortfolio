@@ -14,7 +14,7 @@ body {
 }
 
 .card-text {
-  font-size: 2.1vh;
+  font-size: 1.8vh;
 }
 
 #profilePicture {
@@ -23,10 +23,14 @@ body {
   border-width: 1px;
   border-style: solid;
   max-width: 90%;
+  /* margin: 50%; */
+  margin-top: 10%;
+  margin-left: 22%;
+
 }
-.row{
-  margin-top: 40px;
-  margin-bottom: 20px;
+.portRow{
+  margin-top: 60px;
+  /* margin-bottom: 20px; */
 }
 
 

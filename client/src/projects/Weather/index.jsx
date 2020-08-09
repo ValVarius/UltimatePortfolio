@@ -73,7 +73,7 @@ export default function Weather() {
 
         <img
           className="img-fluid codes"
-          src={require("../../public/jquery-logo-dark.png")}
+          src={require("../../public/jquery-logo-dark-full.png")}
           alt="JQUERY Logo"
         />
       </div>

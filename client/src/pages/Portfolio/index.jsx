@@ -14,7 +14,8 @@ export default function Portfolio() {
     //  {/* FIRST ROW */}
     <Pulse>
       {/* First Row */}
-    <div className="row">
+      <div className="card homecard">
+    <div className="row portRow">
       
       <div className="col-6">
         <Slide right duration={2000}>
@@ -30,7 +31,7 @@ export default function Portfolio() {
       
     </div>
 {/* Second Row */}
-    <div className="row">
+    <div className="row portRow">
       
       <div className="col-6">
         <Slide right duration={2000}>
@@ -46,7 +47,7 @@ export default function Portfolio() {
       
     </div>
     {/* Third Row */}
-    <div className="row">
+    <div className="row portRow">
       
       <div className="col-6">
         <Slide right duration={2000}>
@@ -54,6 +55,7 @@ export default function Portfolio() {
         </Slide>
       </div>
       
+    </div>
     </div>
     </Pulse>
   );

@@ -5,7 +5,7 @@ export default function NoteTaker() {
   return (
     <div className="container project-container" id="notes">
       <div className=" projectTitle">
-        <h1>~Note Takes~</h1>
+        <h1>~Note Taker~</h1>
       </div>
 
       
