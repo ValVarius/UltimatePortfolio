@@ -64,6 +64,7 @@
 @media (max-width: 520px){
   .project-container{
     height: fit-content;
+    max-width: 85%;
     /* box-shadow: 1px 5px 5px white; */
 
   }

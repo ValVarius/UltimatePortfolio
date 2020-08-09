@@ -1,4 +1,5 @@
 import React from "react";
+import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import Pulse from "react-reveal/Pulse";
@@ -11,36 +12,38 @@ import "./style.css";
 
 export default function PortfolioMobile() {
   return (
-    <div>
+    <Zoom>
+    <div className="card portfolioCard">
       <div className="row mobProject">
-        <Slide right duration={2000}>
+        <Zoom duration={2000}>
           <Findr />
-        </Slide>
+        </Zoom>
       </div>
 
       <div className="row mobProject">
-        <Slide left duration={2000}>
+        <Zoom duration={2000}>
           <MapleValley />
-        </Slide>
+        </Zoom>
       </div>
 
       <div className="row mobProject">
-        <Slide right duration={2000}>
+        <Zoom duration={2000}>
           <NoteTaker />
-        </Slide>
+        </Zoom>
       </div>
 
       <div className="row mobProject">
-        <Slide left duration={2000}>
+        <Zoom duration={2000}>
           <Password />
-        </Slide>
+        </Zoom>
       </div>
 
       <div className="row mobProject">
-        <Slide right duration={2000}>
+        <Zoom duration={2000}>
           <Weather />
-        </Slide>
+        </Zoom>
       </div>
     </div>
+    </Zoom>
   );
 }
