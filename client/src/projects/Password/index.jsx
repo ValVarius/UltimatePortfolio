@@ -3,7 +3,7 @@ import "./style.css";
 
 export default function Password() {
   return (
-    <div className="container project-container" id="password">
+    <div className="container card project-container" id="password">
       <div className="projectTitle">
         <h1>~Password~</h1>
       </div>
