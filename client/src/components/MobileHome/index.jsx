@@ -1,15 +1,19 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
 import Rotate from "react-reveal/Rotate";
+import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
+import Pulse from 'react-reveal/Pulse';
+
 
 import "./style.css";
 
 export default function MobileHome() {
   return (
-    <Zoom duration={1000}>
+    <Zoom>
       <div className="card homecard mobilehome">
         <div className="card-body">
-          <Zoom duration={3000}>
+          <Zoom duration={2000}>
             <div className="col-12 center">
               <img
                 className="card-img-top"
@@ -19,7 +23,7 @@ export default function MobileHome() {
               />
             </div>
           </Zoom>
-          <Rotate top left duration={5000}>
+          <Zoom duration={2000}>
             <p className="card-text">
               Creative and passionate Full Stack Software Engineer specializing
               in frontend development.
@@ -46,7 +50,138 @@ export default function MobileHome() {
               Originally from Rome,Italy, excited to bring a fresh perspective
               to a collaborative team environment.
             </p>{" "}
-          </Rotate>
+          </Zoom>
+
+          <hr />
+          <div className="row">
+            <img
+              className="img-fluid skills"
+              src={require("../../public/js-html-css-logo.png")}
+              alt="JS HTML CSS Logo"
+            />
+            <img
+              className="img-fluid skills"
+              src={require("../../public/node-logo-dark-2.png")}
+              alt="Nodejs Logo"
+            />
+            <img
+              className="img-fluid codes"
+              src={require("../../public/jquery-logo-dark-full.png")}
+              alt="JQUERY Logo"
+            />
+            <img
+              className="img-fluid skills skillexc"
+              src={require("../../public/express-logo.png")}
+              alt="Express Logo"
+            />
+            <img
+              className="img-fluid skills skillexc"
+              src={require("../../public/ajax-logo.png")}
+              alt="Ajax Logo"
+            />
+            <img
+              className="img-fluid skills skillexc"
+              src={require("../../public/restfulapi-logo.png")}
+              alt="RestFul Api Logo"
+            />
+            <img
+              className="img-fluid skills"
+              src={require("../../public/react-logo.png")}
+              alt="React Logo"
+            />
+            <img
+              className="img-fluid skills"
+              src={require("../../public/handlebars-logo.png")}
+              alt="Handlebars Logo"
+            />
+          </div>
+          <hr /> {/*Second Row*/}
+          <div className="row">
+          <img
+              className="img-fluid skills"
+              src={require("../../public/java-logo.png")}
+              alt="Java Logo"
+            />
+            <img
+              className="img-fluid skills"
+              src={require("../../public/sql-logo.png")}
+              alt="SQL Logo"
+            />
+            <img
+              className="img-fluid skills"
+              src={require("../../public/sequelize-logo.png")}
+              alt="Sequelize Logo"
+            />
+            <img
+              className="img-fluid skills"
+              src={require("../../public/mysql-logo.png")}
+              alt="MySql Logo"
+            />
+            <img
+              className="img-fluid skills"
+              src={require("../../public/mongo-logo.png")}
+              alt="Mongo Logo"
+            />
+            <img
+              className="img-fluid skills"
+              src={require("../../public/mongoose-logo.png")}
+              alt="Mongoose Logo"
+            />
+            <img
+              className="img-fluid skills"
+              src={require("../../public/nodemailer-logo.png")}
+              alt="Nodemailer Logo"
+            />
+          </div>
+          <hr />
+          {/* THIRD ROW */}
+          <div className="row">
+            <img
+              className="img-fluid skills"
+              src={require("../../public/bootstrap-logo.png")}
+              alt="Bootstrap Logo"
+            />
+            <img
+              className="img-fluid skills bulma"
+              src={require("../../public/bulma-seeklogo.com.svg")}
+              alt="Bulma Logo"
+            />
+            <img
+              className="img-fluid skills bulma"
+              src={require("../../public/bulma-logo-name.png")}
+              alt="Bulma Text"
+            />
+            <img
+              className="img-fluid skills skillexc"
+              src={require("../../public/material-logo.svg")}
+              alt="Material Text"
+            />
+            <img
+              className="img-fluid skills skillexc"
+              src={require("../../public/heroku-logo.png")}
+              alt="Heroku Logo"
+            />
+            <img
+              className="img-fluid skills skillexc"
+              src={require("../../public/git-logo.png")}
+              alt="Git Logo"
+            />
+            <img
+              className="img-fluid skills skillexc"
+              src={require("../../public/bash-logo.png")}
+              alt="Git-Bash Logo"
+            />
+            <img
+              className="img-fluid skills skillexc"
+              src={require("../../public/GitHub-Mark-120px-plus.png")}
+              alt="GitHub Logo"
+            />
+            <img
+              className="img-fluid skills skillexc"
+              src={require("../../public/gitlab-logo.png")}
+              alt="GitLab Logo"
+            />
+          </div>
         </div>
       </div>
     </Zoom>
