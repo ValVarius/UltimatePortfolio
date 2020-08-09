@@ -23,7 +23,7 @@ export default function HomeCard() {
 
             {/* SECOND OF TWO COLUMNS  */}
             {/* <Rotate top left cascade duration={3000}> */}
-            <Slide left duration={4000}>
+            {/* <Slide left duration={4000}> */}
               <div className="col-8" id="myStory">
                 <p className="card-text">
                   Creative and passionate Full Stack Software Engineer
@@ -52,7 +52,7 @@ export default function HomeCard() {
                   perspective to a collaborative team environment.
                 </p>
               </div>
-            </Slide>
+            {/* </Slide> */}
             {/* </Rotate> */}
           </div>
           <hr />

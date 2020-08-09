@@ -24,15 +24,12 @@ body {
 }
 
 #profilePicture {
-  /* box-shadow: 1px 5px 5px black; */
+  box-shadow: 1px 5px 5px grey;
   border-radius: 50%;
-  border-width: 1px;
+  border-width: 5px;
   border-style: solid;
-  max-width: 90%;
-  min-width: 22vmin;
-  /* margin: 50%; */
-  margin-top: 10%;
-  margin-left: 22%;
+  border-color: rgb(221, 217, 217);
+  margin-left: 20%;
 
 }
 .portRow{
@@ -45,6 +42,9 @@ body {
     max-width: 60%;
     margin-left: 24%;
     margin-top: 0px;
+    margin-bottom: 10%;
+    border-width: 2.5px;
+
   }
   .card-text {
     font-size: 9px;
