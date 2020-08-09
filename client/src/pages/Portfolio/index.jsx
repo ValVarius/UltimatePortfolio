@@ -1,4 +1,5 @@
 import React from "react";
+import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import Pulse from "react-reveal/Pulse";
@@ -12,49 +13,45 @@ import "./style.css";
 export default function Portfolio() {
   return (
     //  {/* FIRST ROW */}
-    <Pulse>
+    <Zoom>
       {/* First Row */}
-    <div className="row">
-      
-      <div className="col-6">
-        <Slide right duration={2000}>
-          <Findr />
-        </Slide>
-      </div>
+      <div className="card portfolioCard">
+        <div className="row portRow">
+          <div className="col-6">
+            <Slide right duration={2000}>
+              <Findr />
+            </Slide>
+          </div>
 
-      <div className="col-6">
-      <Slide left duration={2000}>
-          <MapleValley />
-        </Slide>
-      </div>
-      
-    </div>
-{/* Second Row */}
-    <div className="row">
-      
-      <div className="col-6">
-        <Slide right duration={2000}>
-          <NoteTaker />
-        </Slide>
-      </div>
+          <div className="col-6">
+            <Slide left duration={2000}>
+              <MapleValley />
+            </Slide>
+          </div>
+        </div>
+        {/* Second Row */}
+        <div className="row portRow">
+          <div className="col-6">
+            <Slide right duration={2000}>
+              <NoteTaker />
+            </Slide>
+          </div>
 
-      <div className="col-6">
-      <Slide left duration={2000}>
-          <Password />
-        </Slide>
+          <div className="col-6">
+            <Slide left duration={2000}>
+              <Password />
+            </Slide>
+          </div>
+        </div>
+        {/* Third Row */}
+        <div className="row portRow">
+          <div className="col-6">
+            <Slide right duration={2000}>
+              <Weather />
+            </Slide>
+          </div>
+        </div>
       </div>
-      
-    </div>
-    {/* Third Row */}
-    <div className="row">
-      
-      <div className="col-6">
-        <Slide right duration={2000}>
-          <Weather/>
-        </Slide>
-      </div>
-      
-    </div>
-    </Pulse>
+    </Zoom>
   );
 }

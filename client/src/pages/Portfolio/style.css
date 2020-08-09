@@ -3,6 +3,8 @@
   box-shadow: 1px 5px 5px black;
   color: white;
   overflow: auto;
+  max-width: 95%;
+  
 }
 
 .projectTitle {
@@ -37,6 +39,7 @@
   color: white;
 }
 .info {
+  margin-top: 20px;
   margin-bottom: 10px;
   background-color: rgba(22, 20, 20, 0.7);
   font-size: 1.8vmin;
@@ -46,34 +49,24 @@
 }
 
 .codes {
-  /* max-height: 11vmin; */
-  /* max-width: 17vw; */
-  /* margin-left: 5%; */
-  /* margin-right: 10px; */
-
   max-height: 6vh;
-  /* display: block; */
   margin-left: auto;
   margin-right: auto;
-  /* margin-right: 1%; */
 }
 .row.finale {
   background-color: rgba(235, 224, 224);
   box-shadow: 1px 5px 5px black;
   margin: auto;
   margin-top: 30px;
-
   margin-bottom: auto;
-  /* height: 15vmin; */
-
-  /* display: block; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
 }
 
 @media (max-width: 520px){
   .project-container{
     height: fit-content;
+    max-width: 85%;
+    /* box-shadow: 1px 5px 5px white; */
+
   }
   .info{
     margin-top: 20px;
