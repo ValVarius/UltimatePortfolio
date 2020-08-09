@@ -3,6 +3,7 @@
   box-shadow: 1px 5px 5px black;
   color: white;
   overflow: auto;
+  
 }
 
 .projectTitle {
@@ -62,6 +63,8 @@
 @media (max-width: 520px){
   .project-container{
     height: fit-content;
+    /* box-shadow: 1px 5px 5px white; */
+
   }
   .info{
     margin-top: 20px;

@@ -1,9 +1,5 @@
 .navbar {
-  /* alternativa color */
-  /* /* rgb(104, 6, 6);  */
-  /* background-color: #a22e37; */
   background-image: url("../../public/connecting-dots-white.jpg");
-  /* opacity: 0.5; */
   box-shadow: 1px 5px 5px black;
 }
 .navbar.navbar-expand-lg.navbar-light li a:focus {

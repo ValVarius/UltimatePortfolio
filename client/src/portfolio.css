@@ -12,6 +12,13 @@ body {
   box-shadow: 1px 5px 5px black;
   background-image: url("./public/connecting-dots-transparent (2).png");
 }
+.portfolioCard{
+  box-shadow: 1px 5px 5px black;
+  background-color: burlywood;
+  background-image: url("./public/connecting-dots-white.jpg");
+}
+
+
 
 .card-text {
   font-size: 1.8vh;
@@ -29,8 +36,8 @@ body {
 
 }
 .portRow{
-  margin-top: 60px;
-  /* margin-bottom: 20px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 
