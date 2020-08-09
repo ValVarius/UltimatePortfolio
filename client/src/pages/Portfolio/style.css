@@ -3,6 +3,7 @@
   box-shadow: 1px 5px 5px black;
   color: white;
   overflow: auto;
+  max-width: 95%;
   
 }
 

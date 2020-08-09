@@ -31,24 +31,21 @@ export default function Portfolio() {
         </div>
         {/* Second Row */}
         <div className="row portRow">
-        <div className="col-1"></div>
-          <div className="col-5">
+          <div className="col-6">
             <Slide right duration={2000}>
               <NoteTaker />
             </Slide>
           </div>
 
-          <div className="col-5">
+          <div className="col-6">
             <Slide left duration={2000}>
               <Password />
             </Slide>
           </div>
-          <div className="col-1"></div>
         </div>
         {/* Third Row */}
         <div className="row portRow">
-        <div className="col-1"></div>
-          <div className="col-5">
+          <div className="col-6">
             <Slide right duration={2000}>
               <Weather />
             </Slide>
