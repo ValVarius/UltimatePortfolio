@@ -11,16 +11,18 @@ body {
 .homecard {
   box-shadow: 1px 5px 5px black;
   background-image: url("./public/connecting-dots-transparent (2).png");
+  background-size: cover; 
 }
 .portfolioCard{
   margin-top: 30px;
   box-shadow: 1px 5px 5px black;
   background-color: burlywood;
   background-image: url("./public/connecting-dots-white.jpg");
+  background-size: cover; 
 }
 #myStory{
-  /* margin-top: 20%; */
-  text-align: center;
+  margin-top: 5vh;
+  /* text-align: center; */
 }
 .card-text {
   /* font-size: 1.8vh; */
@@ -52,6 +54,9 @@ body {
   }
   .card-text {
     font-size: 9px;
+  }
+  #myStory{
+    margin-top: 0;
   }
 }
 
