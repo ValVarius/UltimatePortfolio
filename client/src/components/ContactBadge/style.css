@@ -1,17 +1,17 @@
 #gitBottom {
-  background-color: rgb(244, 247, 248,0.9);
-  text-align: left;
+  background-color: rgba(208, 213, 214, 0.9);
+  /* text-align: center; */
 }
 p {
-  margin-left: 16%;
+  /* margin-left: 16%; */
 }
 @media (max-width: 520px){
   p{
-    margin-left: 6%;
+    /* margin-left: 6%; */
   }
 }
 #gitDot {
-  border-color: rgb(244, 247, 248,0.9);
+  border-color: rgb(208, 213, 214, 0.9);
   background-image: url("../../public/prof.jpg");
 }
 #general {
@@ -19,65 +19,39 @@ p {
   color: black;
 }
 
-#logoGit {
-  width: 16%;
-}
-
-#phonelogo {
-  width: 17%;
-}
-#maillogo {
-  width: 15%;
-}
-#cvlogo {
-  width: 11%;
-}
-#cv {
-  color: black;
-  margin-left: 18%;
-  font-size: 1.4vmin;
-  
-}
-
-#gitName {
-  color: black;
-  font-size: 1.4vmin;
-  
-}
-#phone {
-  font-size: 1.4vmin;
-}
-#mail {
-  color: black;
-  font-size: 1.4vmin;
-  /* font-size: 0.1vmin; */
-  /* font-size: 2px; */
-}
-@media (max-width: 520px){
-  #cv {
-    margin-left: 8%; 
-    font-size: 2vmin;   
-  }
-  #gitName {
-    font-size: 2vmin;     
-  }
-  #phone {
-    font-size: 2vmin;
-  }
-  #mail{
-    font-size: 2vmin;
-  }
-}
 .logo {
   transition: transform 0.5s ease;
-  /* margin-left: 16%; */
+  width: calc(20px + 2vw);
+  color: black;
+  font-size: calc(12px + 0.1vmax);
+  margin-top: calc(5px + 0.1vh);
+  margin-left: 20px;
 }
 .logo:hover {
   transform: scale(1.2);
 }
+@media (max-width: 840px){
+  .logo{
+    font-size: calc(8px + 0.1vmax);
+
+  }
+}
+@media (max-width: 640px){
+  .logo{
+    font-size: calc(6px + 0.1vmax);
+
+  }
+}
 @media (max-width: 520px){
+  .logo{
+    font-size: calc(12px + 0.1vmax);
+    margin-top: calc(8px + 0.1vh);
+    width: calc(30px + 2vw);
+    margin-left: 10%;
+
+  }
   .logo:hover {
-    transform: scale(1);
+    transform: scale(1.1);
   }
 }
 
