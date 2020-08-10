@@ -5,12 +5,12 @@
 
 }
 #mailBadge {
-  background-image: url("../../public/connecting-dots-red.jpg");
+  background-image: url("../../public/connecting-dots-mail.jpg");
 }
 #mailDot {
   background-image: url("../../public/gmailicon.png");
   /* border-color:#a22e37 */
-  border-color: rgb(178, 49, 33,0.7);
+  border-color: rgb(178, 49, 33);
 
 }
 input::-webkit-input-placeholder {

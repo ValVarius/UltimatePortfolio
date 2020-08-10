@@ -1,8 +1,10 @@
-#gitBottom {
-  background-color: rgba(208, 213, 214, 0.9);
+#contactBottom {
+  /* background-color: rgba(208, 213, 214, 0.9); */
+  background-color: rgb(255,251,238,0.9);
 }
-#gitDot {
-  border-color: rgb(208, 213, 214, 0.9);
+#contactDot {
+  /* border-color: rgb(208, 213, 214, 0.9); */
+  border-color: rgb(255,251,238);
   background-image: url("../../public/prof.jpg");
 }
 #general {

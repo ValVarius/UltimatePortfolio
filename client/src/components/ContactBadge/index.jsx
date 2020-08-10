@@ -5,9 +5,9 @@ export default function ContactBadge() {
   return (
     <div className="container badge" id="general">
       <div className="top">
-        <div className="dot" id="gitDot"></div>
+        <div className="dot" id="contactDot"></div>
       </div>
-      <div className="bottom" id="gitBottom">
+      <div className="bottom" id="contactBottom">
         <br />
         <br />
         <br />
@@ -19,7 +19,7 @@ export default function ContactBadge() {
           rel="noopener noreferrer"
         >
           <div className = "row">
-          <p className="logo" id="mail">
+          <p className="logo" >
             <img
               className="card-img img-fluid logo"
               // src={require("../../public/emailicon.png")}
