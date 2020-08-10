@@ -1,5 +1,6 @@
 .navbar {
   background-image: url("../../public/connecting-dots-white.jpg");
+  background-size: cover; 
   box-shadow: 1px 5px 5px black;
 }
 .navbar.navbar-expand-lg.navbar-light li a:focus {
