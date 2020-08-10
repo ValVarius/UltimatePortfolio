@@ -56,6 +56,7 @@ export default function HomeCard() {
             {/* </Rotate> */}
           </div>
           <hr />
+          {/* First Row */}
           <div className="row">
             <img
               className="img-fluid skills"
@@ -68,7 +69,7 @@ export default function HomeCard() {
               alt="Nodejs Logo"
             />
             <img
-              className="img-fluid codes"
+              className="img-fluid skills"
               src={require("../../public/jquery-logo-dark-full.png")}
               alt="JQUERY Logo"
             />
@@ -145,42 +146,42 @@ export default function HomeCard() {
               alt="Bootstrap Logo"
             />
             <img
-              className="img-fluid skills bulma"
+              className="img-fluid skills bulmalogo"
               src={require("../../public/bulma-seeklogo.com.svg")}
               alt="Bulma Logo"
             />
             <img
-              className="img-fluid skills bulma"
+              className="img-fluid skills bulmatext"
               src={require("../../public/bulma-logo-name.png")}
               alt="Bulma Text"
             />
             <img
-              className="img-fluid skills skillexc"
+              className="img-fluid skills"
               src={require("../../public/material-logo.svg")}
               alt="Material Text"
             />
             <img
-              className="img-fluid skills skillexc"
+              className="img-fluid skills"
               src={require("../../public/heroku-logo.png")}
               alt="Heroku Logo"
             />
             <img
-              className="img-fluid skills skillexc"
+              className="img-fluid skills"
               src={require("../../public/git-logo.png")}
               alt="Git Logo"
             />
             <img
-              className="img-fluid skills skillexc"
+              className="img-fluid skills"
               src={require("../../public/bash-logo.png")}
               alt="Git-Bash Logo"
             />
             <img
-              className="img-fluid skills skillexc"
+              className="img-fluid skills"
               src={require("../../public/GitHub-Mark-120px-plus.png")}
               alt="GitHub Logo"
             />
             <img
-              className="img-fluid skills skillexc"
+              className="img-fluid skills"
               src={require("../../public/gitlab-logo.png")}
               alt="GitLab Logo"
             />

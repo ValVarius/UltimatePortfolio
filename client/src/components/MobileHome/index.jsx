@@ -65,7 +65,7 @@ export default function MobileHome() {
               alt="Nodejs Logo"
             />
             <img
-              className="img-fluid codes"
+              className="img-fluid skills"
               src={require("../../public/jquery-logo-dark-full.png")}
               alt="JQUERY Logo"
             />
