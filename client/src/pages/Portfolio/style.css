@@ -27,7 +27,7 @@
   max-height: 5vh;
   /* display: block; */
   margin-left: 35%;
-  margin-right: 50%;
+  /* margin-right: 50%; */
   transition: transform 1s ease;
 }
 .logos:hover {
