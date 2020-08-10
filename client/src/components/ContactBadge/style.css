@@ -1,14 +1,5 @@
 #gitBottom {
   background-color: rgba(208, 213, 214, 0.9);
-  /* text-align: center; */
-}
-p {
-  /* margin-left: 16%; */
-}
-@media (max-width: 520px){
-  p{
-    /* margin-left: 6%; */
-  }
 }
 #gitDot {
   border-color: rgb(208, 213, 214, 0.9);
@@ -30,6 +21,11 @@ p {
 .logo:hover {
   transform: scale(1.2);
 }
+a:link {
+  text-decoration: none;
+}
+
+
 @media (max-width: 840px){
   .logo{
     font-size: calc(8px + 0.1vmax);
@@ -55,7 +51,4 @@ p {
   }
 }
 
-a:link {
-  text-decoration: none;
-}
 

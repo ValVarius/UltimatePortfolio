@@ -34,31 +34,22 @@
   background-size: cover;
 }
 .space {
-  margin-top: 3.5vmin;
-  margin-bottom: auto;
-  font-size: 1.5vw;
+  font-size: calc(3px + 1.1vw);
+  margin-top: calc(10px + 2vh);
 }
-
-/* @media (max-height: 520px){
-  .space {
-    margin-top: 7vmin;
-    /* font-size: 5vw; */
-/* }
-} */
 
 #linkediname {
   font-size: 2vw;
 }
 
-
 #uw {
   color: rgb(51, 0, 111);
   text-shadow: 1px 1px 2px #f5efef;
-  font-size: 1.5vmin;
+  /* font-size: 1.5vmin; */
+  font-size: calc(2px + 0.8vw);
   margin: auto;
   margin-top: 10px;
 }
-
 
 #viewBtn {
   font-size: 100%;
@@ -70,10 +61,6 @@
   transform: scale(1.2);
 }
 
-/* #linkedInWrapper {
-  text-align: center;
-} */
-
 #logoLinkedIn {
   width: 30%;
   position: absolute;
@@ -81,6 +68,14 @@
   right: 35%;
 }
 
+@media (max-height: 800px) {
+  .bottom {
+    height: 400px;
+  }
+  #uw {
+    font-size: 1vw;
+  }
+}
 
 @media (max-width: 520px) {
   .bottom {
@@ -108,21 +103,7 @@
     margin-top: 30%;
     margin-bottom: 4%;
   }
-  .mobContact{
+  .mobContact {
     margin-top: 40px;
-  }
-}
-
-
-@media (max-height: 600px) {
-  .bottom {
-    height: 400px;
-  }
-  .space {
-    margin-top: 7vmin;
-    font-size: 1vw;
-  }
-  #uw {
-    font-size: 1vw;
   }
 }
