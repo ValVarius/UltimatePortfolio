@@ -18,6 +18,10 @@ body {
   background-color: burlywood;
   background-image: url("./public/connecting-dots-white.jpg");
 }
+#myStory{
+  /* margin-top: 20%; */
+  text-align: center;
+}
 .card-text {
   /* font-size: 1.8vh; */
   font-size:calc(11px + .3vw);
@@ -29,7 +33,7 @@ body {
   border-width: 5px;
   border-style: solid;
   border-color: rgb(221, 217, 217);
-  margin-left: 20%;
+  /* margin-left: 20%; */
 
 }
 .portRow{
@@ -40,7 +44,7 @@ body {
 @media (max-width: 520px){
   #profilePicture{
     max-width: 60%;
-    margin-left: 24%;
+    margin-left: 20%;
     margin-top: 0px;
     margin-bottom: 10%;
     border-width: 2.5px;
