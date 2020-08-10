@@ -2,7 +2,7 @@
 .skills{
   margin-left: auto;
   margin-right: auto;
-  height: 40px;
+  height: calc(10px + 1vw);
 }
 .bulma{
   margin-right: 10px;
@@ -10,9 +10,7 @@
   margin-left: 0;
 }
 @media (max-width: 520px){
-  .skills{
-    height: 10px;
-  }
+  
   .bulma{
     margin-right: 3px;
     height: 7px;
