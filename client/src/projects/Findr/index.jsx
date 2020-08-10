@@ -3,7 +3,7 @@ import "./style.css";
 
 export default function Findr() {
   return (
-    <div className="container card project-container" id="findr">
+    <div className="container project-container" id="findr">
       <div className="projectTitle">
         <h1>~Findr~</h1>
       </div>

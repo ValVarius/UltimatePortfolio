@@ -3,7 +3,7 @@ import "./style.css";
 
 export default function NoteTaker() {
   return (
-    <div className="container card project-container" id="notes">
+    <div className="container project-container" id="notes">
       <div className=" projectTitle">
         <h1>~Note Taker~</h1>
       </div>
