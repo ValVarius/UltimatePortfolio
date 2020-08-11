@@ -18,13 +18,13 @@ export default function Portfolio() {
       <div className="card portfolioCard">
         <div className="row portRow">
           <div className="col-6">
-            <Slide right duration={2000}>
+            <Slide right duration={2000} delay={500}>
               <Findr />
             </Slide>
           </div>
 
           <div className="col-6">
-            <Slide left duration={2000}>
+            <Slide left duration={2000} delay={500}>
               <MapleValley />
             </Slide>
           </div>
