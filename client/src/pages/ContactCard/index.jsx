@@ -13,19 +13,19 @@ export default function ContactCard() {
     <Zoom delay={500}>
       <div className="row">
         <div className="col-4">
-          <Slide right duration={2000} delay={500}>
+          <Slide right duration={2000} delay={1500}>
             <LinkedInBadge />
           </Slide>
         </div>
 
         <div className="col-4">
-          <Pulse>
+          <Pulse delay={1500}>
             <ContactBadge />
           </Pulse>
         </div>
 
         <div className="col-4">
-          <Slide left duration={2000} delay={500}>
+          <Slide left duration={2000} delay={1500}>
             <MailForm />
           </Slide>
         </div>

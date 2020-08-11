@@ -5,13 +5,13 @@ import "./style.css";
 
 export default function HomeCard() {
   return (
-    <Zoom delay = {500} duration={1500}>
+    <Zoom delay = {300} duration={1500}>
       <div className="card homecard">
         <div className="card-body">
           <div className="row">
             {/* FIRST OF TWO COLUMNS  */}
             <div className="col-4" id="profile">
-              <Zoom delay = {500} duration={2500}>
+              <Zoom delay = {300} duration={2500}>
                 <img
                   className="img-fluid "
                   src={require("../../public/prof.jpg")}
