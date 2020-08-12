@@ -10,10 +10,10 @@ import "./style.css";
 
 export default function MobileHome() {
   return (
-    <Zoom>
+    <Zoom delay = {500}>
       <div className="card homecard mobilehome">
         <div className="card-body">
-          <Zoom duration={2000}>
+          <Zoom delay = {500} duration={2000}>
             <div className="col-12 center">
               <img
                 className="card-img-top"
@@ -23,7 +23,7 @@ export default function MobileHome() {
               />
             </div>
           </Zoom>
-          <Zoom duration={2000}>
+          <Zoom delay = {500} duration={2000}>
             <p className="card-text">
               Creative and passionate Full Stack Software Engineer specializing
               in frontend development.
