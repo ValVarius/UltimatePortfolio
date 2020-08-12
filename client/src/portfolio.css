@@ -3,8 +3,7 @@ body {
   background-image: url("./public/newdots-picasso.png");
   /* background-size: 1800px 1090px; */
   background-size: 100vw 100vh;
-  /* background-image: url("./public/newdots-fantasy.png"); */
-
+ 
   /* background-size: auto; */
   /* background-size: cover; */
   /* background-repeat: no-repeat; */
@@ -56,6 +55,12 @@ body {
 }
 
 @media (max-width: 520px){
+  body{
+    background-image: url("./public/newdots-picasso-mobile.png");
+    /* background-size: auto; */
+    /* background-size: 100vw 70vh; */
+    
+  }
   #profilePicture{
     max-width: 60%;
     margin-left: 20%;
