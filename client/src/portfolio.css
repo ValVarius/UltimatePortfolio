@@ -1,15 +1,10 @@
 body {
   background-color: burlywood;
   background-image: url("./public/newdots-picasso.png");
-  /* background-size: 1800px 1090px; */
   background-size: 100vw 100vh;
- 
-  /* background-size: auto; */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  
 
-  /* background-repeat: no-repeat; */
-  /* background-size: contain; */
 
   font-weight: bold;
   font-family: "Merienda", cursive;
@@ -22,22 +17,22 @@ body {
 .homecard {
   box-shadow: 1px 5px 5px black;
   background-image: url("./public/connecting-dots-transparent (2).png");
-  background-size: cover; 
+  background-size: cover;
 }
-.portfolioCard{
+.portfolioCard {
   margin-top: 30px;
   box-shadow: 1px 5px 5px black;
   background-color: burlywood;
   background-image: url("./public/connecting-dots-white.jpg");
-  background-size: cover; 
+  background-size: cover;
 }
-#myStory{
+#myStory {
   margin-top: 5vh;
   /* text-align: center; */
 }
 .card-text {
   /* font-size: 1.8vh; */
-  font-size:calc(11px + .3vw);
+  font-size: calc(11px + 0.3vw);
 }
 
 #profilePicture {
@@ -47,35 +42,27 @@ body {
   border-style: solid;
   border-color: rgb(221, 217, 217);
   /* margin-left: 20%; */
-
 }
-.portRow{
+.portRow {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-@media (max-width: 520px){
-  body{
+@media (max-width: 520px) {
+  body {
     background-image: url("./public/newdots-picasso-mobile.png");
-    /* background-size: auto; */
-    /* background-size: 100vw 70vh; */
-    
   }
-  #profilePicture{
+  #profilePicture {
     max-width: 60%;
     margin-left: 20%;
     margin-top: 0px;
     margin-bottom: 10%;
     border-width: 2.5px;
-
   }
   .card-text {
     font-size: 9px;
   }
-  #myStory{
+  #myStory {
     margin-top: 0;
   }
 }
-
-
-
