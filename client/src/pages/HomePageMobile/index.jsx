@@ -8,7 +8,7 @@ import Pulse from 'react-reveal/Pulse';
 
 import "./style.css";
 
-export default function MobileHome() {
+export default function HomePageMobile() {
   return (
     <Zoom delay = {500}>
       <div className="card homecard mobilehome">

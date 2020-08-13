@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import HomePage from "../HomePage";
-import MobileHome from "../../components/MobileHome";
+import HomePageMobile from "../HomePageMobile";
 import Portfolio from "../Portfolio";
 import PortfolioMobile from "../PortfolioMobile";
 import ContactCard from "../ContactCard";
@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <div className="container-fluid" id="homecontainer">
       {location.pathname === "/" && size.width >= 502 ? <HomePage /> : ""}
-      {location.pathname === "/" && size.width < 502 ? <MobileHome /> : ""}
+      {location.pathname === "/" && size.width < 502 ? <HomePageMobile /> : ""}
       {location.pathname === "/portfolio" && size.width >= 520 ? (
         <Portfolio />
       ) : (
