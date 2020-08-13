@@ -6,7 +6,7 @@ import PortfolioMobile from "../PortfolioMobile";
 import ContactCard from "../ContactCard";
 import MobileContactCard from "../MobileContactCard";
 import { useLocation } from "react-router-dom";
-// import "./style.css";
+import "./style.css";
 
 export default function Home() {
   const location = useLocation();
@@ -16,8 +16,7 @@ export default function Home() {
     height: window.innerHeight,
   });
   const updateSize = () => {
-    // console.log(event.target.window);
-    // const { name, value } = event.target.window;
+    
 
     setSize({
       width: window.innerWidth,
@@ -26,19 +25,8 @@ export default function Home() {
   };
   useEffect(() => {
     window.addEventListener("resize", updateSize);
-    console.log(size.width, size.height);
-    console.log(window.innerWidth, window.innerHeight);
     return () => window.removeEventListener("resize", updateSize);
   });
-
-  // const [width, setWidth] = useState(window.innerWidth);
-  // const updateWidth = () => {
-  //   setWidth(window.innerWidth);
-  // };
-  // useEffect(() => {
-  //   window.addEventListener("resize", updateWidth);
-  //   return () => window.removeEventListener("resize", updateWidth);
-  // });
 
   return (
     <div className="container-fluid" id="homecontainer">
