@@ -1,0 +1,22 @@
+.skills {
+    margin-left: auto;
+    margin-right: auto;
+    height: calc(10px + 1vw);
+  }
+  .bulmalogo {
+    margin-right: 3px;
+  }
+  .bulmatext {
+    margin-left: 0;
+    height: calc(8px + 0.5vw);
+    margin-top: 4px;
+  }
+  
+  @media (max-width: 520px) {
+    .bulma {
+      margin-right: 3px;
+      height: 7px;
+      margin-left: 0;
+    }
+  }
+  

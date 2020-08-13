@@ -3,7 +3,7 @@ import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
 import "./style.css";
 
-export default function HomeCard() {
+export default function HomePage() {
   return (
     <Zoom delay = {300} duration={1500}>
       <div className="card homecard">
