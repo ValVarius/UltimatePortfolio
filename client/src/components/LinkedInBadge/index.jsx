@@ -7,7 +7,7 @@ export default function LinkedInBadge() {
       <div className="top">
         <div className="dot" id = "linkeInDot"></div>
       </div>
-      <div className="bottom">
+      <div className="bottom" id = "linkBottom">
         <br />
         <br />
         <br />
