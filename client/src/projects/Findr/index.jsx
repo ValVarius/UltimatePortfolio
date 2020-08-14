@@ -17,7 +17,7 @@ export default function Findr() {
         <div className="col-4">
           <div >
             <a
-              href="https://github.com/commiewalker/Findr"
+              href="https://github.com/ValVarius/FINDR"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -45,7 +45,7 @@ export default function Findr() {
           </div> */}
           <div >
             <a
-              href="https://commiewalker.github.io/Findr/"
+              href="https://valvarius.github.io/FINDR/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -74,6 +74,16 @@ export default function Findr() {
           src={require("../../public/js-html-css-logo.png")}
           alt="JS HTML CSS Logo"
         />
+        <img
+          className="img-fluid codes"
+          src={require("../../public/jquery-logo-dark-full.png")}
+          alt="JQUERY Logo"
+        />
+        <img
+              className="img-fluid codes"
+              src={require("../../public/ajax-logo.png")}
+              alt="Ajax Logo"
+            />
         
       </div>
       

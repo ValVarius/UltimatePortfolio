@@ -3,7 +3,6 @@
   font-size: 2.1vmin;
   color: aliceblue;
   text-align: center;
-  background-image: url("../../public/connecting-dots.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0%;
@@ -11,9 +10,14 @@
 }
 #LinkedInBadge {
   text-shadow: 2px 2px 4px #000000;
+  background-image: url("../../public/connecting-dots_optimized.jpg");
+
 }
-.bottom {
+#linkBottom{
   background-color: rgb(128, 181, 216, 0.8);
+}
+
+.bottom {
   margin-top: -8vmin;
   height: 50vmin;
   min-height: 320px;
