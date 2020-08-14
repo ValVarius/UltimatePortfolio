@@ -13,18 +13,18 @@ import "./style.css";
 export default function Portfolio() {
   return (
     //  {/* FIRST ROW */}
-    <Zoom>
+    <Zoom delay = {300}>
       {/* First Row */}
       <div className="card portfolioCard">
         <div className="row portRow">
           <div className="col-6">
-            <Slide right duration={2000} delay={500}>
+            <Slide right duration={2000} delay={800}>
               <Findr />
             </Slide>
           </div>
 
           <div className="col-6">
-            <Slide left duration={2000} delay={500}>
+            <Slide left duration={2000} delay={800}>
               <MapleValley />
             </Slide>
           </div>
