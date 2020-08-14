@@ -65,7 +65,7 @@ export default function HomePage() {
             />
             <img
               className="img-fluid skills"
-              src={require("../../public/node-logo-dark-2.png")}
+              src={require("../../public/node-logo-dark.png")}
               alt="Nodejs Logo"
             />
             <img
