@@ -24,19 +24,39 @@ app.post("/api/form", (req, res) => {
         <p>${req.body.mailState.message}</p>
         `;
 
+    // var transporter = nodemailer.createTransport({
+    //   service: "gmail",
+    //   host: "smtp.gmail.com",
+    //   port: 465,
+    //   secure: true,
+    //   auth: {
+    //     user: "valvarius1@gmail.com",
+    //     pass: process.env.PASSWORD,
+    //   },
+    // });
+
+    // var mailOptions = {
+    //   from: "valvarius1@gmail.com",
+    //   to: "notitiami@gmail.com, notitiami@yahoo.com",
+    //   subject: "Sending Email using Node.js[nodemailer]",
+    //   html: htmlEmail,
+    // };
+
     var transporter = nodemailer.createTransport({
-      service: "gmail",
-      host: "smtp.gmail.com",
+      service: "yahoo",
+      host: "smtp.mail.yahoo.com",
       port: 465,
-      secure: true,
+      secure: false,
       auth: {
-        user: "valvarius1@gmail.com",
+        user: "valvarius1@yahoo.com",
         pass: process.env.PASSWORD,
       },
+      debug: false,
+      logger: true,
     });
 
     var mailOptions = {
-      from: "valvarius1@gmail.com",
+      from: "valvarius1@yahoo.com",
       to: "notitiami@gmail.com, notitiami@yahoo.com",
       subject: "Sending Email using Node.js[nodemailer]",
       html: htmlEmail,
