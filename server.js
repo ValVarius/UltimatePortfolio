@@ -3,12 +3,43 @@ const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const app = express();
 const path = require("path");
-const PORT = process.env.PORT || 3001;
 require("dotenv").config();
-console.log(process.env.PORT);
+
+const { google } = require("googleapis");
+const OAuth2 = google.auth.OAuth2;
+const oauth2Client = new OAuth2(
+  process.env.CLIENT_ID,
+  process.env.CLIENT_SECRET,
+  "https://developers.google.com/oauthplayground" // Redirect URL
+);
+
+oauth2Client.setCredentials({
+  refresh_token: process.env.REFRESH_TOKEN,
+});
+
+const accessToken = oauth2Client.getAccessToken();
+
+const PORT = process.env.PORT || 3001;
+
+// console.log(process.env.PORT);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+
+var transporter = nodemailer.createTransport({
+  service: "gmail",
+  host: "smtp.gmail.com",
+  port: 465,
+  secure: true,
+  auth: {
+    type: "OAuth2",
+    user: "valvarius1@gmail.com",
+    clientId: process.env.CLIENT_ID,
+    clientSecret: process.env.CLIENT_SECRET,
+    refreshToken: process.env.REFRESH_TOKEN,
+    accessToken: accessToken,
+  },
+});
 
 app.post("/api/form", (req, res) => {
   console.log(req.body.mailState);
@@ -24,53 +55,23 @@ app.post("/api/form", (req, res) => {
         <p>${req.body.mailState.message}</p>
         `;
 
-    // var transporter = nodemailer.createTransport({
-    //   service: "gmail",
-    //   host: "smtp.gmail.com",
-    //   port: 465,
-    //   secure: true,
-    //   auth: {
-    //     user: "valvarius1@gmail.com",
-    //     pass: process.env.PASSWORD,
-    //   },
-    // });
-
-    // var mailOptions = {
-    //   from: "valvarius1@gmail.com",
-    //   to: "notitiami@gmail.com, notitiami@yahoo.com",
-    //   subject: "Sending Email using Node.js[nodemailer]",
-    //   html: htmlEmail,
-    // };
-
-    var transporter = nodemailer.createTransport({
-      service: "yahoo",
-      host: "smtp.mail.yahoo.com",
-      port: 465,
-      secure: false,
-      auth: {
-        user: "valvarius1@yahoo.com",
-        pass: process.env.PASSWORD,
-      },
-      debug: false,
-      logger: true,
-    });
-
     var mailOptions = {
-      from: "valvarius1@yahoo.com",
+      from: "valvarius1@gmail.com",
       to: "notitiami@gmail.com, notitiami@yahoo.com",
-      subject: "Sending Email using Node.js[nodemailer]",
+      subject: "Sending Email with Secure OAuth using Node.js[nodemailer]",
       html: htmlEmail,
     };
 
     transporter.sendMail(mailOptions, (err, info) => {
       if (err) {
         return res.send(err);
+      } else {
+        transporter.close();
+        console.log("Message sent: %s", info.accepted);
+        console.log("Message URL: %s", nodemailer.getTestMessageUrl(info));
+
+        res.send(info);
       }
-
-      console.log("Message sent: %s", info.accepted);
-      console.log("Message URL: %s", nodemailer.getTestMessageUrl(info));
-
-      res.send(info);
     });
   });
 });
