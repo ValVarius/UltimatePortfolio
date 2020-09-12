@@ -9,7 +9,9 @@ body {
   font-weight: bold;
   font-family: "Merienda", cursive;
 }
-
+img {
+  align-self: center;
+}
 .container-fluid {
   margin-top: 1%;
   width: 85%;
