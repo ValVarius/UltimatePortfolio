@@ -6,6 +6,7 @@
 }
 #mailBadge {
   background-image: url("../../public/connecting-dots-mail_optimized.jpg");
+  margin-bottom: 20px;
 }
 #mailDot {
   background-image: url("../../public/gmailicon.png");
