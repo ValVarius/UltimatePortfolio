@@ -1,6 +1,11 @@
 #maplevalley{
-    background-image: url("../../public/newdots-maple_optimized.png");
-    /* background-image: url("../../public/newdots.jpg"); */
+    /* background-image: url("../../public/newdots-maple_optimized.png"); */
+
+
+    background-image: url("../../public/rsz_newdots-maple_optimized.png");
 
     /* padding: 0%; */
+}
+.project-container{
+    background-size: cover;
 }

@@ -52,7 +52,7 @@ img {
 
 @media (max-width: 520px) {
   body {
-    background-image: url("./public/newdots-picasso-mobile.png");
+    background-image: url("./public/newdots-picasso-mobile_optimized.png");
   }
   #profilePicture {
     max-width: 60%;
