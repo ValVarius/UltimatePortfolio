@@ -18,7 +18,7 @@
     "concurrently": "^5.2.0",
     "dotenv": "^8.2.0",
     "elliptic": "^6.5.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "googleapis": "^59.0.0",
     "kind-of": "^6.0.3",
     "nodemailer": "^6.4.11",
