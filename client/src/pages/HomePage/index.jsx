@@ -1,6 +1,5 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
-import Slide from "react-reveal/Slide";
 import "./style.css";
 
 export default function HomePage() {
@@ -30,7 +29,7 @@ export default function HomePage() {
             of meaningful information from images creates an experience for the
           </p>
           <p className="card-text">
-            viewer. A Degree in Literature and one in Cinema Studies makes me an
+            viewer. A Degree in Literature and one in Cinema Studies make me an
           </p>
           <p className="card-text">
             excellent communicator as well as a proficient interpreter of
