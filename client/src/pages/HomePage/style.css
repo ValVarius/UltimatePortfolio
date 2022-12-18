@@ -114,19 +114,37 @@ margin-top: 20px;
     }
 
   } 
+  @media (max-width: 450px) {
+    .homecard{
+      zoom: 0.45;
+    }
+
+  } 
   @media (max-width: 400px) {
     .homecard{
       zoom: 0.4;
     }
 
   } 
+  @media (max-width: 350px) {
+    .homecard{
+      zoom: 0.35;
+    }
+
+  }
   @media (max-width: 300px) {
     .homecard{
       zoom: 0.3;
     }
 
   } 
-  @media (max-width: 200px) {
+  @media (max-width: 270px) {
+    .homecard{
+      zoom: 0.25;
+    }
+
+  } 
+  @media (max-width: 220px) {
     .homecard{
       zoom: 0.2;
     }
