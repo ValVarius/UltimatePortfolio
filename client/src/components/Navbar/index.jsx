@@ -5,7 +5,7 @@ import "./style.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light ">
+    <nav className="navbar navbar-expand-lg navbar-light " id="nav">
       <Link className="navbar-brand" to="/" id="myName">
         <Fade left big cascade duration={2000}>
           Valerio Varani

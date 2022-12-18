@@ -30,8 +30,9 @@ export default function Home() {
 
   return (
     <div className="container-fluid" id="homecontainer">
-      {location.pathname === "/" && size.width >= 502 ? <HomePage /> : ""}
-      {location.pathname === "/" && size.width < 502 ? <HomePageMobile /> : ""}
+       {location.pathname === "/"  ? <HomePage /> : ""}
+       {/* {location.pathname === "/" && size.width >= 502 ? <HomePage /> : ""} */}
+      {/* {location.pathname === "/" && size.width < 502 ? <HomePageMobile /> : ""}  */}
       {location.pathname === "/portfolio" && size.width >= 520 ? (
         <Portfolio />
       ) : (

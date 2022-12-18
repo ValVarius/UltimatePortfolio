@@ -3,22 +3,15 @@ body {
   background-image: url("./public/newdots-picasso.png");
   background-size: 100vw 100vh;
   background-attachment: fixed;
- 
   font-weight: bold;
   font-family: "Merienda", cursive;
 }
-img {
-  align-self: center;
-}
+
 .container-fluid {
-  margin-top: 1%;
-  width: 85%;
+  /* margin-top: 1%; */
+  /* width: 85%; */
 }
-.homecard {
-  box-shadow: 1px 5px 5px black;
-  background-image: url("./public/connecting-dots-transparent (2).png");
-  background-size: cover;
-}
+
 .portfolioCard {
   margin-top: 30px;
   box-shadow: 1px 5px 5px black;
@@ -43,16 +36,16 @@ img {
     background-image: url("./public/newdots-picasso-mobile.png");
   }
   #profilePicture {
-    max-width: 60%;
+    /* max-width: 60%;
     margin-left: 20%;
     margin-top: 0px;
     margin-bottom: 10%;
-    border-width: 2.5px;
+    border-width: 2.5px; */
   }
   .card-text {
-    font-size: 9px;
+    /* font-size: 9px; */
   }
   #myStory {
-    margin-top: 0;
+    /* margin-top: 0; */
   }
 }

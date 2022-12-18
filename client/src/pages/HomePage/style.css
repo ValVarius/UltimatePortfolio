@@ -1,24 +1,30 @@
 .homecard{
   border-radius: 50%;
+  box-shadow: 1px 5px 5px black;
+  background-image: url("../../public/connecting-dots-transparent (2).png");
+  background-size: cover;
   height: 800px;
   width: 800px;
-  margin: auto;
+margin: auto;  
+margin-top: 20px;
+  
 }
 #profile{
   display: flex;
 }
 #profilePicture{
   box-shadow: 1px 5px 5px grey;
+  /* box-shadow: 1px 1px 1px black; */
   border-radius: 50%;
-  border-width: 5px;
+  border-width: 1px;
   border-style: solid;
   border-color: rgb(221, 217, 217);
-  width: 22%;
-  margin: auto;
+  width: 25%;
   position: absolute;
   margin-top: 350px;
-
+  align-self: center;
 }
+
 #myStory{
   /* border-style: solid; */
   /* border-width: 1px; */
@@ -60,21 +66,70 @@
     margin-left: auto;
     margin-right: auto;
     height: calc(10px + 1vw);
-  }
+  } */
   .bulmalogo {
     margin-right: 3px;
   }
-  .bulmatext {
+ .bulmatext {
     margin-left: 0;
     height: calc(8px + 0.5vw);
     margin-top: 4px;
-  }
+  } 
   
-  @media (max-width: 520px) {
+  /* @media (max-width: 520px) {
     .bulma {
       margin-right: 3px;
       height: 7px;
       margin-left: 0;
     }
-  } */
+  }  */
+
+  @media (max-width: 900px) {
+    .homecard{
+      zoom: 0.9;
+    }
+
+  } 
+  @media (max-width: 800px) {
+    .homecard{
+      zoom: 0.8;
+    }
+
+  } 
+  @media (max-width: 700px) {
+    .homecard{
+      zoom: 0.7;
+    }
+
+  } 
+  @media (max-width: 600px) {
+    .homecard{
+      zoom: 0.6;
+    }
+
+  } 
+  @media (max-width: 500px) {
+    .homecard{
+      zoom: 0.5;
+    }
+
+  } 
+  @media (max-width: 400px) {
+    .homecard{
+      zoom: 0.4;
+    }
+
+  } 
+  @media (max-width: 300px) {
+    .homecard{
+      zoom: 0.3;
+    }
+
+  } 
+  @media (max-width: 200px) {
+    .homecard{
+      zoom: 0.2;
+    }
+
+  } 
   
