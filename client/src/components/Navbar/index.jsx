@@ -26,25 +26,25 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a className="nav-link" href="/">
+            <Link className="nav-link" to="/">
               <Fade left big cascade duration={1000}>
                 About
               </Fade>
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/portfolio">
+            <Link className="nav-link" to="/portfolio">
               <Fade left big cascade duration={1000}>
                 Portfolio
               </Fade>
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/contacts">
+            <Link className="nav-link" to="/contacts">
               <Fade left big cascade duration={1000}>
                 Contact
               </Fade>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
