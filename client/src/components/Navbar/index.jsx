@@ -6,11 +6,11 @@ import "./style.css";
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light " id="nav">
-      <Link className="navbar-brand" to="/" id="myName">
+      <div className="navbar-brand" to="/" id="myName">
         <Fade left big cascade duration={2000}>
           Valerio Varani
         </Fade>
-      </Link>
+      </div>
 
       <button
         className="navbar-toggler"
@@ -25,31 +25,27 @@ export default function Navbar() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
-        
-            
-            <li className="nav-item">
-              <Link className="nav-link" to="/">
-                <Fade right big cascade duration={1000}>
-                  About
-                </Fade>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/portfolio">
-                <Fade right big cascade duration={1000}>
-                  Portfolio
-                </Fade>
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contacts">
-                <Fade right big cascade duration={1000}>
-                  Contact
-                </Fade>
-              </Link>
-            </li>
-            
-          
+          <li className="nav-item">
+            <a className="nav-link" href="/">
+              <Fade left big cascade duration={1000}>
+                About
+              </Fade>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/portfolio">
+              <Fade left big cascade duration={1000}>
+                Portfolio
+              </Fade>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/contacts">
+              <Fade left big cascade duration={1000}>
+                Contact
+              </Fade>
+            </a>
+          </li>
         </ul>
       </div>
     </nav>
