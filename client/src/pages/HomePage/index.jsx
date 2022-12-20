@@ -6,17 +6,10 @@ export default function HomePage() {
   return (
     <Zoom delay={300} duration={1500}>
       <div className="card homecard">
-        <Zoom delay={300} duration={2500}>
-          <img
-            className="img-fluid "
-            src={require("../../public/prof.jpg")}
-            alt="valerio varani"
-            id="profilePicture"
-          />
-        </Zoom>
+        
 
         <div id="myStory">
-          <p className="card-text" id="firstline">
+          <p className="card-text" >
             Creative and passionate
           </p>
           <p className="card-text">Full Stack Software Engineer</p>
@@ -49,6 +42,15 @@ export default function HomePage() {
             environment.
           </p>
         </div>
+
+        <Zoom delay={300} duration={2500}>
+          <img
+            className="img-fluid "
+            src={require("../../public/prof.jpg")}
+            alt="valerio varani"
+            id="profilePicture"
+          />
+        </Zoom>
 
         <div id="skillscontainer">
           <img
