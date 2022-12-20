@@ -19,10 +19,6 @@ body {
   background-image: url("./public/connecting-dots-white-rotate.jpg");
   background-size: cover;
 }
-#myStory {
-  margin-top: 5vh;
-  /* text-align: center; */
-}
 
 
 
@@ -35,17 +31,5 @@ body {
   body {
     background-image: url("./public/newdots-picasso-mobile.png");
   }
-  #profilePicture {
-    /* max-width: 60%;
-    margin-left: 20%;
-    margin-top: 0px;
-    margin-bottom: 10%;
-    border-width: 2.5px; */
-  }
-  .card-text {
-    /* font-size: 9px; */
-  }
-  #myStory {
-    /* margin-top: 0; */
-  }
+  
 }
