@@ -14,15 +14,15 @@ export default function HomePage() {
           </p>
           <p className="card-text">Full Stack Software Engineer</p>
           <p className="card-text">specializing in frontend development.</p>
-          <p className="card-text">3+ years experience with image analysis</p>
+          <p className="card-text">More than three years experience with image analysis.</p>
           <p className="card-text">
-            and a deep understanding of how the extraction or blend
+            A deep understanding of how the extraction or blend of meaningful
           </p>
           <p className="card-text">
-            of meaningful information from images creates an experience for the
+             information from images creates an experience for the viewer.
           </p>
           <p className="card-text">
-            viewer. A Degree in Literature and one in Cinema Studies make me an
+            A Degree in Literature and one in Cinema Studies make me an
           </p>
           <p className="card-text">
             excellent communicator as well as a proficient interpreter of
@@ -43,6 +43,7 @@ export default function HomePage() {
           </p>
         </div>
 
+      <div id="buttomcircle">
         <Zoom delay={300} duration={2500}>
           <img
             className="img-fluid "
@@ -176,6 +177,7 @@ export default function HomePage() {
             alt="GitLab Logo"
           />
         </div>
+      </div>
       </div>
     </Zoom>
   );
