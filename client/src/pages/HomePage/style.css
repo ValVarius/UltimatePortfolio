@@ -6,14 +6,12 @@
   height: 800px;
   width: 800px;
   margin: auto;
-  margin-top: 5vh;
+  margin-top: 20px;
 }
 #myStory {
   /* border-style: solid;
   border-width: 1px; */
   /* border-radius: 50%; */
-  /* height: 500px;
-  width: 500px; */
   margin: auto;
   margin-top: 20px;
   text-align: center;
@@ -71,19 +69,9 @@ margin-top: 10px;
   margin-top: 4px;
 }
 /* SMALLER SCREENS */
-@media (max-width: 1300px) {
-  .homecard {
-    zoom: 0.95;
-  }
-}
-@media (max-width: 1000px) {
-  .homecard {
-    zoom: 0.9;
-  }
-}
 @media (max-width: 900px) {
   .homecard {
-    zoom: 0.8;
+    zoom: 0.7;
   }
 }
 @media (max-width: 800px) {
@@ -138,8 +126,59 @@ margin-top: 10px;
 }
 
 /* WIDE SCREENS */
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   .homecard {
-    zoom: 1.2;
+    zoom: 0.7;
   }
 }
+@media (min-width: 1200px) {
+  .homecard {
+    zoom: 0.8;
+  }
+}
+@media (min-width: 1400px) {
+  .homecard {
+    zoom: 0.9;
+  }
+}
+@media (min-width: 1600px) {
+  .homecard {
+    zoom: 1;
+  }
+}
+@media (min-width: 2000px) {
+  .homecard {
+    zoom: 1.4;
+  }
+}
+@media (min-width: 2400px) {
+  .homecard {
+    zoom: 1.6;
+  }
+}
+@media (min-width: 2600px) {
+  .homecard {
+    zoom: 1.8;
+  }
+}
+@media (min-width: 3000px) {
+  .homecard {
+    zoom: 2;
+  }
+}
+@media (min-width: 3500px) {
+  .homecard {
+    zoom: 2.3;
+  }
+}
+@media (min-width: 4000px) {
+  .homecard {
+    zoom: 2.6;
+  }
+}
+@media (min-width: 4500px) {
+  .homecard {
+    zoom: 3;
+  }
+}
+
