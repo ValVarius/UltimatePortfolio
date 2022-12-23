@@ -1,87 +1,116 @@
+.portfolioCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* border: 1px solid white; */
+  margin-top: 10%;
+  /* overflow: auto; */
+  /* overflow: hidden; */
+
+}
+ 
+
+/* CSS for projects */
 .project-container {
-  height: 75vmin;
-  box-shadow: 1px 5px 5px black;
-  color: white;
-  overflow: auto;
-  max-width: 95%;
-  border-radius: 1%;
-  
+  /* overflow: hidden; */
+  border-radius: 50%; 
+  box-shadow: 100px 0px 100px rgba(2, 228, 231);
+  color: aliceblue;
+  max-width: 40vw;
+  height: 40vw;
+}
+.project-container::before {
+  /* overflow: hidden; */
+  content: "";
+  position: absolute;
+  border: 1px solid white;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: rotation 50s infinite linear;
+  border-radius: 50%;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .projectTitle {
-  background-color: rgba(22, 20, 20, 0.5);
   text-align: center;
-  box-shadow: 1px 5px 5px black;
-  margin-bottom: 5%;
-  margin-top: 5%;
+  font-size: larger;
+  padding-top: 5%;
 }
-.projectTitle h1 {
-  font-size: 3vmin;
-}
-
 .project-img {
-  box-shadow: 1px 5px 5px black;
+  margin: auto;
+  max-width: 45%;
+  display: flex;
+  margin-top: 2%;
 }
-
-.logos {
-  max-height: 5vh;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  transition: transform 1s ease;
-}
-.logos:hover {
-  transform: scale(1.3);
-}
-.gittext {
-  font-size: 1.5vmin;
-  text-align: center;
-
-  color: white;
+.center {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 30%;
 }
 .info {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  background-color: rgba(22, 20, 20, 0.7);
-  font-size: 1.8vmin;
+  max-width: 70%;
+  font-size: 1vw;
   text-align: center;
-  padding: 0%;
-  box-shadow: 1px 5px 5px black;
-}
-
-.codes {
-  max-height: 5vh;
-  margin-left: auto;
-  margin-right: auto;
-}
-.row.finale {
-  background-color: rgba(235, 224, 224);
-  box-shadow: 1px 5px 5px black;
   margin: auto;
-  margin-top: 30px;
-  margin-bottom: auto;
-  border-radius: 10%;
+ 
+}
+.repolink{
+  /* border: 1px solid white; */
+  width: 10%;
+  margin: auto;
+  margin-top: 0;
+}
+.logos {
+  /* max-width: 10%; */
+  /* width: 10%; */
+}
+.gittext{
+  color: aliceblue;
+  margin: auto;
+  text-align: center;
+
 }
 
-@media (max-width: 520px){
-  .project-container{
-    height: fit-content;
-    max-width: 85%;
-    /* box-shadow: 1px 5px 5px white; */
+.finale {
+  max-width: 70%;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+  border-radius: 10px;
+  /* border: 1px solid white; */
 
-  }
-  .info{
-    margin-top: 20px;
-  }
-  .row.finale{
-    margin-bottom: 20px;
-    margin-top: 0px;
-  }
-  .codes{
-    max-height: 6vw;
-  }
-  .info{
-    font-size: 1.9vmin;
-  }
+}
+.codes {
+  margin: auto;
+  max-width: 10%;
+}
+
+@media (max-width: 1700px) {
+  /* .info{
+    font-size: 0.5vw;
+
+  } */
+  
+
+}
+@media (max-width: 1150px) {
+  /* .info{
+    font-size: 0.4vw;
+
+  } */
+
+  
+  
+
 }
