@@ -3,71 +3,56 @@ import "./style.css";
 
 export default function YouTutor() {
   return (
-    <div className="container project-container" id="tutor">
-      <div className="projectTitle">
-        <h1>~YouTutor~</h1>
-      </div>
+    <div className="project-container" id="tutor">
+      <div className="projectTitle">~YouTutor~</div>
 
-      <div className="row firstRow">
-        <img
-          className="img-fluid project-img col-8"
-          alt="Screenshot of findr app"
-          src={require("../../public/YouTutor.png")}
-        />
-        <div className="col-4">
-          <div>
-            <a
-              href="https://github.com/ValVarius/YouTutor"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="img-fluid logos "
-                src={require("../../public/git-white.png")}
-                alt="GitHub Logo"
-              />
-              <p className="gittext">Repository</p>
-            </a>
-          </div>
-          {/* <div >
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="img-fluid logos"
-                src={require("../../public/back-end-white.png")}
-                alt="BackEnd Logo"
-              />
-              <p className="gittext">Back End Repository</p>
-            </a>
-          </div> */}
-          <div>
-            <a
-              href="https://you-tutor.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="img-fluid logos"
-                src={require("../../public/deployed-logo-white.png")}
-                alt="BackEnd Logo"
-              />
-              <p className="gittext">Deployment</p>
-            </a>
-          </div>
-        </div>
+      <img
+        className="img-fluid project-img"
+        alt="Screenshot of findr app"
+        src={require("../../public/YouTutor.png")}
+      />
+      <div className="center">
+      <div className="repolink">
+        <a
+          href="https://github.com/ValVarius/YouTutor"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="img-fluid logos "
+            src={require("../../public/git-white.png")}
+            alt="GitHub Logo"
+          />
+          <p className="gittext">REPO</p>
+        </a>
       </div>
-
       <div className="info">
         This application is a student aid intented to enhance the learning
         experience by providing a platform where students can both seek help on
         a the subjects they have not mastered yet and offer help on those
-        subjects on which they are confident. It is also deployed on its own domain.
+        subjects on which they are confident. It is also deployed on its own
+        domain.
       </div>
 
-      <div className="row finale">
+      <div className="repolink">
+        <a
+          href="https://you-tutor.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className="img-fluid logos"
+            src={require("../../public/deployed-logo-white.png")}
+            alt="BackEnd Logo"
+          />
+          <p className="gittext">APP</p>
+        </a>
+      </div>
+      </div>
+
+
+
+      <div className="finale">
         <img
           className="img-fluid codes"
           src={require("../../public/react-logo-white.png")}
@@ -83,8 +68,6 @@ export default function YouTutor() {
           src={require("../../public/react-logo.png")}
           alt="White React Logo"
         />
-      </div>
-      <div className="row finale">
         <img
           className="img-fluid codes"
           src={require("../../public/express-logo.png")}
@@ -105,8 +88,6 @@ export default function YouTutor() {
           src={require("../../public/mysql-logo.png")}
           alt="MySql Logo"
         />
-        </div>
-        <div className="row finale">
         <img
           className="img-fluid codes"
           src={require("../../public/bulma-seeklogo.com.svg")}

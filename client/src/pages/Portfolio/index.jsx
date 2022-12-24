@@ -13,51 +13,31 @@ import "./style.css";
 
 export default function Portfolio() {
   return (
-    //  {/* FIRST ROW */}
     <Zoom delay={300}>
-      <div className="card portfolioCard">
-        {/* First Row */}
-        <div className="row portRow">
-          <div className="col-6">
-            <Slide right duration={2000} delay={800}>
-              <YouTutor />
-            </Slide>
-          </div>
+      <div className="portfolioCard">
+        <Slide className="projectcontainer" right duration={2000} delay={800}>
+          <YouTutor />
+        </Slide>
 
-          <div className="col-6">
-            <Slide left duration={2000} delay={800}>
-              <MapleValley />
-            </Slide>
-          </div>
-        </div>
-        {/* Second Row */}
-        <div className="row portRow">
-          <div className="col-6">
-            <Slide right duration={2000} delay={800}>
-              <Findr />
-            </Slide>
-          </div>
+        <Slide className="projectcontainer" left duration={2000} delay={800}>
+          {/* <MapleValley /> */}
+        </Slide>
 
-          <div className="col-6">
-            <Slide left duration={2000} delay={800}>
-              <NoteTaker />
-            </Slide>
-          </div>
-        </div>
-        {/* Third Row */}
-        <div className="row portRow">
-          <div className="col-6">
-            <Slide right duration={2000}>
-              <Weather />
-            </Slide>
-          </div>
+        <Slide className="projectcontainer" right duration={2000} delay={800}>
+          {/* <Findr /> */}
+        </Slide>
 
-          <div className="col-6">
-            <Slide left duration={2000}>
-              <Password />
-            </Slide>
-          </div>
-        </div>
+        <Slide className="projectcontainer" left duration={2000} delay={800}>
+          {/* <NoteTaker /> */}
+        </Slide>
+
+        <Slide className="projectcontainer" right duration={2000}>
+          {/* <Weather /> */}
+        </Slide>
+
+        <Slide className="projectcontainer" left duration={2000}>
+          {/* <Password /> */}
+        </Slide>
       </div>
     </Zoom>
   );
