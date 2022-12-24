@@ -21,7 +21,6 @@ export default function Portfolio() {
 
         <Slide className="projectcontainer" left duration={2000} delay={800}>
           {/* <MapleValley /> */}
-          <YouTutor />
         </Slide>
 
         <Slide className="projectcontainer" right duration={2000} delay={800}>
