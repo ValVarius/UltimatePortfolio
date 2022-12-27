@@ -1,28 +1,45 @@
 .homecard {
   border-radius: 50%;
   box-shadow: 1px 5px 5px black;
-  background-image: url("../../public/connecting-dots-transparent (2).png");
-  background-size: cover;
-  height: 800px;
-  width: 800px;
+  /* background-image: url("../../public/connecting-dots-transparent (2).png"); */
+  /* background-size: cover; */
+  /* height: 800px;
+  width: 800px; */
+
   margin: auto;
   margin-top: 20px;
+  overflow: hidden;
+  width: 50vw;
+  height: 50vw;
+  min-width: 150px;
+  min-height: 150px;
+
 }
+
+#homeback {
+  content: url("../../public/connecting-dots-transparent (2).png");
+}
+
 #myStory {
-  /* border-style: solid;
-  border-width: 1px; */
-  /* border-radius: 50%; */
+  /* border-style: solid; 
+  border-width: 1px;  */
+
   margin: auto;
-  margin-top: 20px;
+  margin-top: 2vw;
   text-align: center;
-  line-height: 10px;
-  margin-bottom: 5px;
+  line-height: 0.5vw;
+  margin-bottom: 1vw;
+  max-height: 50%;
+  /* font-size: 1vw; */
 }
 
+#buttomcircle {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2vw;
 
-#buttomcircle{
-display: flex;
-margin-top: 10px;
+  /* margin-top: 10px; */
+  /* justify-content: center; */
 }
 #profilePicture {
   box-shadow: 1px 5px 5px grey;
@@ -31,37 +48,42 @@ margin-top: 10px;
   border-width: 1px;
   border-style: solid;
   border-color: rgb(221, 217, 217);
-  /* width: 15%; */
-  /* align-self: center; */
-  width: 200px;
-  height: 200px;
-  /* margin: auto; */
-  margin-top: 10px;
-  margin-left: 20px;
-  /* margin-left: 30px; */
+  width: 14vw;
+  height: 14vw;
+  margin: auto;
+  margin-right: 0;
+  margin-top: 0;
+  min-height: 30px;
+  min-width: 30px;
 }
 
-
-.card-text {
-  font-size: 16px;
+.text {
+  /* font-size: 20px; */
 }
 
 #skillscontainer {
+  /* border-style: solid; 
+  border-width: 1px;  */
   text-align: center;
   /* border-style: solid; */
   /* border-radius: 30%; */
   /* border-width: 1px; */
-  width: 65%;
-  /* margin: auto; */
+  width: 50%;
+  min-width: 50px;
+  margin: auto;
+  margin-left: 0;
+  /* margin-right: 2vw; */
   /* margin-top: 0; */
 }
 .skills {
-  height: 35px;
-  margin: 15px;
+  /* height: 35px; */
+  margin: 0.5vw;
+  height: 2vw;
+  width: 2.9vw;
 }
 
 .bulmalogo {
-  margin-right: 3px;
+  /* margin-right: 3px; */
 }
 .bulmatext {
   margin-left: 0;
@@ -69,64 +91,95 @@ margin-top: 10px;
   margin-top: 4px;
 }
 /* SMALLER SCREENS */
-@media (max-width: 900px) {
-  .homecard {
-    zoom: 0.7;
+@media (max-width: 1350px) {
+  #myStory {
+    font-size: 15px;
+    line-height: 0.4vw;
   }
 }
-@media (max-width: 800px) {
-  .homecard {
-    zoom: 0.7;
+@media (max-width: 1150px) {
+  #myStory {
+    font-size: 12px;
+    line-height: 0.3vw;
   }
 }
-@media (max-width: 700px) {
-  .homecard {
+@media (max-width: 950px) {
+  #myStory {
+    zoom: 0.8;
+  }
+  #buttomcircle {
+    margin-top: 0;
+  }
+}
+@media (max-width: 750px) {
+  #myStory {
     zoom: 0.6;
+    margin-top: 20px;
+  }
+
+  #skillscontainer {
+    zoom: 0.7;
   }
 }
-@media (max-width: 600px) {
-  .homecard {
+@media (max-width: 650px) {
+  #myStory {
     zoom: 0.5;
   }
 }
-@media (max-width: 500px) {
-  .homecard {
+
+@media (max-width: 550px) {
+  .homecard{
+   width: 80vw;
+    height: 80vw;
+    margin-top: 70px;
+  }
+  #myStory {
+    zoom: 0.7;
+  }
+  #skillscontainer {
+    zoom: 1;
+    /* max-width: 40%; */
+    /* line-height: 50%; */
+  }
+  
+}
+@media (max-width: 420px) {
+  #myStory {
+    zoom: 0.6;
+    margin-bottom: 20px;
+  }
+  #skillscontainer {
+    /* zoom: 0.45; */
+    /* max-width: 40%; */
+    /* line-height: 80%; */
+  }
+}
+@media (max-width: 360px) {
+  #myStory {
+    zoom: 0.5;
+  }
+}
+@media (max-width: 290px) {
+  #myStory {
     zoom: 0.4;
   }
-}
-@media (max-width: 450px) {
-  .homecard {
-    zoom: 0.35;
-  }
-}
-@media (max-width: 400px) {
-  .homecard {
-    zoom: 0.3;
-  }
-}
-@media (max-width: 350px) {
-  .homecard {
-    zoom: 0.25;
-  }
-}
-@media (max-width: 300px) {
-  .homecard {
-    zoom: 0.2;
-  }
-}
-@media (max-width: 270px) {
-  .homecard {
-    zoom: 0.15;
+  #skillscontainer {
+    /* zoom: 0.45; */
+    max-width: 40%;
+    line-height: 80%;
   }
 }
 @media (max-width: 220px) {
-  .homecard {
-    zoom: 0.1;
+  #myStory {
+    zoom: 0.3;
   }
+  
 }
 
+
+
 /* WIDE SCREENS */
-@media (min-width: 900px) {
+/* @media (min-width: 900px) {
   .homecard {
     zoom: 0.7;
   }
@@ -181,4 +234,4 @@ margin-top: 10px;
     zoom: 3;
   }
 }
-
+ */

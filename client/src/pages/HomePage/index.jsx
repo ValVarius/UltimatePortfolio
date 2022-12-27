@@ -6,38 +6,39 @@ export default function HomePage() {
   return (
     <Zoom delay={300} duration={1500}>
       <div className="card homecard">
+        <div className="back" id= "homeback"></div>
         
 
         <div id="myStory">
-          <p className="card-text" >
+          <p className="text" >
             Creative and passionate
           </p>
-          <p className="card-text">Full Stack Software Engineer</p>
-          <p className="card-text">specializing in frontend development.</p>
-          <p className="card-text">More than three years experience with image analysis.</p>
-          <p className="card-text">
+          <p className="text">Full Stack Software Engineer</p>
+          <p className="text">specializing in frontend development.</p>
+          <p className="text">More than three years experience with image analysis.</p>
+          <p className="text">
             A deep understanding of how the extraction or blend of meaningful
           </p>
-          <p className="card-text">
+          <p className="text">
              information from images creates an experience for the viewer.
           </p>
-          <p className="card-text">
+          <p className="text">
             A Degree in Literature and one in Cinema Studies make me an
           </p>
-          <p className="card-text">
+          <p className="text">
             excellent communicator as well as a proficient interpreter of
             images.
           </p>
-          <p className="card-text">
+          <p className="text">
             A graduate from the University of Washington full stack software
           </p>
-          <p className="card-text">
+          <p className="text">
             development program. Fluid in multiple human and computer languages.
           </p>
-          <p className="card-text">
+          <p className="text">
             Most motivated by novelty and learning. Originally from Rome,Italy,
           </p>
-          <p className="card-text">
+          <p className="text">
             excited to bring a fresh perspective to a collaborative team
             environment.
           </p>
