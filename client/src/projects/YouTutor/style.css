@@ -1,8 +1,14 @@
 
 
-#tutor::before {
+
+.back {
   
-  background: url("../../public/newdots-tutor.jpg") 0 0 repeat;
+  /* background: url("../../public/newdots-tutor.jpg") ; */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* content:url('../../public/newdots-tutor.jpg'); */
+    content:url('../../public/newdots-tutor.jpg');
+
   
 }
 
