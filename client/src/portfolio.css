@@ -5,6 +5,7 @@ body {
   background-attachment: fixed;
   /* font-weight: bold; */
   /* font-family: "Merienda", cursive; */
+  min-width: 200px;
 }
 @media (max-width: 520px) {
   body {
