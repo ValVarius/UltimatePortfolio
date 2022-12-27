@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import HomePage from "../HomePage";
-import HomePageMobile from "../HomePageMobile";
 import Portfolio from "../Portfolio";
-import PortfolioMobile from "../PortfolioMobile";
 import ContactCard from "../ContactCard";
 import MobileContactCard from "../MobileContactCard";
 import { useLocation } from "react-router-dom";
@@ -16,8 +14,6 @@ export default function Home() {
     height: window.innerHeight,
   });
   const updateSize = () => {
-    
-
     setSize({
       width: window.innerWidth,
       height: window.innerHeight,
@@ -30,19 +26,8 @@ export default function Home() {
 
   return (
     <div className="container-fluid" id="homecontainer">
-       {location.pathname === "/"  ? <HomePage /> : ""}
-       {/* {location.pathname === "/" && size.width >= 502 ? <HomePage /> : ""} */}
-      {/* {location.pathname === "/" && size.width < 502 ? <HomePageMobile /> : ""}  */}
-      {location.pathname === "/portfolio" && size.width >= 520 ? (
-        <Portfolio />
-      ) : (
-        ""
-      )}
-      {location.pathname === "/portfolio" && size.width < 520 ? (
-        <PortfolioMobile />
-      ) : (
-        ""
-      )}
+      {location.pathname === "/" ? <HomePage /> : ""}
+      {location.pathname === "/portfolio" ? <Portfolio /> : ""}
 
       {location.pathname === "/contacts" && size.width >= 520 ? (
         <ContactCard />
@@ -50,11 +35,10 @@ export default function Home() {
         ""
       )}
       {location.pathname === "/contacts" && size.width < 520 ? (
-        <MobileContactCard/>
+        <MobileContactCard />
       ) : (
         ""
       )}
-  
     </div>
   );
 }

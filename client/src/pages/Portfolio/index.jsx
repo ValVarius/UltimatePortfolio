@@ -1,23 +1,29 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
-import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
-import Pulse from "react-reveal/Pulse";
-import Findr from "../../projects/Findr";
-import YouTutor from "../../projects/YouTutor";
-import MapleValley from "../../projects/MapleValley";
-import NoteTaker from "../../projects/NoteTaker";
-import Password from "../../projects/Password";
-import Weather from "../../projects/Weather";
 import "./style.css";
+import YouTutor from "../../projects/YouTutor";
+
+// import Fade from "react-reveal/Fade";
+// import Pulse from "react-reveal/Pulse";
+// import Findr from "../../projects/Findr";
+// import MapleValley from "../../projects/MapleValley";
+// import NoteTaker from "../../projects/NoteTaker";
+// import Password from "../../projects/Password";
+// import Weather from "../../projects/Weather";
 
 export default function Portfolio() {
   return (
-    <Zoom delay={300}>
+    // <Zoom delay={300}>
       <div className="portfolioCard">
-        <Slide className="projectcontainer" right duration={2000} delay={800}>
+        {/* <Slide className="projectcontainer" right duration={2000} delay={800}> */}
+        {/* <Slide className="projectcontainer" right duration={2000} delay={800}> */}
+        <Zoom  delay={300} duration={1500} className="projectcontainer">
+          {/* <Zoom  delay={300} duration={1500}> */}
           <YouTutor />
-        </Slide>
+          {/* </Zoom> */}
+          </Zoom>
+        {/* </Slide> */}
 
         <Slide className="projectcontainer" left duration={2000} delay={800}>
           {/* <MapleValley /> */}
@@ -39,6 +45,6 @@ export default function Portfolio() {
           {/* <Password /> */}
         </Slide>
       </div>
-    </Zoom>
+    // </Zoom>
   );
 }

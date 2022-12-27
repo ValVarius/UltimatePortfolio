@@ -4,6 +4,7 @@ import "./style.css";
 export default function YouTutor() {
   return (
     <div className="project-container" id="tutor">
+      <div className="back"></div>
       <div className="projectTitle">~YouTutor~</div>
 
       <img
