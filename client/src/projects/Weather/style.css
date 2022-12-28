@@ -70,6 +70,9 @@
   
   /* MOBILE *******************************/
   @media (max-width: 500px) {
+    #weather {
+      margin-top: 15vw;
+    }
     #weathercenter {
       zoom: 0.8;
       max-width: 65%;
