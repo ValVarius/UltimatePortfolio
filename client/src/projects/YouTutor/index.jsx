@@ -17,7 +17,7 @@ export default function YouTutor() {
         <div className="info" id="tutortext">
           This application is a student aid intented to enhance the learning
           experience by providing a platform where students can both seek help
-          on a the subjects they have not mastered yet and offer help on those
+          on a subject they have not mastered yet and offer help on those
           subjects on which they are confident. It is also deployed on its own
           domain.
         </div>

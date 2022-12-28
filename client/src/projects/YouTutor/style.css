@@ -2,37 +2,39 @@
   content: url("../../public/newdots-tutor.jpg");
 }
 #tutorscreenshot {
-  margin-right: 22%;
+  margin-right: 24%;
 }
 #tutorcenter {
-  margin-left: 33%;
+  margin-left: 30%;
   margin-top: 5%;
-  max-width: 50%;
+  max-width: 60%;
 }
 #tutortext {
   /* text-align: end; */
 }
 #tutorfinale {
-  margin-left: 33%;
+  margin-left: 30%;
+  zoom: 0.6;
 }
 #tutorlinks {
   display: flex;
-  margin-left: 30%;
+  margin-left: 27%;
 }
 
 @media (max-width: 1100px) {
   #tutorcenter {
-    margin-left: 35%;
+    /* margin-left: 35%; */
   }
   #tutorscreenshot {
-    margin-left: 35%;
+    margin-left: 30%;
   }
   #tutorfinale {
-    margin-left: 35%;
-    zoom: 0.8;
+    /* margin-left: 35%; */
+    zoom: 0.6;
   }
   #tutorlinks {
-    margin-left: 40%;
+    /* margin-left: 40%; */
+
   }
   .tutorgittext {
     zoom: 0.8;
@@ -64,7 +66,7 @@
     zoom: 0.7;
   }
 }
-@media (max-width: 680px) {
+@media (max-width: 700px) {
   #tutorcenter {
     zoom: 0.7;
   }
@@ -165,4 +167,37 @@
   .tutorgittext {
     /* zoom: 0.7; */
   }
+}
+
+/* BIG SCREENS */
+
+@media (min-width: 1800px){
+  #tutor{
+    font-size: 28px;
+  }
+  #tutorcenter{
+    max-width: 60%;
+  }
+  #tutorfinale {
+    /* margin-left: 33%; */
+    zoom: 0.6; 
+   /* max-width: 55%; */
+ }
+}
+@media (min-width: 2700px){
+  #tutor{
+    font-size: 46px;
+  }
+  #tutorcenter{
+    max-width: 60%;
+  }
+}
+@media (min-width: 3700px){
+  #tutor{
+    font-size: 65px;
+  }
+  #tutorcenter{
+    max-width: 60%;
+  }
+  
 }
