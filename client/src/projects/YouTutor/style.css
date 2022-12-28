@@ -10,12 +10,13 @@
   max-width: 60%;
 }
 #tutortext {
-  /* text-align: end; */
+  text-align: center;
 }
 #tutorfinale {
   margin-left: 30%;
-  zoom: 0.6;
+  zoom: 0.7;
 }
+
 #tutorlinks {
   display: flex;
   margin-left: 27%;
@@ -26,7 +27,7 @@
     /* margin-left: 35%; */
   }
   #tutorscreenshot {
-    margin-left: 30%;
+    /* margin-left: 30%; */
   }
   #tutorfinale {
     /* margin-left: 35%; */
@@ -50,8 +51,8 @@
     margin-left: 35%;
   }
   #tutorfinale {
-    margin-left: 35%;
-    max-width: 40%;
+    /* margin-left: 35%; */
+    /* max-width: 40%; */
   }
   #tutorlinks {
     margin-left: 40%;
@@ -87,8 +88,8 @@
     zoom: 0.5;
   }
   #tutorfinale {
-    margin-left: 35%;
-    max-width: 40%;
+    /* margin-left: 35%; */
+    /* max-width: 40%; */
   }
 }
 
@@ -199,5 +200,6 @@
   #tutorcenter{
     max-width: 60%;
   }
+  
   
 }

@@ -2,3 +2,211 @@
 #mapleback {
     content: url("../../public/newdots-maple_optimized.png");
   }
+  #maplescreenshot {
+    margin-left: 24%;
+  }
+  #maplecenter {
+    margin-left: 9%;
+    margin-top: 5%;
+    max-width: 60%;
+  }
+  #mapletext {
+    text-align: center;
+  }
+  #maplefinale {
+    margin-left: 9%;
+    zoom: 0.8;
+    max-width: 62%;
+  }
+  #maplefinale > img  {
+    display: block;
+    margin-left: auto;
+     /* margin: auto; */
+  }
+  #maplelinks {
+    display: flex;
+    margin-left: 27%;
+  }
+  
+  @media (max-width: 1100px) {
+    #maplecenter {
+      /* margin-left: 35%; */
+    }
+    #maplescreenshot {
+      /* margin-left: 30%; */
+    }
+    #maplefinale {
+      /* margin-left: 35%; */
+      /* zoom: 0.6; */
+    }
+    #maplelinks {
+      /* margin-left: 40%; */
+  
+    }
+    .maplegittext {
+      zoom: 0.8;
+    }
+  }
+  
+  @media (max-width: 890px) {
+    #maplecenter {
+      /* zoom: 0.8; */
+      /* max-width: 60%; */
+    }
+    #maplescreenshot {
+      /* margin-left: 35%; */
+    }
+    #maplefinale {
+      /* margin-left: 35%; */
+      max-width: 60%;
+      zoom: 0.7;
+    }
+    #maplelinks {
+      /* margin-left: 40%; */
+    }
+  }
+  
+  @media (max-width: 750px) {
+    #maplecenter {
+      zoom: 0.8;
+    }
+    .maplegittext {
+      zoom: 0.7;
+    }
+  }
+  @media (max-width: 700px) {
+    #maplecenter {
+      zoom: 0.7;
+    }
+    #maplelinks {
+      zoom: 0.7;
+    }
+  }
+  @media (max-width: 600px) {
+    #maplecenter {
+      zoom: 0.6;
+    }
+    #maplelinks {
+      /* zoom: 0.5; */
+    }
+  }
+  @media (max-width: 550px) {
+    #maplecenter {
+      zoom: 0.5;
+    }
+    #maplefinale {
+      /* margin-left: 35%; */
+      /* max-width: 40%; */
+    }
+  }
+  
+  /* MOBILE *******************************/
+  @media (max-width: 500px) {
+    #maplecenter {
+      zoom: 0.8;
+      max-width: 65%;
+      margin-left: 33%;
+    }
+    #maplescreenshot {
+      margin-left: 33%;
+    }
+    #maplefinale {
+      margin-left: 33%;
+      zoom: 0.8;
+      max-width: 60%;
+    }
+    #maplelinks {
+      zoom: 1;
+      margin-left: 30%;
+    }
+    .maplegittext {
+      zoom: 1;
+    }
+  }
+  @media (max-width: 480px) {
+    #maplecenter {
+      zoom: 0.7;
+    }
+    #maplelinks {
+      zoom: 0.9;
+    }
+  }
+  @media (max-width: 400px) {
+    #maplecenter {
+      zoom: 0.6;
+     }
+    #maplelinks {
+      zoom: 0.8;
+    }
+    
+  }
+  @media (max-width: 350px) {
+    #maplecenter {
+      max-width: 60%;
+    }
+    
+    #maplefinale {
+       zoom: 0.7; 
+      max-width: 55%;
+    }
+    #maplelinks {
+      margin-left: 35%;
+    }
+   
+  }
+  @media (max-width: 300px) {
+    #maplecenter {
+      zoom: 0.5;
+      /* max-width: 60%; */
+      /* margin-left: 33%; */
+    }
+    #maplescreenshot {
+      /* margin-left: 33%; */
+    }
+    #maplefinale {
+       /* margin-left: 33%; */
+       /* zoom: 0.7;  */
+      /* max-width: 55%; */
+    }
+    #maplelinks {
+      zoom: 0.7;
+      /* margin-left: 35%; */
+    }
+    .maplegittext {
+      /* zoom: 0.7; */
+    }
+  }
+  
+  /* BIG SCREENS */
+  
+  @media (min-width: 1800px){
+    #maple{
+      font-size: 28px;
+    }
+    #maplecenter{
+      max-width: 60%;
+    }
+    #maplefinale {
+      /* margin-left: 33%; */
+      zoom: 0.6; 
+     /* max-width: 55%; */
+   }
+  }
+  @media (min-width: 2700px){
+    #maple{
+      font-size: 46px;
+    }
+    #maplecenter{
+      max-width: 60%;
+    }
+  }
+  @media (min-width: 3700px){
+    #maple{
+      font-size: 65px;
+    }
+    #maplecenter{
+      max-width: 60%;
+    }
+    
+  }
+  

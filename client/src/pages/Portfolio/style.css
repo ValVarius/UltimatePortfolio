@@ -149,7 +149,7 @@
   display: flex;
   flex-wrap: wrap;
   border-radius: 10px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .codes {
   /* border: 1px solid red; */
@@ -157,12 +157,11 @@
   border-radius: 10px;
   margin: 1vw;
   padding: 2%;
-
-  width: 4vw;
-  height: 4vw;
+  width: 5vw;
+  height: 5vw;
 }
 .longcodes {
-  width: 7vw;
+  width: 6vw;
 }
 
 @media (max-width: 1400px) {
