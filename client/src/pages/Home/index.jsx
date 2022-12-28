@@ -25,7 +25,7 @@ export default function Home() {
   });
 
   return (
-    <div className="container-fluid" id="homecontainer">
+    <div  id="homecontainer">
       {location.pathname === "/" ? <HomePage /> : ""}
       {location.pathname === "/portfolio" ? <Portfolio /> : ""}
 

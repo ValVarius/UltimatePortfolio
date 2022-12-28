@@ -1,5 +1,3 @@
-#findr{
-    background-image: url("../../public/newdots-findr_optimized.png");
-    /* background-image: url("../../public/newdots.jpg"); */
-    /* padding: 0%; */
+#findrback {
+  content: url("../../public/newdots-findr_optimized.png");
 }

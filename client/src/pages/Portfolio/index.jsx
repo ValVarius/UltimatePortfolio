@@ -6,45 +6,40 @@ import YouTutor from "../../projects/YouTutor";
 
 // import Fade from "react-reveal/Fade";
 // import Pulse from "react-reveal/Pulse";
-// import Findr from "../../projects/Findr";
-// import MapleValley from "../../projects/MapleValley";
-// import NoteTaker from "../../projects/NoteTaker";
+import Findr from "../../projects/Findr";
+import MapleValley from "../../projects/MapleValley";
+import NoteTaker from "../../projects/NoteTaker";
 // import Password from "../../projects/Password";
 // import Weather from "../../projects/Weather";
 
 export default function Portfolio() {
   return (
     // <Zoom delay={300}>
-      <div className="portfolioCard">
-        {/* <Slide className="projectcontainer" right duration={2000} delay={800}> */}
-        {/* <Slide className="projectcontainer" right duration={2000} delay={800}> */}
-        <Zoom  delay={300} duration={1500} className="projectcontainer">
-          {/* <Zoom  delay={300} duration={1500}> */}
-          <YouTutor />
-          {/* </Zoom> */}
-          </Zoom>
-        {/* </Slide> */}
+    <div className="portfolioCard">
+      <Zoom className="projectcontainer" delay={300} duration={1500}>
+        <YouTutor />
+      </Zoom>
 
-        <Slide className="projectcontainer" left duration={2000} delay={800}>
-          {/* <MapleValley /> */}
-        </Slide>
+      <Zoom className="projectcontainer" delay={300} duration={1500}>
+        <MapleValley />
+      </Zoom>
 
-        <Slide className="projectcontainer" right duration={2000} delay={800}>
-          {/* <Findr /> */}
-        </Slide>
+      <Zoom className="projectcontainer" delay={300} duration={1500}>
+        <Findr />
+      </Zoom>
 
-        <Slide className="projectcontainer" left duration={2000} delay={800}>
-          {/* <NoteTaker /> */}
-        </Slide>
+      <Zoom className="projectcontainer" delay={300} duration={1500}>
+        <NoteTaker />
+      </Zoom>
 
-        <Slide className="projectcontainer" right duration={2000}>
-          {/* <Weather /> */}
-        </Slide>
+      <Slide className="projectcontainer" right duration={2000}>
+        {/* <Weather /> */}
+      </Slide>
 
-        <Slide className="projectcontainer" left duration={2000}>
-          {/* <Password /> */}
-        </Slide>
-      </div>
+      <Slide className="projectcontainer" left duration={2000}>
+        {/* <Password /> */}
+      </Slide>
+    </div>
     // </Zoom>
   );
 }
