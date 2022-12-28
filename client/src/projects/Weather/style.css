@@ -1,7 +1,158 @@
 #weather{
-    background-image: url("../../public/newdots-sun.jpg");
-    /* background-image: url("../../public/newdots.jpg"); */
-    background-size:cover;
-
-    /* padding: 0%; */
+  margin-top: -15vw;
 }
+#weatherback {
+    content: url("../../public/newdots-sun.jpg");
+  }
+  #weatherscreenshot {
+    margin-right: 24%;
+  }
+  #weathercenter {
+    margin-left: 31%;
+    margin-top: 5%;
+    max-width: 60%;
+  }
+  #weathertext {
+    text-align: center;
+  }
+  #weatherfinale {
+    margin-left: 30%;
+    zoom: 0.6;
+  }
+  
+  #weatherlinks {
+    display: flex;
+    margin-left: 27%;
+  }
+  
+  @media (max-width: 1100px) {
+    .weathergittext {
+      zoom: 0.8;
+    }
+  }
+  
+  @media (max-width: 890px) {
+    #weathercenter {
+      zoom: 0.8;
+      max-width: 60%;
+    }
+    #weatherlinks {
+      margin-left: 40%;
+    }
+  }
+  
+  @media (max-width: 750px) {
+    #weathercenter {
+      zoom: 0.8;
+    }
+    .weathergittext {
+      zoom: 0.7;
+    }
+  }
+  @media (max-width: 700px) {
+    #weathercenter {
+      zoom: 0.7;
+    }
+    #weatherlinks {
+      zoom: 0.7;
+    }
+  }
+  @media (max-width: 600px) {
+    #weathercenter {
+      zoom: 0.6;
+    }
+  }
+  @media (max-width: 550px) {
+    #weathercenter {
+      zoom: 0.5;
+    }
+  }
+  
+  /* MOBILE *******************************/
+  @media (max-width: 500px) {
+    #weathercenter {
+      zoom: 0.8;
+      max-width: 65%;
+      margin-left: 33%;
+    }
+    #weatherscreenshot {
+      margin-left: 33%;
+    }
+    #weatherfinale {
+      margin-left: 33%;
+      zoom: 0.8;
+      max-width: 60%;
+    }
+    #weatherlinks {
+      zoom: 1;
+      margin-left: 30%;
+    }
+    .weathergittext {
+      zoom: 1;
+    }
+  }
+  @media (max-width: 480px) {
+    #weathercenter {
+      zoom: 0.7;
+    }
+    #weatherlinks {
+      zoom: 0.9;
+    }
+  }
+  @media (max-width: 400px) {
+    #weathercenter {
+      zoom: 0.6;
+    }
+    #weatherlinks {
+      zoom: 0.8;
+    }
+  }
+  @media (max-width: 350px) {
+    #weathercenter {
+      max-width: 60%;
+    }
+  
+    #weatherfinale {
+      zoom: 0.7;
+      max-width: 55%;
+    }
+    #weatherlinks {
+      margin-left: 35%;
+    }
+  }
+  @media (max-width: 300px) {
+    #weathercenter {
+      zoom: 0.5;
+    }
+    #weatherlinks {
+      zoom: 0.7;
+    }
+  }
+  
+  /* BIG SCREENS */
+  
+  @media (min-width: 1800px) {
+    #weather {
+      font-size: 28px;
+    }
+    #weathercenter {
+      max-width: 60%;
+    }
+  }
+  @media (min-width: 2700px) {
+    #weather {
+      font-size: 46px;
+    }
+    #weathercenter {
+      max-width: 60%;
+    }
+  }
+  @media (min-width: 3700px) {
+    #weather {
+      font-size: 65px;
+    }
+    #weathercenter {
+      max-width: 60%;
+    }
+  }
+  

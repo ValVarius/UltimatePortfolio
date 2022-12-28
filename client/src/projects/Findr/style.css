@@ -1,3 +1,157 @@
+#findr{
+  margin-top: -10vw;
+}
 #findrback {
   content: url("../../public/newdots-findr_optimized.png");
+}
+#findrscreenshot {
+  margin-right: 24%;
+}
+#findrcenter {
+  margin-left: 31%;
+  margin-top: 5%;
+  max-width: 60%;
+}
+#findrtext {
+  text-align: center;
+}
+#findrfinale {
+  margin-left: 30%;
+  zoom: 0.6;
+}
+
+#findrlinks {
+  display: flex;
+  margin-left: 27%;
+}
+
+@media (max-width: 1100px) {
+  .findrgittext {
+    zoom: 0.8;
+  }
+}
+
+@media (max-width: 890px) {
+  #findrcenter {
+    zoom: 0.8;
+    max-width: 60%;
+  }
+  #findrlinks {
+    margin-left: 40%;
+  }
+}
+
+@media (max-width: 750px) {
+  #findrcenter {
+    zoom: 0.8;
+  }
+  .findrgittext {
+    zoom: 0.7;
+  }
+}
+@media (max-width: 700px) {
+  #findrcenter {
+    zoom: 0.7;
+  }
+  #findrlinks {
+    zoom: 0.7;
+  }
+}
+@media (max-width: 600px) {
+  #findrcenter {
+    zoom: 0.6;
+  }
+}
+@media (max-width: 550px) {
+  #findrcenter {
+    zoom: 0.5;
+  }
+}
+
+/* MOBILE *******************************/
+@media (max-width: 500px) {
+  #findrcenter {
+    zoom: 0.8;
+    max-width: 65%;
+    margin-left: 33%;
+  }
+  #findrscreenshot {
+    margin-left: 33%;
+  }
+  #findrfinale {
+    margin-left: 33%;
+    zoom: 0.8;
+    max-width: 60%;
+  }
+  #findrlinks {
+    zoom: 1;
+    margin-left: 30%;
+  }
+  .findrgittext {
+    zoom: 1;
+  }
+}
+@media (max-width: 480px) {
+  #findrcenter {
+    zoom: 0.7;
+  }
+  #findrlinks {
+    zoom: 0.9;
+  }
+}
+@media (max-width: 400px) {
+  #findrcenter {
+    zoom: 0.6;
+  }
+  #findrlinks {
+    zoom: 0.8;
+  }
+}
+@media (max-width: 350px) {
+  #findrcenter {
+    max-width: 60%;
+  }
+
+  #findrfinale {
+    zoom: 0.7;
+    max-width: 55%;
+  }
+  #findrlinks {
+    margin-left: 35%;
+  }
+}
+@media (max-width: 300px) {
+  #findrcenter {
+    zoom: 0.5;
+  }
+  #findrlinks {
+    zoom: 0.7;
+  }
+}
+
+/* BIG SCREENS */
+
+@media (min-width: 1800px) {
+  #findr {
+    font-size: 28px;
+  }
+  #findrcenter {
+    max-width: 60%;
+  }
+}
+@media (min-width: 2700px) {
+  #findr {
+    font-size: 46px;
+  }
+  #findrcenter {
+    max-width: 60%;
+  }
+}
+@media (min-width: 3700px) {
+  #findr {
+    font-size: 65px;
+  }
+  #findrcenter {
+    max-width: 60%;
+  }
 }

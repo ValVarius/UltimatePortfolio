@@ -1,9 +1,210 @@
-#notes{
-    /* background-image: url("../../public/newdots-note.png"); */
-    /* background-image: url("../../public/newdots.jpg"); */
-
-    /* padding: 0%; */
+#note{
+  margin-top: 10vw;
 }
 #noteback {
-    content: url("../../public/newdots-note.png");
+  content: url("../../public/newdots-note.png");
+}
+
+#notescreenshot {
+  margin-left: 24%;
+}
+#notecenter {
+  margin-left: 9%;
+  margin-top: 5%;
+  max-width: 60%;
+}
+#notetext {
+  text-align: center;
+}
+#notefinale {
+  margin-left: 52%;
+  zoom: 0.8;
+  max-width: 62%;
+}
+#notefinale > img {
+  /* display: block; */
+  /* margin-left: auto; */
+  /* margin: auto; */
+}
+#notelinks {
+  display: flex;
+  margin-left: 27%;
+}
+
+@media (max-width: 1100px) {
+  #notecenter {
+    /* margin-left: 35%; */
   }
+  #notescreenshot {
+    /* margin-left: 30%; */
+  }
+  #notefinale {
+    /* margin-left: 35%; */
+    /* zoom: 0.6; */
+  }
+  #notelinks {
+    /* margin-left: 40%; */
+  }
+  .notegittext {
+    zoom: 0.8;
+  }
+}
+
+@media (max-width: 890px) {
+  #notecenter {
+    /* zoom: 0.8; */
+    /* max-width: 60%; */
+  }
+  #notescreenshot {
+    /* margin-left: 35%; */
+  }
+  #notefinale {
+    /* margin-left: 35%; */
+    /* max-width: 60%; */
+    /* zoom: 0.7; */
+  }
+  #notelinks {
+    /* margin-left: 40%; */
+  }
+}
+
+@media (max-width: 750px) {
+  #notecenter {
+    zoom: 0.8;
+  }
+  .notegittext {
+    zoom: 0.7;
+  }
+}
+@media (max-width: 700px) {
+  #notecenter {
+    zoom: 0.7;
+  }
+  #notelinks {
+    zoom: 0.7;
+  }
+}
+@media (max-width: 600px) {
+  #notecenter {
+    zoom: 0.6;
+  }
+  #notelinks {
+    /* zoom: 0.5; */
+  }
+}
+@media (max-width: 550px) {
+  #notecenter {
+    zoom: 0.5;
+  }
+  #notefinale {
+    /* margin-left: 35%; */
+    /* max-width: 40%; */
+  }
+}
+
+/* MOBILE *******************************/
+@media (max-width: 500px) {
+  #notecenter {
+    zoom: 0.8;
+    max-width: 65%;
+    margin-left: 33%;
+  }
+  #notescreenshot {
+    margin-left: 33%;
+  }
+  #notefinale {
+    margin-left: 33%;
+    zoom: 0.8;
+    max-width: 60%;
+  }
+  #notelinks {
+    zoom: 1;
+    margin-left: 30%;
+  }
+  .notegittext {
+    zoom: 1;
+  }
+}
+@media (max-width: 480px) {
+  #notecenter {
+    zoom: 0.7;
+  }
+  #notelinks {
+    zoom: 0.9;
+  }
+}
+@media (max-width: 400px) {
+  #notecenter {
+    zoom: 0.6;
+  }
+  #notelinks {
+    zoom: 0.8;
+  }
+}
+@media (max-width: 350px) {
+  #notecenter {
+    max-width: 60%;
+  }
+
+  #notefinale {
+    zoom: 0.7;
+    max-width: 55%;
+  }
+  #notelinks {
+    margin-left: 35%;
+  }
+}
+@media (max-width: 300px) {
+  #notecenter {
+    zoom: 0.5;
+    /* max-width: 60%; */
+    /* margin-left: 33%; */
+  }
+  #notescreenshot {
+    /* margin-left: 33%; */
+  }
+  #notefinale {
+    /* margin-left: 33%; */
+    /* zoom: 0.7;  */
+    /* max-width: 55%; */
+  }
+  #notelinks {
+    zoom: 0.7;
+    /* margin-left: 35%; */
+  }
+  .notegittext {
+    /* zoom: 0.7; */
+  }
+}
+
+/* BIG SCREENS */
+
+@media (min-width: 1800px) {
+  #note {
+    font-size: 28px;
+  }
+  #notecenter {
+    max-width: 60%;
+  }
+  #notefinale {
+    /* margin-left: 33%; */
+    zoom: 0.6;
+    /* max-width: 55%; */
+  }
+}
+@media (min-width: 2700px) {
+  #note {
+    font-size: 46px;
+  }
+  #notecenter {
+    max-width: 60%;
+  }
+}
+@media (min-width: 3700px) {
+  #note {
+    font-size: 65px;
+  }
+  #notecenter {
+    max-width: 60%;
+  }
+}

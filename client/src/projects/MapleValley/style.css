@@ -1,4 +1,7 @@
 
+#maple{
+  margin-top: 15vw;
+}
 #mapleback {
     content: url("../../public/newdots-maple_optimized.png");
   }

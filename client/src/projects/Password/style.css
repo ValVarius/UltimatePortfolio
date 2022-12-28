@@ -1,6 +1,210 @@
 #password{
-    background-image: url("../../public/newdots-password.png");
-    /* background-image: url("../../public/newdots.jpg"); */
+  margin-top: 10vw;
+}
+#passwordback {
+  content: url("../../public/newdots-password.png");
+}
 
-    /* padding: 0%; */
+#passwordscreenshot {
+  margin-left: 24%;
+}
+#passwordcenter {
+  margin-left: 9%;
+  margin-top: 5%;
+  max-width: 60%;
+}
+#passwordtext {
+  text-align: center;
+}
+#passwordfinale {
+  margin-left: 60%;
+  zoom: 0.8;
+  max-width: 62%;
+}
+#passwordfinale > img {
+  /* display: block; */
+  /* margin-left: auto; */
+  /* margin: auto; */
+}
+#passwordlinks {
+  display: flex;
+  margin-left: 27%;
+}
+
+@media (max-width: 1100px) {
+  #passwordcenter {
+    /* margin-left: 35%; */
+  }
+  #passwordscreenshot {
+    /* margin-left: 30%; */
+  }
+  #passwordfinale {
+    /* margin-left: 35%; */
+    /* zoom: 0.6; */
+  }
+  #passwordlinks {
+    /* margin-left: 40%; */
+  }
+  .passwordgittext {
+    zoom: 0.8;
+  }
+}
+
+@media (max-width: 890px) {
+  #passwordcenter {
+    /* zoom: 0.8; */
+    /* max-width: 60%; */
+  }
+  #passwordscreenshot {
+    /* margin-left: 35%; */
+  }
+  #passwordfinale {
+    /* margin-left: 35%; */
+    /* max-width: 60%; */
+    /* zoom: 0.7; */
+  }
+  #passwordlinks {
+    /* margin-left: 40%; */
+  }
+}
+
+@media (max-width: 750px) {
+  #passwordcenter {
+    zoom: 0.8;
+  }
+  .passwordgittext {
+    zoom: 0.7;
+  }
+}
+@media (max-width: 700px) {
+  #passwordcenter {
+    zoom: 0.7;
+  }
+  #passwordlinks {
+    zoom: 0.7;
+  }
+}
+@media (max-width: 600px) {
+  #passwordcenter {
+    zoom: 0.6;
+  }
+  #passwordlinks {
+    /* zoom: 0.5; */
+  }
+}
+@media (max-width: 550px) {
+  #passwordcenter {
+    zoom: 0.5;
+  }
+  #passwordfinale {
+    /* margin-left: 35%; */
+    /* max-width: 40%; */
+  }
+}
+
+/* MOBILE *******************************/
+@media (max-width: 500px) {
+  #passwordcenter {
+    zoom: 0.8;
+    max-width: 65%;
+    margin-left: 33%;
+  }
+  #passwordscreenshot {
+    margin-left: 33%;
+  }
+  #passwordfinale {
+    margin-left: 33%;
+    zoom: 0.8;
+    max-width: 60%;
+  }
+  #passwordlinks {
+    zoom: 1;
+    margin-left: 30%;
+  }
+  .passwordgittext {
+    zoom: 1;
+  }
+}
+@media (max-width: 480px) {
+  #passwordcenter {
+    zoom: 0.7;
+  }
+  #passwordlinks {
+    zoom: 0.9;
+  }
+}
+@media (max-width: 400px) {
+  #passwordcenter {
+    zoom: 0.6;
+  }
+  #passwordlinks {
+    zoom: 0.8;
+  }
+}
+@media (max-width: 350px) {
+  #passwordcenter {
+    max-width: 60%;
+  }
+
+  #passwordfinale {
+    zoom: 0.7;
+    max-width: 55%;
+  }
+  #passwordlinks {
+    margin-left: 35%;
+  }
+}
+@media (max-width: 300px) {
+  #passwordcenter {
+    zoom: 0.5;
+    /* max-width: 60%; */
+    /* margin-left: 33%; */
+  }
+  #passwordscreenshot {
+    /* margin-left: 33%; */
+  }
+  #passwordfinale {
+    /* margin-left: 33%; */
+    /* zoom: 0.7;  */
+    /* max-width: 55%; */
+  }
+  #passwordlinks {
+    zoom: 0.7;
+    /* margin-left: 35%; */
+  }
+  .passwordgittext {
+    /* zoom: 0.7; */
+  }
+}
+
+/* BIG SCREENS */
+
+@media (min-width: 1800px) {
+  #password {
+    font-size: 28px;
+  }
+  #passwordcenter {
+    max-width: 60%;
+  }
+  #passwordfinale {
+    /* margin-left: 33%; */
+    zoom: 0.6;
+    /* max-width: 55%; */
+  }
+}
+@media (min-width: 2700px) {
+  #password {
+    font-size: 46px;
+  }
+  #passwordcenter {
+    max-width: 60%;
+  }
+}
+@media (min-width: 3700px) {
+  #password {
+    font-size: 65px;
+  }
+  #passwordcenter {
+    max-width: 60%;
+  }
 }
