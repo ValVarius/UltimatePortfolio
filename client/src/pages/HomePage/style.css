@@ -1,11 +1,6 @@
 .homecard {
   border-radius: 50%;
   box-shadow: 1px 5px 5px black;
-  /* background-image: url("../../public/connecting-dots-transparent (2).png"); */
-  /* background-size: cover; */
-  /* height: 800px;
-  width: 800px; */
-
   margin: auto;
   margin-top: 20px;
   overflow: hidden;
@@ -29,19 +24,15 @@
   line-height: 0.5vw;
   margin-bottom: 1vw;
   max-height: 50%;
-  /* font-size: 1vw; */
 }
 
 #buttomcircle {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2vw;
-
-  /* margin-top: 10px; */
-  /* justify-content: center; */
+  margin-top: 1vw;
 }
 #profilePicture {
-  box-shadow: 1px 5px 5px grey;
+  box-shadow: 1px 1px 1px grey;
   /* box-shadow: 1px 1px 1px black; */
   border-radius: 50%;
   border-width: 1px;
@@ -106,9 +97,7 @@
   #myStory {
     zoom: 0.9;
   }
-  #buttomcircle {
-    /* margin-top: 0; */
-  }
+  
   #profilePicture {
     width: 13vw;
     height: 13vw;
@@ -165,8 +154,7 @@
   }
   #skillscontainer {
     zoom: 1;
-    /* max-width: 50%; */
-    /* line-height: 70%; */
+    
   }
 }
 @media (max-width: 360px) {
@@ -174,7 +162,6 @@
     zoom: 0.5;
   }
   #skillscontainer {
-    /* max-width: 40%; */
     line-height: 90%;
   }
 }
@@ -191,12 +178,7 @@
     
     margin-right: 10px;
   }
-  #buttomcircle{
-    /* margin-top: 0; */
-  }
-  #skillscontainer {
-    /* line-height: 50%; */
-  }
+  
 }
 @media (max-width: 220px) {
   #myStory {

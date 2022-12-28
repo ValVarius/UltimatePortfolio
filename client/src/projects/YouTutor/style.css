@@ -1,14 +1,205 @@
-
-
-
 #tutorback {
-  
-  /* background: url("../../public/newdots-tutor.jpg") ; */
-  /* background-position: center; */
-  /* background-size: cover; */
-  /* content:url('../../public/newdots-tutor.jpg'); */
-    content:url('../../public/newdots-tutor.jpg');
-
-  
+  content: url("../../public/newdots-tutor.jpg");
+}
+#tutorscreenshot {
+  margin-right: 24%;
+}
+#tutorcenter {
+  margin-left: 30%;
+  margin-top: 5%;
+  max-width: 60%;
+}
+#tutortext {
+  text-align: center;
+}
+#tutorfinale {
+  margin-left: 30%;
+  zoom: 0.7;
 }
 
+#tutorlinks {
+  display: flex;
+  margin-left: 27%;
+}
+
+@media (max-width: 1100px) {
+  #tutorcenter {
+    /* margin-left: 35%; */
+  }
+  #tutorscreenshot {
+    /* margin-left: 30%; */
+  }
+  #tutorfinale {
+    /* margin-left: 35%; */
+    zoom: 0.6;
+  }
+  #tutorlinks {
+    /* margin-left: 40%; */
+
+  }
+  .tutorgittext {
+    zoom: 0.8;
+  }
+}
+
+@media (max-width: 890px) {
+  #tutorcenter {
+    zoom: 0.8;
+    max-width: 60%;
+  }
+  #tutorscreenshot {
+    margin-left: 35%;
+  }
+  #tutorfinale {
+    /* margin-left: 35%; */
+    /* max-width: 40%; */
+  }
+  #tutorlinks {
+    margin-left: 40%;
+  }
+}
+
+@media (max-width: 750px) {
+  #tutorcenter {
+    zoom: 0.8;
+  }
+  .tutorgittext {
+    zoom: 0.7;
+  }
+}
+@media (max-width: 700px) {
+  #tutorcenter {
+    zoom: 0.7;
+  }
+  #tutorlinks {
+    zoom: 0.7;
+  }
+}
+@media (max-width: 600px) {
+  #tutorcenter {
+    zoom: 0.6;
+  }
+  #tutorlinks {
+    /* zoom: 0.5; */
+  }
+}
+@media (max-width: 550px) {
+  #tutorcenter {
+    zoom: 0.5;
+  }
+  #tutorfinale {
+    /* margin-left: 35%; */
+    /* max-width: 40%; */
+  }
+}
+
+/* MOBILE *******************************/
+@media (max-width: 500px) {
+  #tutorcenter {
+    zoom: 0.8;
+    max-width: 65%;
+    margin-left: 33%;
+  }
+  #tutorscreenshot {
+    margin-left: 33%;
+  }
+  #tutorfinale {
+    margin-left: 33%;
+    zoom: 0.8;
+    max-width: 60%;
+  }
+  #tutorlinks {
+    zoom: 1;
+    margin-left: 30%;
+  }
+  .tutorgittext {
+    zoom: 1;
+  }
+}
+@media (max-width: 480px) {
+  #tutorcenter {
+    zoom: 0.7;
+  }
+  #tutorlinks {
+    zoom: 0.9;
+  }
+}
+@media (max-width: 400px) {
+  #tutorcenter {
+    zoom: 0.6;
+   }
+  #tutorlinks {
+    zoom: 0.8;
+  }
+  
+}
+@media (max-width: 350px) {
+  #tutorcenter {
+    max-width: 60%;
+  }
+  
+  #tutorfinale {
+     zoom: 0.7; 
+    max-width: 55%;
+  }
+  #tutorlinks {
+    margin-left: 35%;
+  }
+ 
+}
+@media (max-width: 300px) {
+  #tutorcenter {
+    zoom: 0.5;
+    /* max-width: 60%; */
+    /* margin-left: 33%; */
+  }
+  #tutorscreenshot {
+    /* margin-left: 33%; */
+  }
+  #tutorfinale {
+     /* margin-left: 33%; */
+     /* zoom: 0.7;  */
+    /* max-width: 55%; */
+  }
+  #tutorlinks {
+    zoom: 0.7;
+    /* margin-left: 35%; */
+  }
+  .tutorgittext {
+    /* zoom: 0.7; */
+  }
+}
+
+/* BIG SCREENS */
+
+@media (min-width: 1800px){
+  #tutor{
+    font-size: 28px;
+  }
+  #tutorcenter{
+    max-width: 60%;
+  }
+  #tutorfinale {
+    /* margin-left: 33%; */
+    zoom: 0.6; 
+   /* max-width: 55%; */
+ }
+}
+@media (min-width: 2700px){
+  #tutor{
+    font-size: 46px;
+  }
+  #tutorcenter{
+    max-width: 60%;
+  }
+}
+@media (min-width: 3700px){
+  #tutor{
+    font-size: 65px;
+  }
+  #tutorcenter{
+    max-width: 60%;
+  }
+  
+  
+}

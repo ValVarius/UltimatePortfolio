@@ -1,15 +1,17 @@
 body {
   background-color: burlywood;
-  background-image: url("./public/newdots-picasso.png");
+  /* background-image: url("./public/newdots-picasso.png"); */
   background-size: 100vw 100vh;
   background-attachment: fixed;
   /* font-weight: bold; */
   /* font-family: "Merienda", cursive; */
   min-width: 200px;
+  /* overflow: hidden; */
+
 }
 @media (max-width: 520px) {
   body {
-    background-image: url("./public/newdots-picasso-mobile.png");
+    /* background-image: url("./public/newdots-picasso-mobile.png"); */
   }
   
 }
