@@ -1,8 +1,10 @@
 body {
   background-color: burlywood;
+  background-image: url("./public/background.png");
+  background-size: cover;
   /* background-image: url("./public/newdots-picasso.png"); */
-  background-size: 100vw 100vh;
-  background-attachment: fixed;
+  /* background-size: 100vw 100vh; */
+  /* background-attachment: fixed; */
   /* font-weight: bold; */
   /* font-family: "Merienda", cursive; */
   min-width: 200px;
