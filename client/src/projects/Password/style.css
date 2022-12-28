@@ -1,4 +1,4 @@
-#password{
+#password {
   margin-top: 10vw;
 }
 #passwordback {
@@ -32,39 +32,8 @@
 }
 
 @media (max-width: 1100px) {
-  #passwordcenter {
-    /* margin-left: 35%; */
-  }
-  #passwordscreenshot {
-    /* margin-left: 30%; */
-  }
-  #passwordfinale {
-    /* margin-left: 35%; */
-    /* zoom: 0.6; */
-  }
-  #passwordlinks {
-    /* margin-left: 40%; */
-  }
   .passwordgittext {
     zoom: 0.8;
-  }
-}
-
-@media (max-width: 890px) {
-  #passwordcenter {
-    /* zoom: 0.8; */
-    /* max-width: 60%; */
-  }
-  #passwordscreenshot {
-    /* margin-left: 35%; */
-  }
-  #passwordfinale {
-    /* margin-left: 35%; */
-    /* max-width: 60%; */
-    /* zoom: 0.7; */
-  }
-  #passwordlinks {
-    /* margin-left: 40%; */
   }
 }
 
@@ -88,22 +57,18 @@
   #passwordcenter {
     zoom: 0.6;
   }
-  #passwordlinks {
-    /* zoom: 0.5; */
-  }
 }
 @media (max-width: 550px) {
   #passwordcenter {
     zoom: 0.5;
   }
-  #passwordfinale {
-    /* margin-left: 35%; */
-    /* max-width: 40%; */
-  }
 }
 
 /* MOBILE *******************************/
 @media (max-width: 500px) {
+  #password {
+    margin-top: 15vw;
+  }
   #passwordcenter {
     zoom: 0.8;
     max-width: 65%;

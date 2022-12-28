@@ -67,6 +67,9 @@
 
 /* MOBILE *******************************/
 @media (max-width: 500px) {
+  #tutor {
+    margin-top: 15vw;
+  }
   #tutorcenter {
     zoom: 0.8;
     max-width: 65%;
