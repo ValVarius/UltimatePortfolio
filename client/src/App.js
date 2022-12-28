@@ -8,6 +8,8 @@ function App() {
   return (
     <Router>
       <div className="App">
+      <div className="stars"></div>
+        <div className="twinkling"></div> 
         <Navbar />
 
         <Switch>
