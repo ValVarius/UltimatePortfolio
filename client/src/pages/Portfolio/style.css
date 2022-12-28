@@ -121,9 +121,14 @@
 
 .info {
   background-color: rgb(6, 103, 135);
+  background-color: #dedac8;
+  background-color: #e9e6d8;
+  background-color: #c8c0a8;
+  background-color: #786a5b;
+  color: #dedac8;
   border-radius: 10px;
   padding: 2%;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .repolink {
   border: 1px solid white;

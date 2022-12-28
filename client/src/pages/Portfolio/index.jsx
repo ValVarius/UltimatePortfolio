@@ -9,8 +9,8 @@ import YouTutor from "../../projects/YouTutor";
 import Findr from "../../projects/Findr";
 import MapleValley from "../../projects/MapleValley";
 import NoteTaker from "../../projects/NoteTaker";
-// import Password from "../../projects/Password";
-// import Weather from "../../projects/Weather";
+import Password from "../../projects/Password";
+import Weather from "../../projects/Weather";
 
 export default function Portfolio() {
   return (
@@ -33,11 +33,11 @@ export default function Portfolio() {
       </Zoom>
 
       <Slide className="projectcontainer" right duration={2000}>
-        {/* <Weather /> */}
+        <Weather />
       </Slide>
 
       <Slide className="projectcontainer" left duration={2000}>
-        {/* <Password /> */}
+        <Password />
       </Slide>
     </div>
     // </Zoom>
