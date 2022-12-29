@@ -1,118 +1,112 @@
-.badge {
-  margin-top: 20px;
-  font-size: 2.1vmin;
-  color: aliceblue;
-  text-align: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 0%;
-  box-shadow: 1px 5px 5px black;
-}
-#LinkedInBadge {
-  text-shadow: 2px 2px 4px #000000;
-  background-image: url("../../public/connecting-dots_optimized.jpg");
-
-}
-#linkBottom{
-  background-color: rgb(128, 181, 216, 0.8);
-}
-
-.bottom {
-  margin-top: -8vmin;
-  height: 50vmin;
-  min-height: 320px;
-}
-
-.dot {
-  min-height: 100px;
-  min-width: 100px;
-  height: 15vmin;
-  width: 15vmin;
-  border-width: 4px;
-  border-style: solid;
-  /* background-color: #bbb; */
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 15%;
-  background-size: cover;
-
+.contactCard{
+  width: 100%;
+  display: grid;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  grid-template-columns: auto auto;
+  margin: auto;
+  margin-top: 20vh;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-evenly;
+  min-width: 270px;
   
 }
-.space {
-  font-size: calc(3px + 1.1vw);
-  margin-top: calc(10px + 2vh);
+.badge{
+  position: relative;
+  width: 30vw;
+  height: 30vw;
+  /* border: 1px solid white; */
+  border-radius: 50%;
+  overflow: hidden;
+  color: aliceblue;
 }
-#linkeInDot {
-  background-image: url("../../public/profileLinkedIn.jpg");
-  border-color: rgb(128, 181, 216);
-
-}
-#linkediname {
-  font-size: 2vw;
-}
-
-#uw {
-  color: rgb(51, 0, 111);
-  text-shadow: 1px 1px 2px #f5efef;
-  /* font-size: 1.5vmin; */
-  font-size: calc(2px + 0.8vw);
-  margin: auto;
-  margin-top: 10px;
-}
-
-#viewBtn {
-  font-size: 100%;
-  background-color: #0072b1;
-  transition: transform 0.5s ease;
-}
-#viewBtn:hover {
-  background-color: #7ac1e2f8;
-  transform: scale(1.2);
-}
-
-#logoLinkedIn {
-  width: 30%;
+.backcontact {
   position: absolute;
-  bottom: 20px;
-  right: 35%;
+  width: 40vw;
+  height: 40vw;
+  margin-left: -5vw;;
+  margin-top: -5vw;
+  z-index: -2;
+  /* border: 1px solid white; */
+  animation: rotation 60s linear infinite;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(36deg) translateY(-10%);
+  }
+  20% {
+    transform: rotate(72deg) translateY(-10%);
+  }
+  30% {
+    transform: rotate(108deg) translateY(10%);
+  }
+  40% {
+    transform: rotate(144deg) translateY(10%);
+  }
+  50% {
+    transform: rotate(180deg) translateY(10%);
+  }
+  60% {
+    transform: rotate(216deg) translateY(10%);
+  }
+  70% {
+    transform: rotate(252deg) translateY(10%);
+  }
+  80% {
+    transform: rotate(288deg) translateY(0%);
+  }
+  90% {
+    transform: rotate(324deg) translateY(-10%);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
 }
 
-@media (max-height: 800px) {
-  .bottom {
-    height: 400px;
+
+/* MOBILE */
+@media (max-width: 500px) {
+  .contactCard {
+    grid-template-columns: auto;
+    margin-top: 0;
+
   }
-  #uw {
-    font-size: 1vw;
+  .badge {
+    width: 70vw;
+    height: 70vw;
+    margin-top: 5vh;
+    /* margin-left: -16%; */
+  }
+  .backcontact {
+    width: 90vw;
+    height: 90vw;
+    margin-left: -10vw;;
+    margin-top: -10vw;
+    
   }
 }
+/* END */
+@media (max-width: 250px) {
+  .contactCard {
+    grid-template-columns: auto;
+    margin-top: 0;
 
-@media (max-width: 520px) {
-  .bottom {
-    height: auto;
   }
-
-  .dot {
-    height: 25vmin;
-    width: 25vmin;
-    margin-bottom: -4%;
+  .badge {
+    width: 175px;
+    height: 175px;
+    margin-top: 5vh;
   }
-  .space {
-    margin-top: 5vmin;
-    font-size: 5vw;
-  }
-  #linkediname {
-    font-size: 6vw;
-  }
-  #uw {
-    font-size: 3vmin;
-  }
-  #logoLinkedIn {
-    position: relative;
-    margin-left: 70%;
-    margin-top: 30%;
-    margin-bottom: 4%;
-  }
-  .mobContact {
-    margin-top: 40px;
+  .backcontact {
+    width: 225px;
+    height: 225px;
+    margin-left: -25px;;
+    margin-top: -25px;
+    
+    
   }
 }

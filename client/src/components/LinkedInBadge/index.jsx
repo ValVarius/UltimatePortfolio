@@ -3,15 +3,11 @@ import "./style.css";
 
 export default function LinkedInBadge() {
   return (
-    <div className="container badge" id="LinkedInBadge">
-      <div className="top">
-        <div className="dot" id = "linkeInDot"></div>
-      </div>
+    <div className="badge" id="LinkedInBadge">
+      
+      <div className="backcontact" id="linkedinback"></div>
       <div className="bottom" id = "linkBottom">
-        <br />
-        <br />
-        <br />
-        <br />
+       
         <h1 className="space" id="linkediname">
           Valerio Varani
         </h1>
@@ -22,7 +18,7 @@ export default function LinkedInBadge() {
 
         <a
           href="https://www.linkedin.com/in/valerio-varani-635ba31a1/"
-          className="btn btn-primary btn-lg active space"
+          className="btn btn-primary"
           target="_blank"
           rel="noopener noreferrer"
           id="viewBtn"

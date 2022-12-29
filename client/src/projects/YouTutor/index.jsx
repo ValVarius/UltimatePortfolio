@@ -96,7 +96,7 @@ export default function YouTutor() {
               src={require("../../public/deployed-logo-white.png")}
               alt="BackEnd Logo"
             />
-            <p className="gittext tutorgittext">&nbsp;APP&nbsp;  </p>
+            <p className="gittext tutorgittext">&nbsp;APP&nbsp; </p>
           </a>
         </div>
       </div>
