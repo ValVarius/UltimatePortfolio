@@ -2,10 +2,11 @@ import React from "react";
 import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
 import "./style.css";
-import YouTutor from "../../projects/YouTutor";
 
 // import Fade from "react-reveal/Fade";
 // import Pulse from "react-reveal/Pulse";
+import SensApp from "../../projects/SensApp";
+import YouTutor from "../../projects/YouTutor";
 import Findr from "../../projects/Findr";
 import MapleValley from "../../projects/MapleValley";
 import NoteTaker from "../../projects/NoteTaker";
@@ -16,6 +17,7 @@ export default function Portfolio() {
   return (
     // <Zoom delay={300}>
     <div className="portfolioCard">
+      
       <Zoom className="projectcontainer" delay={300} duration={1500}>
         <YouTutor />
       </Zoom>
@@ -39,6 +41,9 @@ export default function Portfolio() {
       <Slide className="projectcontainer" left duration={2000}>
         <Password />
       </Slide>
+      <Zoom className="projectcontainer" delay={300} duration={1500}>
+        <SensApp />
+      </Zoom>
     </div>
     // </Zoom>
   );
