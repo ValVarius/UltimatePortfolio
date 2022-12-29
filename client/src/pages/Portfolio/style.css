@@ -17,7 +17,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 50%;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 
   /* box-shadow: 100px 0px 50px rgba(2, 228, 231); */
   color: aliceblue;
@@ -103,8 +103,20 @@
 
 .projectTitle {
   text-align: center;
-  font-size: larger;
+  /* font-size: large; */
   padding-top: 5%;
+   /* font-family: "Lato", sans-serif; */
+   font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+
+  /* background: -webkit-linear-gradient(white, #a22e37); */
+  /* -webkit-background-clip: text; */
+  /* background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  /* text-shadow: 6px 6px 0px rgba(0,0,0,0.2); */
+  background-color: rgb(120, 106, 91,0.7); 
+
+
 }
 .project-img {
   margin: auto;
@@ -121,13 +133,13 @@
 
 .info {
   background-color: rgb(6, 103, 135);
-  background-color: #dedac8;
+  background-color: #dedac8; 
   background-color: #e9e6d8;
   background-color: #c8c0a8;
-  background-color: #786a5b;
-  color: #dedac8;
-  border-radius: 10px;
-  padding: 2%;
+  background-color: rgb(120, 106, 91,0.7); 
+  /* color: #dedac8; */
+  border-radius: 100px;
+  padding: 4%;
   /* border: 1px solid white; */
 }
 .repolink {
@@ -208,8 +220,7 @@
     width: 8vw;
     height: 8vw;
   }
-  .longcodes{
+  .longcodes {
     width: 14vw;
   }
-  
 }

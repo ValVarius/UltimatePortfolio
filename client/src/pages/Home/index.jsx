@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import HomePage from "../HomePage";
 import Portfolio from "../Portfolio";
 import ContactCard from "../ContactCard";
-import MobileContactCard from "../MobileContactCard";
 import { useLocation } from "react-router-dom";
 import "./style.css";
 
@@ -25,20 +24,10 @@ export default function Home() {
   });
 
   return (
-    <div  id="homecontainer">
+    <div id="homecontainer">
       {location.pathname === "/" ? <HomePage /> : ""}
       {location.pathname === "/portfolio" ? <Portfolio /> : ""}
-
-      {location.pathname === "/contacts" && size.width >= 520 ? (
-        <ContactCard />
-      ) : (
-        ""
-      )}
-      {location.pathname === "/contacts" && size.width < 520 ? (
-        <MobileContactCard />
-      ) : (
-        ""
-      )}
+      {location.pathname === "/contacts" ? <ContactCard /> : ""}
     </div>
   );
 }

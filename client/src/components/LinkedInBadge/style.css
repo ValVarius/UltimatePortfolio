@@ -1,0 +1,169 @@
+#linkedinback {
+  content: url("../../public/connecting-dots_optimized.jpg");
+}
+#LinkedInBadge {
+  text-shadow: 2px 2px 4px #000000;
+}
+#linkBottom {
+  height: 80%;
+  width: 120%;
+  margin-left: -10%;
+  margin-top: 30%;
+  background-color: rgb(128, 181, 216, 0.8);
+}
+
+.space {
+  font-size: 26px;
+}
+
+#linkediname {
+  font-size: 28px;
+  padding: 2%;
+}
+
+#uw {
+  color: rgb(51, 0, 111);
+  text-shadow: 1px 1px 2px #f5efef;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+#viewBtn {
+  font-size: 100%;
+  background-color: #0072b1;
+  transition: transform 0.5s ease;
+}
+#viewBtn:hover {
+  background-color: #7ac1e2f8;
+  transform: scale(1.2);
+}
+
+#logoLinkedIn {
+  width: 30%;
+  margin-top: 5%;
+}
+
+@media (max-width: 1500px) {
+  .space {
+    font-size: 24px;
+  }
+
+  #linkediname {
+    font-size: 26px;
+  }
+  #uw {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1150px) {
+  .space {
+    font-size: 22px;
+  }
+
+  #linkediname {
+    font-size: 24px;
+  }
+  #uw {
+    font-size: 16px;
+  }
+  #viewBtn {
+    font-size: 80%;
+  }
+}
+@media (max-width: 1000px) {
+  .space {
+    font-size: 16px;
+  }
+
+  #linkediname {
+    font-size: 18px;
+  }
+  #uw {
+    font-size: 12px;
+  }
+  #viewBtn {
+    font-size: 8px;
+    zoom: 0.8;
+  }
+}
+
+@media (max-width: 800px) {
+  .space {
+    font-size: 14px;
+  }
+
+  #linkediname {
+    font-size: 16px;
+  }
+  #uw {
+    font-size: 10px;
+  }
+  #viewBtn {
+    font-size: 6px;
+    zoom: 0.6;
+  }
+}
+@media (max-width: 750px) {
+  .space {
+    font-size: 10px;
+    zoom: 0.8;
+  }
+
+  #linkediname {
+    font-size: 12px;
+  }
+  #uw {
+    zoom: 0.7;
+  }
+  #viewBtn {
+    font-size: 3px;
+    zoom: 0.5;
+  }
+}
+/* MOBILE */
+@media (max-width: 500px) {
+  .space {
+    zoom: 1;
+    font-size: 20px;
+  }
+  #linkediname {
+    zoom: 1;
+    font-size: 22px;
+  }
+  #uw {
+    zoom: 1;
+  }
+  #viewBtn {
+    zoom: 1;
+  }
+}
+@media (max-width: 420px) {
+  .space {
+    zoom: 0.8;
+  }
+  #linkediname {
+    zoom: 0.8;
+  }
+  #uw {
+    zoom: 0.8;
+  }
+  #viewBtn {
+    zoom: 0.8;
+  }
+}
+@media (max-width: 320px) {
+  .space {
+    zoom: 0.6;
+  }
+  #linkediname {
+    zoom: 0.6;
+  }
+  #uw {
+    zoom: 0.6;
+  }
+  #viewBtn {
+    zoom: 0.6;
+  }
+}

@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light " id="nav">
       <div className="navbar-brand" to="/" id="myName">
-        <Fade left big cascade duration={2000}>
+        <Fade left big cascade duration={1000}>
           Valerio Varani
         </Fade>
       </div>
@@ -27,21 +27,21 @@ export default function Navbar() {
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <Link className="nav-link" to="/">
-              <Fade left big cascade duration={1000}>
+              <Fade left big cascade duration={500}>
                 About
               </Fade>
             </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/portfolio">
-              <Fade left big cascade duration={1000}>
+              <Fade left big cascade duration={500}>
                 Portfolio
               </Fade>
             </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/contacts">
-              <Fade left big cascade duration={1000}>
+              <Fade left big cascade duration={500}>
                 Contact
               </Fade>
             </Link>
