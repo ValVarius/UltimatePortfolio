@@ -19,6 +19,7 @@
   /* border: 1px solid white; */
   border-radius: 50%;
   overflow: hidden;
+  z-index: 0;
   color: aliceblue;
 }
 .backcontact {
