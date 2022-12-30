@@ -76,7 +76,7 @@ export default function SensApp() {
         </div>
         <div className="repolink">
           <a
-            href="https://sensapp.herokuapp.com/Home"
+            href="https://sensapp.herokuapp.com"
             target="_blank"
             rel="noopener noreferrer"
           >
