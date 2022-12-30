@@ -1,4 +1,6 @@
+
 .homecard {
+  background-color: white;
   border-radius: 50%;
   box-shadow: 1px 5px 5px black;
   margin: auto;
@@ -15,16 +17,14 @@
 }
 
 #myStory {
-  /* border-style: solid; 
-  border-width: 1px;  */
-  -webkit-text-size-adjust: none;
-
+padding-top: 5%;
+ /* border: 1px solid red; */
+ overflow: hidden;
+  font-size: 15px;
   margin: auto;
-  margin-top: 2vw;
   text-align: center;
   line-height: 0.5vw;
   margin-bottom: 1vw;
-  max-height: 50%;
 }
 
 #buttomcircle {
@@ -48,205 +48,155 @@
   min-width: 30px;
 }
 
-.text {
-  /* font-size: 20px; */
-}
+
 
 #skillscontainer {
-  -webkit-text-size-adjust: none;
 
-  /* border-style: solid; 
-  border-width: 1px;  */
   text-align: center;
-  /* border-style: solid; */
-  /* border-radius: 30%; */
-  /* border-width: 1px; */
   width: 50%;
   min-width: 50px;
   margin: auto;
   margin-left: 0;
-  /* margin-right: 2vw; */
-  /* margin-top: 0; */
+  
 }
 .skills {
-  /* height: 35px; */
   margin: 0.5vw;
   height: 2vw;
   width: 2.9vw;
 }
 
-.bulmalogo {
-  /* margin-right: 3px; */
-}
+
 .bulmatext {
   margin-left: 0;
   height: calc(8px + 0.5vw);
   margin-top: 4px;
 }
-/* SMALLER SCREENS */
-@media (max-width: 1350px) {
-  #myStory {
-    font-size: 15px;
-    line-height: 0.4vw;
-  }
-}
-@media (max-width: 1150px) {
-  #myStory {
-    font-size: 12px;
-    line-height: 0.3vw;
-  }
-}
-@media (max-width: 950px) {
+
+
+ @media (max-width: 1200px) {
   #myStory {
     zoom: 0.9;
   }
-  
-  #profilePicture {
-    width: 13vw;
-    height: 13vw;
-  }
 }
-@media (max-width: 850px) {
+
+@media (max-width: 1100px) {
   #myStory {
     zoom: 0.8;
+  }
+}
+@media (max-width: 1000px) {
+  #myStory {
+    zoom: 0.6;
   }
 }
 @media (max-width: 750px) {
   #myStory {
-    zoom: 0.7;
-    margin-top: 20px;
-  }
+    zoom: 0.5;
 
-  #skillscontainer {
+  }
+  #skillscontainer{
     zoom: 0.8;
   }
-}
-@media (max-width: 650px) {
-  #myStory {
-    zoom: 0.5;
+  #profilePicture{
+    zoom: 0,8;
   }
 }
-
-@media (max-width: 550px) {
-  .homecard {
-    width: 80vw;
-    height: 80vw;
-    margin-top: 70px;
-  }
-  #myStory {
-    zoom: 0.8;
-  }
-  #skillscontainer {
-    zoom: 1.2;
-  }
-  #profilePicture {
-    width: 16vw;
-    height: 16vw;
-    margin: auto;
-    margin-right: 0;
-  }
-}
-@media (max-width: 450px) {
-  #myStory {
-    zoom: 0.6;
-  }
-}
-@media (max-width: 400px) {
-  #myStory {
-    zoom: 0.6;
-  }
-  #skillscontainer {
-    zoom: 1;
-    
-  }
-}
-@media (max-width: 360px) {
-  #myStory {
-    zoom: 0.5;
-  }
-  #skillscontainer {
-    line-height: 90%;
-  }
-}
-@media (max-width: 290px) {
+@media (max-width: 600px) {
   #myStory {
     zoom: 0.4;
-  }
-}
-@media (max-width: 260px) {
-  #myStory {
-    zoom: 0.35;
-  }
-  #profilePicture {
-    
-    margin-right: 10px;
-  }
-  
-}
-@media (max-width: 220px) {
-  #myStory {
-    zoom: 0.3;
-  }
-  #skillscontainer {
-    line-height: 50%;
-    max-width: 40%;
-  }
-}
 
-/* WIDE SCREENS */
-/* @media (min-width: 900px) {
-  .homecard {
-    zoom: 0.7;
   }
-}
-@media (min-width: 1200px) {
-  .homecard {
+  #skillscontainer{
     zoom: 0.8;
   }
+  #profilePicture{
+    zoom: 0.8;
+  }
+} 
+
+ @media (max-width: 500px) {
+  @supports (-webkit-touch-callout: none) {
+    /* CSS specific to iOS devices */ 
+    .homecard {
+      margin-top: 100px;
+      width: 90vw;
+      height: 90vw;
+      }
+    #myStory > p{
+      zoom: 1;
+      margin-top: 10px;
+      line-height: 1px;
+    }
+   
+     #skillscontainer{
+      zoom: 1.4;
+      line-height: 20px;
+      max-width: 40%;
+    } 
+    #profilePicture{
+      margin-top: 10px;
+      margin-right: 10px;
+      width: 100px;
+      height: 100px;
+    }
+  }
+  @supports not (-webkit-touch-callout: none) {
+    /* CSS for other than iOS devices */
+    .homecard {
+      margin-top: 100px;
+      width: 400px;
+      height: 400px;
+      }
+    #myStory > p{
+      zoom: 1.5;
+      margin-top: 10px;
+      line-height: 10px;
+    }
+   
+     #skillscontainer{
+      zoom: 1.4;
+      line-height: 20px;
+    } 
+    #profilePicture{
+      margin-top: 10px;
+      margin-right: 10px;
+      width: 100px;
+      height: 100px;
+    } 
+  }
+  
+  
 }
-@media (min-width: 1400px) {
+
+
+@media (max-width: 400px) {
+  @supports not (-webkit-touch-callout: none) {
+    /* CSS for other than iOS devices */
   .homecard {
-    zoom: 0.9;
+    width: 300px;
+    height: 300px;
+    }
+    #myStory p{
+      margin-top: 20px;
+      zoom: 1;
+    margin-top: 10px;
+    line-height: 10px;
+  
+    }
+  #skillscontainer{
+    width: 100px;
+    line-height: 20px;
+    margin-left: 10px;
+  }
+  #profilePicture{
+    margin-top: 5px;
+    width: 70px;
+    height: 70px;
+  }
+  .skills {
+    height: 8px;
+    width: 10px;
+    margin: 2px;
   }
 }
-@media (min-width: 1600px) {
-  .homecard {
-    zoom: 1;
-  }
 }
-@media (min-width: 2000px) {
-  .homecard {
-    zoom: 1.4;
-  }
-}
-@media (min-width: 2400px) {
-  .homecard {
-    zoom: 1.6;
-  }
-}
-@media (min-width: 2600px) {
-  .homecard {
-    zoom: 1.8;
-  }
-}
-@media (min-width: 3000px) {
-  .homecard {
-    zoom: 2;
-  }
-}
-@media (min-width: 3500px) {
-  .homecard {
-    zoom: 2.3;
-  }
-}
-@media (min-width: 4000px) {
-  .homecard {
-    zoom: 2.6;
-  }
-}
-@media (min-width: 4500px) {
-  .homecard {
-    zoom: 3;
-  }
-}
- */
