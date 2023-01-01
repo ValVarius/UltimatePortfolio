@@ -48,7 +48,7 @@
 
 
 /* SMALLER SCREENS */
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
   .navbar {
     zoom: 0.9;
   }
@@ -67,10 +67,10 @@
   .navbar {
     zoom: 0.6;
   }
-} */
+}
 
 /* WIDE SCREENS */
-/* @media (min-width: 1000px) {
+@media (min-width: 1000px) {
   .navbar {
     zoom: 1;
   }
@@ -124,4 +124,4 @@
   .navbar {
     zoom: 2.1;
   }
-} */
+}
