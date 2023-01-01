@@ -8,6 +8,7 @@
   grid-template-columns: auto auto;
   justify-content: center;
   min-width: 270px;
+  overflow: hidden;
 }
 
 /* CSS for projects */

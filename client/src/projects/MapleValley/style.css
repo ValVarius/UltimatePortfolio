@@ -41,12 +41,13 @@
     max-width: 60%;
     zoom: 0.7;
   }
-}
-
-@media (max-width: 750px) {
   #maplecenter {
     zoom: 0.8;
   }
+}
+
+@media (max-width: 750px) {
+  
   .maplegittext {
     zoom: 0.7;
   }
