@@ -1,14 +1,12 @@
 .portfolioCard {
+  position: relative;
   width: 100%;
   margin: 0;
   display: grid;
   flex-wrap: wrap;
   align-content: space-evenly;
   grid-template-columns: auto auto;
-  margin-top: 1%;
-  overflow: hidden;
   justify-content: center;
-  /* border: 1px solid white; */
   min-width: 270px;
 }
 
@@ -22,8 +20,6 @@
   color: aliceblue;
   width: 70vw;
   height: 70vw;
-  /* safari-fix-overflow-border-radius */
-  z-index: 0;
 
 }
 .back {

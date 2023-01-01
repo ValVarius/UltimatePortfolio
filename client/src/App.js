@@ -7,10 +7,13 @@ import "./portfolio.css";
 function App() {
   return (
     <Router>
+      <Navbar />
       <div className="App">
-      <div className="stars"></div>
-        <div className="twinkling"></div> 
-        <Navbar />
+        <div className="stars"></div>
+        <div className="twinkling"></div>
+        {/* <div className="backnav"></div> */}
+
+        
 
         <Switch>
           <Route exact path="/">
