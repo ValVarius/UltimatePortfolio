@@ -15,7 +15,7 @@ export default function SensApp() {
       />
       <div className="center" id="sensappcenter">
         <div className="info" id="sensapptext">
-          An App that assist in tracking the body reactions to food. This app is
+          A MERN project that assists in tracking the body reactions to food. This app is
           an improvement from the current paper forms in that it allows the
           storing and retrieval of every meal by date. Sensitivity-App is: in
           progress, as there are more features that be added.
@@ -24,9 +24,10 @@ export default function SensApp() {
 
       <div className="finale" id="sensappfinale">
         <img
-          className="img-fluid codes"
-          src={require("../../public/react-logo-white.png")}
-          alt="Black React Logo"
+          className="img-fluid codes longcodes"
+          id="mernlogo"
+          src={require("../../public/mern.png")}
+          alt="Mern Logo"
         />
         <img
           className="img-fluid codes longcodes"
