@@ -16,11 +16,12 @@
   position: relative;
   overflow: hidden;
   border-radius: 50%;
-  /* border: 1px solid white; */
+  border: 1px solid white;
   /* box-shadow: 100px 0px 50px rgba(2, 228, 231); */
   color: aliceblue;
   width: 70vw;
   height: 70vw;
+  z-index: 0;
 
 }
 .back {
