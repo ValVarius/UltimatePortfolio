@@ -63,7 +63,7 @@ export default function MapleValley() {
       <div id="maplelinks">
         <div className="repolink">
           <a
-            href="https://github.com/coleloui/MapleValley"
+            href="https://github.com/ValVarius/MapleValley"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -77,7 +77,7 @@ export default function MapleValley() {
         </div>
         <div className="repolink">
           <a
-            href="https://protected-lowlands-08660.herokuapp.com/"
+            href="https://maplevalley.herokuapp.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
