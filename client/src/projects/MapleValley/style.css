@@ -1,151 +1,61 @@
-#maple {
-  margin-top: 15vw;
-}
+
 #mapleback {
   content: url("../../public/newdots-maple_optimized.png");
 }
-#maplescreenshot {
-  margin-left: 24%;
-}
-#maplecenter {
-  margin-left: 9%;
-  margin-top: 5%;
-  max-width: 60%;
-}
-#mapletext {
-  text-align: center;
-}
-#maplefinale {
-  margin-left: 9%;
-  zoom: 0.8;
-  max-width: 62%;
-}
-#maplefinale > img {
-  display: block;
-  margin-left: auto;
-  /* margin: auto; */
-}
-#maplelinks {
-  display: flex;
-  margin-left: 27%;
-}
-
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
   .maplegittext {
+    zoom: 0.8;
+  }
+  #maplecenter {
     zoom: 0.8;
   }
 }
 
 @media (max-width: 890px) {
-  #maplefinale {
-    max-width: 60%;
-    zoom: 0.7;
-  }
   #maplecenter {
-    zoom: 0.8;
+    zoom: 0.7;
   }
 }
 
-@media (max-width: 750px) {
-  
-  .maplegittext {
-    zoom: 0.7;
-  }
-}
-@media (max-width: 700px) {
-  #maplecenter {
-    zoom: 0.7;
-  }
-  #maplelinks {
-    zoom: 0.7;
-  }
-}
-@media (max-width: 600px) {
+@media (max-width: 820px) {
   #maplecenter {
     zoom: 0.6;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 700px) {
+  #maplecenter {
+    zoom: 0.6;
+  }
+  #mapletitle {
+    zoom: 0.8;
+  }
+}
+@media (max-width: 640px) {
   #maplecenter {
     zoom: 0.5;
+  }
+}
+@media (max-width: 550px) {
+  #maplecenter {
+    zoom: 0.4;
   }
 }
 
 /* MOBILE *******************************/
 @media (max-width: 500px) {
-  /* #maple{
-    margin-top: 15vw;
-  } */
-  #maplecenter {
-    zoom: 0.8;
-    max-width: 65%;
-    margin-left: 33%;
-  }
-  #maplescreenshot {
-    margin-left: 33%;
-  }
-  #maplefinale {
-    margin-left: 33%;
-    zoom: 0.8;
-    max-width: 60%;
-  }
-  #maplelinks {
-    zoom: 1;
-    margin-left: 30%;
-  }
-  .maplegittext {
-    zoom: 1;
-  }
-}
-@media (max-width: 480px) {
-  #maplecenter {
-    zoom: 0.7;
-  }
-  #maplelinks {
-    zoom: 0.9;
-  }
-}
-@media (max-width: 400px) {
-  #maplecenter {
-    zoom: 0.6;
-  }
-  #maplelinks {
-    zoom: 0.8;
-  }
-}
-@media (max-width: 350px) {
-  #maplecenter {
-    max-width: 60%;
-  }
-
-  #maplefinale {
-    zoom: 0.7;
-    max-width: 55%;
-  }
-  #maplelinks {
-    margin-left: 35%;
-  }
-}
-@media (max-width: 300px) {
   #maplecenter {
     zoom: 0.5;
-  }
-  #maplelinks {
-    zoom: 0.7;
   }
 }
 
 /* BIG SCREENS */
 
-@media (min-width: 1800px) {
+/* @media (min-width: 1800px) {
   #maple {
     font-size: 28px;
   }
   #maplecenter {
     max-width: 60%;
-  }
-  #maplefinale {
-    zoom: 0.6;
   }
 }
 @media (min-width: 2700px) {
@@ -163,4 +73,4 @@
   #maplecenter {
     max-width: 60%;
   }
-}
+} */

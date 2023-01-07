@@ -1,5 +1,4 @@
 import React from "react";
-import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
 import "./style.css";
 
@@ -14,37 +13,59 @@ import Password from "../../projects/Password";
 import Weather from "../../projects/Weather";
 
 export default function Portfolio() {
-  return (
-    // <Zoom delay={300}>
-    <div className="portfolioCard">
-      
-      <Zoom className="projectcontainer" delay={300} duration={1500}>
-        <YouTutor />
-      </Zoom>
-
-      <Zoom className="projectcontainer" delay={300} duration={1500}>
-        <MapleValley />
-      </Zoom>
-
-      <Zoom className="projectcontainer" delay={300} duration={1500}>
-        <Findr />
-      </Zoom>
-
-      <Zoom className="projectcontainer" delay={300} duration={1500}>
-        <NoteTaker />
-      </Zoom>
-
-      <Slide className="projectcontainer" right duration={2000}>
-        <Weather />
-      </Slide>
-
-      <Slide className="projectcontainer" left duration={2000}>
-        <Password />
-      </Slide>
-      <Zoom className="projectcontainer" delay={300} duration={1500}>
-        <SensApp />
-      </Zoom>
-    </div>
-    // </Zoom>
-  );
+  console.log("sTocazzo");
+  console.log(window.innerWidth);
+  if (window.innerWidth > 500) {
+    return (
+      <div className="portfolioCard">
+        <Slide className="projectcontainer" up duration={2000}>
+          <SensApp />
+        </Slide>
+        <Slide className="projectcontainer" up duration={2000}>
+          <YouTutor />
+        </Slide>
+        <Slide className="projectcontainer" up duration={2000}>
+          <MapleValley />
+        </Slide>
+        <Slide className="projectcontainer" up duration={2000}>
+          <Findr />
+        </Slide>
+        <Slide className="projectcontainer" up duration={2000}>
+          <NoteTaker />
+        </Slide>
+        <Slide className="projectcontainer" up duration={2000}>
+          <Weather />
+        </Slide>
+        <Slide className="projectcontainer" up duration={2000}>
+          <Password />
+        </Slide>
+      </div>
+    );
+  } else {
+    return (
+      <div className="portfolioCard">
+        <Slide className="projectcontainer" left duration={2000}>
+          <SensApp />
+        </Slide>
+        <Slide className="projectcontainer" left duration={2000}>
+          <YouTutor />
+        </Slide>
+        <Slide className="projectcontainer" left duration={2000}>
+          <MapleValley />
+        </Slide>
+        <Slide className="projectcontainer" left duration={2000}>
+          <Findr />
+        </Slide>
+        <Slide className="projectcontainer" left duration={2000}>
+          <NoteTaker />
+        </Slide>
+        <Slide className="projectcontainer" left duration={2000}>
+          <Weather />
+        </Slide>
+        <Slide className="projectcontainer" left duration={2000}>
+          <Password />
+        </Slide>
+      </div>
+    );
+  }
 }

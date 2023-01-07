@@ -1,141 +1,60 @@
 #sensappback {
   content: url("../../public/newdots-fantasy.png");
 }
-#sensappscreenshot {
-  margin-right: 24%;
-}
 
-#sensappcenter {
-  margin-left: 31%;
-  margin-top: 5%;
-  max-width: 60%;
-}
-#sensapptext {
-  text-align: center;
-}
-#sensappfinale {
-  margin-left: 30%;
-  zoom: 0.6;
-}
-#mernlogo{
+#mernlogo {
   width: 12vw;
 }
 
-#sensapplinks {
-  display: flex;
-  margin-left: 27%;
-}
-
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
   .sensappgittext {
+    zoom: 0.8;
+  }
+  #sensappcenter {
     zoom: 0.8;
   }
 }
 
 @media (max-width: 890px) {
   #sensappcenter {
-    zoom: 0.8;
-    max-width: 60%;
-  }
-  #sensapplinks {
-    margin-left: 40%;
+    zoom: 0.7;
   }
 }
 
-@media (max-width: 750px) {
-  #sensappcenter {
-    zoom: 0.8;
-  }
-  .sensappgittext {
-    zoom: 0.7;
-  }
-}
-@media (max-width: 700px) {
-  #sensappcenter {
-    zoom: 0.7;
-  }
-  #sensapplinks {
-    zoom: 0.7;
-  }
-}
-@media (max-width: 600px) {
+@media (max-width: 820px) {
   #sensappcenter {
     zoom: 0.6;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 700px) {
+  #sensappcenter {
+    zoom: 0.6;
+  }
+  #sensapptitle {
+    zoom: 0.8;
+  }
+}
+@media (max-width: 640px) {
   #sensappcenter {
     zoom: 0.5;
+  }
+}
+@media (max-width: 550px) {
+  #sensappcenter {
+    zoom: 0.4;
   }
 }
 
 /* MOBILE *******************************/
 @media (max-width: 500px) {
-  #sensapp {
-    margin-top: 15vw;
-  }
-  #sensappcenter {
-    zoom: 0.8;
-    max-width: 65%;
-    margin-left: 33%;
-  }
-  #sensappscreenshot {
-    margin-left: 33%;
-  }
-  #sensappfinale {
-    margin-left: 33%;
-    zoom: 0.8;
-    max-width: 60%;
-  }
-  #sensapplinks {
-    zoom: 1;
-    margin-left: 30%;
-  }
-  .sensappgittext {
-    zoom: 1;
-  }
-}
-@media (max-width: 480px) {
-  #sensappcenter {
-    zoom: 0.7;
-  }
-  #sensapplinks {
-    zoom: 0.9;
-  }
-}
-@media (max-width: 400px) {
-  #sensappcenter {
-    zoom: 0.6;
-  }
-  #sensapplinks {
-    zoom: 0.8;
-  }
-}
-@media (max-width: 350px) {
-  #sensappcenter {
-    max-width: 60%;
-  }
-
-  #sensappfinale {
-    zoom: 0.7;
-    max-width: 55%;
-  }
-  #sensapplinks {
-    margin-left: 35%;
-  }
-}
-@media (max-width: 300px) {
   #sensappcenter {
     zoom: 0.5;
-  }
-  #sensapplinks {
-    zoom: 0.7;
   }
 }
 
 /* BIG SCREENS */
 
-@media (min-width: 1800px) {
+/* @media (min-width: 1800px) {
   #sensapp {
     font-size: 28px;
   }
@@ -158,4 +77,4 @@
   #sensappcenter {
     max-width: 60%;
   }
-}
+} */

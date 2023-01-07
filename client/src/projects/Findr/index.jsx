@@ -5,7 +5,6 @@ export default function Findr() {
   return (
     <div className="project-container" id="findr">
       <div className="back" id="findrback"></div>
-      <div className="projectTitle">~Findr~</div>
   
       <img
         className="img-fluid project-img"
@@ -14,6 +13,37 @@ export default function Findr() {
         src={require("../../public/findr_50.png")}
       />
       <div className="center" id="findrcenter">
+      <div className="links" id="findrlinks">
+        <div className="repolink">
+          <a
+            href="https://github.com/ValVarius/FINDR"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="img-fluid logos "
+              src={require("../../public/git-white.png")}
+              alt="GitHub Logo"
+            />
+            <p className="gittext findrgittext">REPO</p>
+          </a>
+        </div>
+        <div className="projectTitle">Findr</div>
+        <div className="repolink">
+          <a
+            href="https://valvarius.github.io/FINDR/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="img-fluid logos"
+              src={require("../../public/deployed-logo-white.png")}
+              alt="BackEnd Logo"
+            />
+            <p className="gittext findrgittext">&nbsp;APP&nbsp; </p>
+          </a>
+        </div>
+      </div>
         <div className="info" id="findrtext">
           FINDR is an application that simply and randomly displays an image from
           a restaurant in a card that can be cycled through until an appealing
@@ -41,36 +71,7 @@ export default function Findr() {
           />
         
       </div>
-      <div id="findrlinks">
-        <div className="repolink">
-          <a
-            href="https://github.com/ValVarius/FINDR"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="img-fluid logos "
-              src={require("../../public/git-white.png")}
-              alt="GitHub Logo"
-            />
-            <p className="gittext findrgittext">REPO</p>
-          </a>
-        </div>
-        <div className="repolink">
-          <a
-            href="https://valvarius.github.io/FINDR/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="img-fluid logos"
-              src={require("../../public/deployed-logo-white.png")}
-              alt="BackEnd Logo"
-            />
-            <p className="gittext findrgittext">&nbsp;APP&nbsp; </p>
-          </a>
-        </div>
-      </div>
+     
     </div>
   );
 }

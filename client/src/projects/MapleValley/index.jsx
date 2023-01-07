@@ -5,7 +5,6 @@ export default function MapleValley() {
   return (
     <div className="project-container" id="maple">
       <div className="back" id="mapleback"></div>
-      <div className="projectTitle">~Maple Valley~</div>
   
       <img
         className="img-fluid project-img"
@@ -14,6 +13,38 @@ export default function MapleValley() {
         src={require("../../public/mapleValley_50.png")}
       />
       <div className="center" id="maplecenter">
+      <div className="links" id="maplelinks">
+        <div className="repolink">
+          <a
+            href="https://github.com/ValVarius/MapleValley"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="img-fluid logos "
+              src={require("../../public/git-white.png")}
+              alt="GitHub Logo"
+            />
+            <p className="gittext maplegittext">REPO</p>
+          </a>
+        </div>
+        <div className="projectTitle">Maple Valley</div>
+
+        <div className="repolink">
+          <a
+            href="https://maplevalley.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="img-fluid logos"
+              src={require("../../public/deployed-logo-white.png")}
+              alt="BackEnd Logo"
+            />
+            <p className="gittext maplegittext">&nbsp;APP&nbsp;  </p>
+          </a>
+        </div>
+      </div>
         <div className="info" id="mapletext">
         An online registration system for volunteers and parents of campers
             from Girl Scouts Maple Valley Day Camp that will replace paper
@@ -60,36 +91,7 @@ export default function MapleValley() {
             alt="Nodemailer Logo"
           />
       </div>
-      <div id="maplelinks">
-        <div className="repolink">
-          <a
-            href="https://github.com/ValVarius/MapleValley"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="img-fluid logos "
-              src={require("../../public/git-white.png")}
-              alt="GitHub Logo"
-            />
-            <p className="gittext maplegittext">REPO</p>
-          </a>
-        </div>
-        <div className="repolink">
-          <a
-            href="https://maplevalley.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="img-fluid logos"
-              src={require("../../public/deployed-logo-white.png")}
-              alt="BackEnd Logo"
-            />
-            <p className="gittext maplegittext">&nbsp;APP&nbsp;  </p>
-          </a>
-        </div>
-      </div>
+      
     </div>
   );
 }
