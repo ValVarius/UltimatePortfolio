@@ -5,7 +5,6 @@ export default function YouTutor() {
   return (
     <div className="project-container" id="tutor">
       <div className="back" id="tutorback"></div>
-      <div className="projectTitle">~YouTutor~</div>
 
       <img
         className="img-fluid project-img"
@@ -14,6 +13,37 @@ export default function YouTutor() {
         src={require("../../public/YouTutor.png")}
       />
       <div className="center" id="tutorcenter">
+        <div className="links" id="tutorlinks">
+          <div className="repolink">
+            <a
+              href="https://github.com/ValVarius/YouTutor"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="img-fluid logos "
+                src={require("../../public/git-white.png")}
+                alt="GitHub Logo"
+              />
+              <p className="gittext tutorgittext">REPO</p>
+            </a>
+          </div>
+          <div className="projectTitle">YouTutor</div>
+          <div className="repolink">
+            <a
+              href="https://you-tutor.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="img-fluid logos"
+                src={require("../../public/deployed-logo-white.png")}
+                alt="BackEnd Logo"
+              />
+              <p className="gittext tutorgittext">&nbsp;APP&nbsp; </p>
+            </a>
+          </div>
+        </div>
         <div className="info" id="tutortext">
           This application is a student aid intented to enhance the learning
           experience by providing a platform where students can both seek help
@@ -69,36 +99,6 @@ export default function YouTutor() {
           src={require("../../public/bulma-logo-name.png")}
           alt="Bulma Logo"
         />
-      </div>
-      <div id="tutorlinks">
-        <div className="repolink">
-          <a
-            href="https://github.com/ValVarius/YouTutor"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="img-fluid logos "
-              src={require("../../public/git-white.png")}
-              alt="GitHub Logo"
-            />
-            <p className="gittext tutorgittext">REPO</p>
-          </a>
-        </div>
-        <div className="repolink">
-          <a
-            href="https://you-tutor.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="img-fluid logos"
-              src={require("../../public/deployed-logo-white.png")}
-              alt="BackEnd Logo"
-            />
-            <p className="gittext tutorgittext">&nbsp;APP&nbsp; </p>
-          </a>
-        </div>
       </div>
     </div>
   );

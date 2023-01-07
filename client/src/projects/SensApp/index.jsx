@@ -5,19 +5,54 @@ export default function SensApp() {
   return (
     <div className="project-container" id="sensapp">
       <div className="back" id="sensappback"></div>
-      <div className="projectTitle">~SensApp~</div>
 
       <img
         className="img-fluid project-img"
         id="sensappscreenshot"
         alt="Screenshot of findr app"
-        src={require("../../public/sensapp.png")}
+        src={require("../../public/sensapp.gif")}
       />
       <div className="center" id="sensappcenter">
+        <div className="links" id="sensapplinks">
+          <div className="repolink">
+            <a
+              href="https://github.com/ValVarius/SenseAppReact"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="img-fluid logos "
+                src={require("../../public/git-white.png")}
+                alt="GitHub Logo"
+              />
+              <p className="gittext sensappgittext">REPO</p>
+            </a>
+          </div>
+          <div className="projectTitle" id="sensapptitle">
+            SensApp
+          </div>
+
+          <div className="repolink">
+            <a
+              href="https://sensapp.herokuapp.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="img-fluid logos"
+                src={require("../../public/deployed-logo-white.png")}
+                alt="BackEnd Logo"
+              />
+              <p className="gittext sensappgittext">&nbsp;APP&nbsp; </p>
+            </a>
+          </div>
+        </div>
         <div className="info" id="sensapptext">
-          A MERN project that assists in tracking the body reactions to food. This app is
-          an improvement from the current paper forms in that it allows the
-          storing and retrieval of every meal by date. Sensitivity-App is: in
+          A MERN project that assists in tracking the body reactions to food.
+          This app is an improvement from the current paper forms in that it
+          allows the storing and retrieval of every meal by date. I also
+          provides the user with charts representing the occurrences of symptoms
+          in associations with the respective food items. Sensitivity-App is: in
           progress, as there are more features that be added.
         </div>
       </div>
@@ -59,36 +94,6 @@ export default function SensApp() {
           src={require("../../public/bootstrap-logo.png")}
           alt="bootstrap Logo"
         />
-      </div>
-      <div id="sensapplinks">
-        <div className="repolink">
-          <a
-            href="https://github.com/ValVarius/SenseAppReact"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="img-fluid logos "
-              src={require("../../public/git-white.png")}
-              alt="GitHub Logo"
-            />
-            <p className="gittext sensappgittext">REPO</p>
-          </a>
-        </div>
-        <div className="repolink">
-          <a
-            href="https://sensapp.herokuapp.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              className="img-fluid logos"
-              src={require("../../public/deployed-logo-white.png")}
-              alt="BackEnd Logo"
-            />
-            <p className="gittext sensappgittext">&nbsp;APP&nbsp; </p>
-          </a>
-        </div>
       </div>
     </div>
   );

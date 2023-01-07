@@ -1,138 +1,56 @@
 #tutorback {
   content: url("../../public/newdots-tutor.jpg");
 }
-#tutorscreenshot {
-  margin-right: 24%;
-}
 
-#tutorcenter {
-  margin-left: 31%;
-  margin-top: 5%;
-  max-width: 60%;
-}
-#tutortext {
-  text-align: center;
-}
-#tutorfinale {
-  margin-left: 30%;
-  zoom: 0.6;
-}
-
-#tutorlinks {
-  display: flex;
-  margin-left: 27%;
-}
-
-@media (max-width: 1100px) {
+@media (max-width: 1150px) {
   .tutorgittext {
+    zoom: 0.8;
+  }
+  #tutorcenter {
     zoom: 0.8;
   }
 }
 
 @media (max-width: 890px) {
   #tutorcenter {
-    zoom: 0.8;
-    max-width: 60%;
-  }
-  #tutorlinks {
-    margin-left: 40%;
+    zoom: 0.7;
   }
 }
 
-@media (max-width: 750px) {
-  #tutorcenter {
-    zoom: 0.8;
-  }
-  .tutorgittext {
-    zoom: 0.7;
-  }
-}
-@media (max-width: 700px) {
-  #tutorcenter {
-    zoom: 0.7;
-  }
-  #tutorlinks {
-    zoom: 0.7;
-  }
-}
-@media (max-width: 600px) {
+@media (max-width: 820px) {
   #tutorcenter {
     zoom: 0.6;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 700px) {
+  #tutorcenter {
+    zoom: 0.6;
+  }
+  #tutortitle {
+    zoom: 0.8;
+  }
+}
+@media (max-width: 640px) {
   #tutorcenter {
     zoom: 0.5;
+  }
+}
+@media (max-width: 550px) {
+  #tutorcenter {
+    zoom: 0.4;
   }
 }
 
 /* MOBILE *******************************/
 @media (max-width: 500px) {
-  #tutor {
-    margin-top: 15vw;
-  }
-  #tutorcenter {
-    zoom: 0.8;
-    max-width: 65%;
-    margin-left: 33%;
-  }
-  #tutorscreenshot {
-    margin-left: 33%;
-  }
-  #tutorfinale {
-    margin-left: 33%;
-    zoom: 0.8;
-    max-width: 60%;
-  }
-  #tutorlinks {
-    zoom: 1;
-    margin-left: 30%;
-  }
-  .tutorgittext {
-    zoom: 1;
-  }
-}
-@media (max-width: 480px) {
-  #tutorcenter {
-    zoom: 0.7;
-  }
-  #tutorlinks {
-    zoom: 0.9;
-  }
-}
-@media (max-width: 400px) {
-  #tutorcenter {
-    zoom: 0.6;
-  }
-  #tutorlinks {
-    zoom: 0.8;
-  }
-}
-@media (max-width: 350px) {
-  #tutorcenter {
-    max-width: 60%;
-  }
-
-  #tutorfinale {
-    zoom: 0.7;
-    max-width: 55%;
-  }
-  #tutorlinks {
-    margin-left: 35%;
-  }
-}
-@media (max-width: 300px) {
   #tutorcenter {
     zoom: 0.5;
-  }
-  #tutorlinks {
-    zoom: 0.7;
   }
 }
 
 /* BIG SCREENS */
 
-@media (min-width: 1800px) {
+/* @media (min-width: 1800px) {
   #tutor {
     font-size: 28px;
   }
@@ -155,4 +73,4 @@
   #tutorcenter {
     max-width: 60%;
   }
-}
+} */
