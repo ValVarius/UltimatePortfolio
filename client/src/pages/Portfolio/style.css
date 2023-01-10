@@ -30,7 +30,7 @@
   margin-left: -10%;
   height: 120%;
   z-index: -2;
-  animation: rotations 60s linear infinite;
+  animation: rotations 120s linear infinite;
 }
 @keyframes rotations {
   0% {
@@ -123,7 +123,7 @@
 }
 
 .finale {
-  max-width: 50%;
+  max-width: 55%;
   margin: auto;
   margin-top: 2%;
   text-align: center;
@@ -133,15 +133,13 @@
 }
 .codes {
   background-color: aliceblue;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 1vw;
   padding: 5px;
   width: 4vw;
   height: 4vw;
 }
-.longcodes {
-  width: 7vw;
-}
+
 
 /* MOBILE  */
 @media (max-width: 500px) {
@@ -172,9 +170,7 @@
     width: 9vw;
     height: 9vw;
   }
-  .longcodes {
-    width: 14vw;
-  }
+  
   .finale {
     margin-left: 31%;
     justify-content: left;
