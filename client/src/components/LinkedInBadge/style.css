@@ -1,30 +1,29 @@
 #linkedinback {
   content: url("../../public/connecting-dots_optimized.jpg");
-}
-#LinkedInBadge {
-  text-shadow: 2px 2px 4px #000000;
+  opacity: 0.4;
 }
 #linkBottom {
-  height: 80%;
-  width: 120%;
-  margin-left: -10%;
-  margin-top: 30%;
-  background-color: rgb(128, 181, 216, 0.8);
+  padding: 5%;
+  margin-left: -1vw;
+  background-color: rgb(0, 0, 0);
+  margin-top: 20%;
+  width: 71vw;
+  height: 50%;
+  text-align: end;
+  opacity: 0.8;
 }
 
 .space {
-  font-size: 26px;
 }
 
 #linkediname {
-  font-size: 28px;
   padding: 2%;
 }
 
 #uw {
-  color: rgb(51, 0, 111);
-  text-shadow: 1px 1px 2px #f5efef;
-  font-size: 20px;
+  color: #4b2e83;
+
+  font-size: x-large;
   margin: auto;
   margin-top: 5%;
   margin-bottom: 3%;
@@ -32,6 +31,7 @@
 
 #viewBtn {
   font-size: 100%;
+  width: 18%;
   background-color: #0072b1;
   transition: transform 0.5s ease;
 }
@@ -41,11 +41,11 @@
 }
 
 #logoLinkedIn {
-  width: 30%;
+  width: 20%;
   margin-top: 5%;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1300px) {
   .space {
     font-size: 24px;
   }
@@ -69,7 +69,7 @@
     font-size: 16px;
   }
   #viewBtn {
-    font-size: 80%;
+    font-size: 90%;
   }
 }
 @media (max-width: 1000px) {
@@ -89,37 +89,36 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 680px) {
   .space {
-    font-size: 14px;
-  }
-
-  #linkediname {
-    font-size: 16px;
-  }
-  #uw {
-    font-size: 10px;
+    zoom: 0.8;
   }
   #viewBtn {
-    font-size: 6px;
     zoom: 0.6;
   }
 }
-@media (max-width: 750px) {
-  .space {
-    font-size: 10px;
-    zoom: 0.8;
+/* MOBILE */
+@media (max-width: 500px) {
+  #linkBottom {
+    width: 100%;
+    margin-left: 31%;
+    text-align: left;
   }
-
+  .space {
+    zoom: 1;
+    font-size: 20px;
+  }
   #linkediname {
-    font-size: 12px;
+    zoom: 1;
+    font-size: 22px;
+    padding: 0%;
   }
   #uw {
-    zoom: 0.7;
+    zoom: 1;
   }
   #viewBtn {
-    font-size: 3px;
-    zoom: 0.5;
+    width: 25%;
+    zoom: 1;
   }
 }
 
@@ -140,89 +139,43 @@
 }
 @media (min-width: 3000px) {
   .space {
-    zoom: 2.3
+    zoom: 2.3;
   }
   #linkediname {
-    zoom: 2.3
+    zoom: 2.3;
   }
   #uw {
-    zoom: 2.3
+    zoom: 2.3;
   }
   #viewBtn {
-    zoom: 2.3
+    zoom: 2.3;
   }
 }
 @media (min-width: 4000px) {
   .space {
-    zoom: 2.9
+    zoom: 2.9;
   }
   #linkediname {
-    zoom: 2.9
+    zoom: 2.9;
   }
   #uw {
-    zoom: 2.9
+    zoom: 2.9;
   }
   #viewBtn {
-    zoom: 2.9
+    zoom: 2.9;
   }
 }
 @media (min-width: 5000px) {
   .space {
-    zoom: 3
+    zoom: 3;
   }
   #linkediname {
-    zoom: 3
+    zoom: 3;
   }
   #uw {
-    zoom: 3
+    zoom: 3;
   }
   #viewBtn {
-    zoom: 3
-  }
-}
-
-/* MOBILE */
-@media (max-width: 500px) {
-  .space {
-    zoom: 1;
-    font-size: 20px;
-  }
-  #linkediname {
-    zoom: 1;
-    font-size: 22px;
-  }
-  #uw {
-    zoom: 1;
-  }
-  #viewBtn {
-    zoom: 1;
-  }
-}
-@media (max-width: 420px) {
-  .space {
-    zoom: 0.9;
-  }
-  #linkediname {
-    zoom: 0.9;
-  }
-  #uw {
-    /* zoom: 0.9; */
-  }
-  #viewBtn {
-    /* zoom: 0.9; */
-  }
-}
-@media (max-width: 320px) {
-  .space {
-    zoom: 0.6;
-  }
-  #linkediname {
-    zoom: 0.6;
-  }
-  #uw {
-    zoom: 0.6;
-  }
-  #viewBtn {
-    zoom: 0.6;
+    zoom: 3;
   }
 }
