@@ -4,10 +4,8 @@ import "./style.css";
 export default function LinkedInBadge() {
   return (
     <div className="badge" id="LinkedInBadge">
-      
       <div className="backcontact" id="linkedinback"></div>
-      <div className="bottom" id = "linkBottom">
-       
+      <div className="bottom" id="linkBottom">
         <h1 className="space" id="linkediname">
           Valerio Varani
         </h1>
@@ -28,7 +26,7 @@ export default function LinkedInBadge() {
           View Profile
         </a>
 
-        <div id = "linkedInWrapper">
+        <div id="linkedInWrapper">
           <img
             className="card-img img-fluid "
             src={require("../../public/LI-Logo-W.png")}

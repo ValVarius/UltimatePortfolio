@@ -1,22 +1,21 @@
-.contactCard{
-  width: 100%;
+.contactCard {
   display: grid;
   flex-wrap: wrap;
   align-content: space-evenly;
   grid-template-columns: auto auto;
-  margin: auto;
-  margin-top: 20vh;
   justify-content: center;
-  justify-content: space-between;
-  justify-content: space-evenly;
   min-width: 270px;
-  
+  height: 50vw;
+  width: 90vw;
+  overflow: hidden;
+  border: 1px solid blue;
+  border-radius: 10px;
+  margin-left: 5vw;
 }
-.badge{
+.badge {
   position: relative;
-  width: 30vw;
-  height: 30vw;
-  /* border: 1px solid white; */
+  width: 70vw;
+  height: 70vw;
   border-radius: 50%;
   overflow: hidden;
   z-index: 0;
@@ -24,14 +23,13 @@
 }
 .backcontact {
   position: absolute;
-  width: 40vw;
-  height: 40vw;
-  margin-left: -5vw;;
-  margin-top: -5vw;
+  width: 120%;
+  margin-left: -10%;
+  height: 120%;
   z-index: -2;
-  /* border: 1px solid white; */
   animation: rotation 60s linear infinite;
 }
+
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
@@ -68,46 +66,31 @@
   }
 }
 
-
 /* MOBILE */
 @media (max-width: 500px) {
   .contactCard {
     grid-template-columns: auto;
     margin-top: 0;
-
+    height: 100%;
+    border: none;
+    overflow: visible;
   }
   .badge {
-    width: 80vw;
-    height: 80vw;
+    width: 140vw;
+    height: 140vw;
+    margin-left: -16%;
     margin-top: 5vh;
-    /* margin-left: -16%; */
-  }
-  .backcontact {
-    width: 100vw;
-    height: 100vw;
-    margin-left: -10vw;;
-    margin-top: -10vw;
-    
   }
 }
 /* END */
 @media (max-width: 300px) {
   .contactCard {
-    grid-template-columns: auto;
-    margin-top: 0;
-
+    width: 300px;
   }
   .badge {
     width: 200px;
     height: 200px;
-    margin-top: 5vh;
-  }
-  .backcontact {
-    width: 230px;
-    height: 230px;
-    margin-left: -15px;;
-    margin-top: -15px;
-    
-    
+    margin-top: 10px;
+    margin-left: -220px;
   }
 }
