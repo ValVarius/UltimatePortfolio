@@ -4,7 +4,7 @@ import "./style.css";
 
 // import Fade from "react-reveal/Fade";
 // import Pulse from "react-reveal/Pulse";
-// import Project from "../../components/Project";
+import Project from "../../components/Project";
 
 export default function Portfolio() {
   const sensapp = {
@@ -114,7 +114,7 @@ export default function Portfolio() {
 
   return (
     <div className="portfolioCard">
-      {/* <Slide className="projectcontainer" left up duration={3500}>
+      <Slide className="projectcontainer" left up duration={3500}>
         <Project {...sensapp} />
       </Slide>
       <Slide className="projectcontainer" left up duration={5000}>
@@ -134,7 +134,7 @@ export default function Portfolio() {
       </Slide>
       <Slide className="projectcontainer" left up duration={2000}>
         <Project {...password} />
-      </Slide> */}
+      </Slide>
     </div>
   );
 }

@@ -1,0 +1,81 @@
+#sensappback {
+    content: url("../../public/newdots-fantasy.png");
+  }
+  
+  #mernlogo {
+    width: 12vw;
+  }
+  
+  @media (max-width: 1150px) {
+    .sensappgittext {
+      zoom: 0.8;
+    }
+    #sensappcenter {
+      zoom: 0.8;
+    }
+  }
+  
+  @media (max-width: 890px) {
+    #sensappcenter {
+      zoom: 0.7;
+    }
+  }
+  
+  @media (max-width: 820px) {
+    #sensappcenter {
+      zoom: 0.6;
+    }
+  }
+  @media (max-width: 700px) {
+    #sensappcenter {
+      zoom: 0.6;
+    }
+    #sensapptitle {
+      zoom: 0.8;
+    }
+  }
+  @media (max-width: 640px) {
+    #sensappcenter {
+      zoom: 0.5;
+    }
+  }
+  @media (max-width: 550px) {
+    #sensappcenter {
+      zoom: 0.4;
+    }
+  }
+  
+  /* MOBILE *******************************/
+  @media (max-width: 500px) {
+    #sensappcenter {
+      zoom: 0.5;
+    }
+  }
+  
+  /* BIG SCREENS */
+  
+  /* @media (min-width: 1800px) {
+    #sensapp {
+      font-size: 28px;
+    }
+    #sensappcenter {
+      max-width: 60%;
+    }
+  }
+  @media (min-width: 2700px) {
+    #sensapp {
+      font-size: 46px;
+    }
+    #sensappcenter {
+      max-width: 60%;
+    }
+  }
+  @media (min-width: 3700px) {
+    #sensapp {
+      font-size: 65px;
+    }
+    #sensappcenter {
+      max-width: 60%;
+    }
+  } */
+  

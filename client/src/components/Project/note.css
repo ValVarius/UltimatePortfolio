@@ -1,0 +1,77 @@
+#noteback {
+    content: url("../../public/newdots-note.png");
+  }
+  
+  @media (max-width: 1150px) {
+    .notegittext {
+      zoom: 0.8;
+    }
+    #notecenter {
+      zoom: 0.8;
+    }
+  }
+  
+  @media (max-width: 890px) {
+    #notecenter {
+      zoom: 0.7;
+    }
+  }
+  
+  @media (max-width: 820px) {
+    #notecenter {
+      zoom: 0.6;
+    }
+  }
+  @media (max-width: 700px) {
+    #notecenter {
+      zoom: 0.6;
+    }
+    #notetitle {
+      zoom: 0.8;
+    }
+  }
+  @media (max-width: 640px) {
+    #notecenter {
+      zoom: 0.5;
+    }
+  }
+  @media (max-width: 550px) {
+    #notecenter {
+      zoom: 0.4;
+    }
+  }
+  
+  /* MOBILE *******************************/
+  @media (max-width: 500px) {
+    #notecenter {
+      zoom: 0.5;
+    }
+  }
+  
+  /* BIG SCREENS */
+  
+  /* @media (min-width: 1800px) {
+    #note {
+      font-size: 28px;
+    }
+    #notecenter {
+      max-width: 60%;
+    }
+  }
+  @media (min-width: 2700px) {
+    #note {
+      font-size: 46px;
+    }
+    #notecenter {
+      max-width: 60%;
+    }
+  }
+  @media (min-width: 3700px) {
+    #note {
+      font-size: 65px;
+    }
+    #notecenter {
+      max-width: 60%;
+    }
+  } */
+  
